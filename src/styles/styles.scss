@@ -1,0 +1,255 @@
+@font-face {
+    src: url("../fonts/DINPro.otf");
+    font-family: "Din";
+    font-style: normal;
+}
+
+@font-face {
+    src: url("../fonts/DINPro-Bold.otf");
+    font-family: "Din-Bold";
+    font-style: normal;
+}
+
+@font-face {
+    src: url("../fonts/DINPro-Black.otf");
+    font-family: "Din-Black";
+    font-style: normal;
+}
+
+@font-face {
+    src: url("../fonts/DINPro-Light.otf");
+    font-family: "Din-Light";
+    font-style: normal;
+}
+
+//  standaard CSS
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+    color: #001E50;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+
+.light {
+    font-family: "Din-Light"
+}
+
+.black {
+    font-family: "Din-Black";
+}
+
+.bold {
+    font-family: "Din-Bold";
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    max-width: 1440px;
+    color: hsla(0, 0%, 0%, 0.8);
+    font-family: "Din";
+    font-weight: normal;
+    word-wrap: break-word;
+    font-kerning: normal;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    position: relative;
+    width: -moz-available;
+    /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;
+    /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+    margin: 0 auto;
+}
+
+// Header + Navigation
+.Logo {
+    max-height: 66.6px;
+
+}
+
+.nav-container {
+    height: 109px;
+    background: #FFFFFF;
+    display: flex;
+
+
+    .navigation {
+        font-family: "Din";
+        font-style: normal;
+
+        display: flex;
+        margin: auto;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: table-cell;
+        vertical-align: bottom;
+        position: absolute;
+        color: #001E50;
+        right: 0;
+        bottom: 0;
+
+        a {
+            margin: 0 23px;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+
+        }
+
+        a:last-of-type {
+            margin-right: 0px !important;
+        }
+    }
+}
+
+// Banner
+.banner {
+    width: 100%;
+    height: 45px;
+    background-color: #FF7300;
+    position: relative;
+
+    div.container {
+        margin: 0 auto;
+        height: 100%;
+        display: table;
+
+
+        span {
+            font-family: "Din-Light";
+            letter-spacing: 7.4px;
+            text-transform: uppercase;
+            color: #001E50;
+            font-size: 20px;
+            display: table-cell;
+            vertical-align: middle
+        }
+
+    }
+
+}
+
+// Sub Navigation
+.sub-nav {
+    background-color: #001E50;
+    height: 45px;
+    position: absolute;
+    display: block;
+    margin: auto 5px;
+    // visibility: hidden;
+
+
+
+    right: 0;
+
+
+    .sub-nav--link {
+        padding: 10px;
+        color: white;
+        display: table-cell;
+        vertical-align: middle;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .sub-nav--link:hover {
+        font-family: "Din-Bold" !important;
+    }
+
+    .__active {
+        font-family: "Din-Bold" !important;
+    }
+}
+
+// Hero Main section
+
+.hero {
+    height: 120vh;
+    background: linear-gradient(177.72deg, #001E50 -85.11%, rgba(0, 30, 80, 0.44) -85.09%, #001E50 100.99%, rgba(0, 30, 80, 0.58) 101.01%);
+
+    .container {
+        h1 {
+            font-family: "Din-Bold";
+            margin-bottom: 29px;
+            font-style: normal;
+            font-weight: bold;
+            color: white;
+            font-size: 34px;
+            padding-top: 45px;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.hero--main {
+
+    .hero-element {
+        max-width: 280px;
+        width: 280px;
+        min-height: 512px;
+        background-color: #FFFFFF;
+        position: relative;
+
+        article {
+            padding: 25px;
+            .hero-element-titel {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+            }
+            .hero-element-text {
+                font-family: "Din-Bold";
+                font-style: normal;
+                margin-top: 25px;
+                font-size: 14px;
+                line-height: 24px;
+
+            }
+            
+        }
+        .hero-element-image {
+            background-image: linear-gradient(0deg,rgba(115.0, 164.0, 0.0, 0.5), rgba(115.0, 164.0, 0.0, 0.5)), url("../images/hero-projecten.png");
+            position: absolute;
+            bottom: 0;
+            height: 200px;
+            width: 100%;
+            display: flex;
+
+            .hero-element-image__link {
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding: 8px 30px;
+                border: 2px solid #fff;
+                border-radius: 31px;
+                color: #FFFFFF;
+                font-family: "Din";
+                text-transform: uppercase;
+                text-decoration: none;
+                margin: auto;
+            }
+
+        }
+    }
+}
+
+
+
+.hero-element-titel__h2 {
+    font-family: "Din-Light";
+    text-transform: uppercase;
+    margin-left: 10px;
+}
