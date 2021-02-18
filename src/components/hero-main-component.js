@@ -4,7 +4,7 @@ import Doublearrow from "../assets/arrowupside.svg"
 
 const HeroMain = () => {
 return (
-<section class="hero--main">
+
 
     <div className="hero-element">
         <article>
@@ -28,7 +28,7 @@ return (
         </div>
     </div>
 
-</section>
+
 
 )
 }

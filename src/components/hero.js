@@ -12,8 +12,12 @@ return (
         <h1 class="h1">Naar welke dienst binnen 
             <br/> aerial access bent u opzoek?</h1>
          
-        
+            <div class="hero--main">
 <HeroMain />
+<HeroMain />
+<HeroMain />
+<HeroMain />
+</div>
     </div>
   
     

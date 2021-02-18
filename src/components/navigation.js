@@ -17,6 +17,7 @@ return (
       <a href="">Emergency</a>
       <a href="">Trainingen</a>
       <a href="">Over ons</a>
+      <a href="">Contact</a>
     </nav>
    
   </div>
