@@ -3,6 +3,8 @@ import Navigation from "./navigation"
 import "../styles/styles.scss"
 import Banner from "./banner-desktop"
 import Hero from "./hero"
+import HomeInfo from "./home-info"
+import Footer from "./footer"
 
 const StyledLayout = {
   width: "100%",
@@ -14,18 +16,18 @@ const StyledLayout = {
 }
 
 
-const Layout = ({ children }) => {
+const LayoutHome = ({ children }) => {
   return (
     <div style={StyledLayout}>
 
       <Navigation />
      <Banner />
-<main>
+     
   <Hero />
-
-</main>
-    </div>
+<HomeInfo />
+<Footer />
+</div>
   )
 }
 
-export default Layout
+export default LayoutHome
