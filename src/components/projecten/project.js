@@ -5,10 +5,15 @@ const Project = (props) => {
   const {
     title,
     images,
+    image,
     activities,
     shortDescription: { content: shortDescriptionContent },
     longDescription: { content: longDescriptionContent },
   } = props;
+
+  const {
+    file: { url: imageSrc },
+  } = image || { file: { url: '' } };
 
   return (
     <section className='project-block'>
@@ -16,33 +21,38 @@ const Project = (props) => {
         <div className='project-block--textImage project-element'>
           <h2>{title}</h2>
           <p>{shortDescriptionContent}</p>
-          {images && images.length ? (
-            images.map(({ file: { url: src } }) => (
-              <img key={uniqueId()} src={src} alt='' />
-            ))
+          {imageSrc ? <img src={imageSrc} /> : <></>}
+        </div>
+        <div className='project-block--text project-element'>
+          <p>{longDescriptionContent + longDescriptionContent}</p>
+        </div>
+        <div className='project-block--work project-element'>
+          {activities && activities.length ? (
+            <>
+              <h3>Werkzaamheden</h3>
+              <br />
+              {activities.map((activity) => (
+                <div key={uniqueId()} className='works'>
+                  <span>
+                    <span className='arrow-horizontal'>{'>>'}</span>
+                    {activity}
+                  </span>
+                </div>
+              ))}
+              {images && images.length ? (
+                <div className='works-icons'>
+                  {images.map(({ file: { url: src } }) => (
+                    <img key={uniqueId()} src={src} alt='' />
+                  ))}
+                </div>
+              ) : (
+                <></>
+              )}
+            </>
           ) : (
             <></>
           )}
         </div>
-        <div className='project-block--text project-element'>
-          <p>{longDescriptionContent}</p>
-        </div>
-        {activities && activities.length ? (
-          <div className='project-block--work project-element'>
-            <h3>Werkzaamheden</h3>
-            <br />
-            {activities.map((activity) => (
-              <div key={uniqueId()} className='works'>
-                <span>
-                  <span className='arrow-horizontal'>{'>>'}</span>
-                  {activity}
-                </span>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <></>
-        )}
       </div>
     </section>
   );

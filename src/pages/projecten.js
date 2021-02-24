@@ -1,6 +1,6 @@
 import * as React from 'react';
+import { graphql } from 'gatsby';
 import LayoutProjecten from '../components/layout-projecten';
-import { Link, graphql } from 'gatsby';
 
 const ProjectPage = (props) => {
   const {
@@ -28,6 +28,11 @@ export const query = graphql`
             content: longDescription
           }
           activities
+          image {
+            file {
+              url
+            }
+          }
           images {
             file {
               url
