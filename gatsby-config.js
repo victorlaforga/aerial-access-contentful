@@ -1,38 +1,39 @@
-require("dotenv").config()
+require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: "Aerial Access",
+    title: 'Aerial Access',
   },
   plugins: [
-    "gatsby-plugin-sass",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    'gatsby-plugin-sass',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
-          include: /assets/
-        }
-      }
-    },{
-      resolve: "gatsby-source-filesystem",
+          include: /assets/,
+        },
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: 'images',
+        path: './src/images/',
         prettier: {
           patterns: [
             // the pattern "**/*.{js,jsx,ts,tsx}" is not used because we will rely on `eslint --fix`
-            "**/*.{css,scss,less}",
-            "**/*.{json,json5}",
-            "**/*.{graphql}",
-            "**/*.{md,mdx}",
-            "**/*.{html}",
-            "**/*.{yaml,yml}",
+            '**/*.{css,scss,less}',
+            '**/*.{json,json5}',
+            '**/*.{graphql}',
+            '**/*.{md,mdx}',
+            '**/*.{html}',
+            '**/*.{yaml,yml}',
           ],
         },
         eslint: {
-          patterns: "**/*.{js,jsx,ts,tsx}",
+          patterns: '**/*.{js,jsx,ts,tsx}',
           customOptions: {
             fix: true,
             cache: true,
@@ -42,10 +43,15 @@ module.exports = {
           id: process.env.TYPEKIT_ID,
         },
       },
-      
-      __key: "images",
-      
+
+      __key: 'images',
     },
-    
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
   ],
 };
