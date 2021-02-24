@@ -24,7 +24,7 @@ const Project = (props) => {
           {imageSrc ? <img src={imageSrc} /> : <></>}
         </div>
         <div className='project-block--text project-element'>
-          <p>{longDescriptionContent + longDescriptionContent}</p>
+          <p>{longDescriptionContent}</p>
         </div>
         <div className='project-block--work project-element'>
           {activities && activities.length ? (
