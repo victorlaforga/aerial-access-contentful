@@ -1,12 +1,40 @@
-import * as React from "react"
-import LayoutProjecten from "../components/layout-projecten"
+import * as React from 'react';
+import LayoutProjecten from '../components/layout-projecten';
+import { Link, graphql } from 'gatsby';
 
-const ProjectPage = () => {
-  return (
-    <LayoutProjecten>
+const ProjectPage = (props) => {
+  const {
+    data: {
+      allContentfulProject: { edges: projects },
+    },
+  } = props;
 
-    </LayoutProjecten>
-  )
-}
+  return <LayoutProjecten {...{ projects: projects || [] }} />;
+};
 
-export default ProjectPage
+export default ProjectPage;
+
+export const query = graphql`
+  query BlogPostsPageQuery {
+    allContentfulProject(limit: 1000) {
+      edges {
+        node {
+          id
+          title
+          shortDescription {
+            content: shortDescription
+          }
+          longDescription {
+            content: longDescription
+          }
+          activities
+          images {
+            file {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+`;

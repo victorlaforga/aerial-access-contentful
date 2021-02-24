@@ -1,17 +1,15 @@
-import React from "react"
-import SubNav from "./sub-nav"
-
+import React from 'react';
+import SubNav from './sub-nav';
 
 const Banner = () => {
-return (
-<section class="banner">
-<div class="container"><span>International Rope Access</span>
-<SubNav /></div>
+  return (
+    <section className='banner'>
+      <div className='container'>
+        <span>International Rope Access</span>
+        <SubNav />
+      </div>
+    </section>
+  );
+};
 
-
-</section>
-
-)
-}
-
-export default Banner
+export default Banner;
