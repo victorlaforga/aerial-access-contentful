@@ -7,11 +7,11 @@ const Navigation = () => {
       <div className='navigation container'>
         <img className='Logo' src={Logo} alt='logo-aerial-access' />
         <nav>
-          <a href=''>Project</a>
-          <a className='nav-system' href=''>
+          <a href="./projecten">Project</a>
+          <a className="/systems" className='nav-system' href=''>
             system
           </a>
-          <a href=''>Emergency</a>
+          <a href="">Emergency</a>
           <a href=''>Trainingen</a>
           <a href=''>Over ons</a>
           <a href=''>Contact</a>

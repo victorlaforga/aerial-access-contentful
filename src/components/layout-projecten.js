@@ -6,6 +6,7 @@ import Footer from './footer';
 import BannerPage from './banner-page';
 import IntroOption from './intro-options';
 import Project from './projecten/project';
+import ProjectFooter from './projecten/footer-section';
 
 const StyledLayout = {
   width: '100%',
@@ -31,7 +32,7 @@ const LayoutProjecten = ({ projects, children }) => {
       ) : (
         <></>
       )}
-
+<ProjectFooter />
       <Footer />
     </div>
   );
