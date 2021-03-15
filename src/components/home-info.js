@@ -9,7 +9,7 @@ const HomeInfo = () => {
     <section className='home-info'>
       <div className='home-info--container container'>
         <div>
-          <h2 class='h2'>
+          <h2 className='h2'>
             Door het gebruik van gespecialiseerde rope access technieken zijn
             wij in staat op moeilijke toegankelijke locaties werkzaamheden uit
             te voeren.

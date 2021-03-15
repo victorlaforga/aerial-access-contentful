@@ -1,18 +1,19 @@
 import React from 'react';
-import SVGWhite from '../../images/logo-diensten_training_wit.svg';
+import SVGWhite from '../../../images/logo-diensten_training_wit.svg';
 
 
-const IndustrieBanner = () => {
+
+const ProductenBanner = () => {
   return (
-    <section className='banner-page systems industrie'>
+    <section className='banner-page systems producten'>
       <div className='banner-page--container container'>
         <img className='banner-page--img' src={SVGWhite} alt='' />
         <h1 className="titel-systems">
-          Industrie
+          Producten
         </h1>
       </div>
     </section>
   );
 };
 
-export default IndustrieBanner;
+export default ProductenBanner;

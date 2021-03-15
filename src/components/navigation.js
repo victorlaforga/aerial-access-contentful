@@ -7,8 +7,8 @@ const Navigation = () => {
       <div className='navigation container'>
         <img className='Logo' src={Logo} alt='logo-aerial-access' />
         <nav>
-          <a href="./projecten">Project</a>
-          <a className="/systems" className='nav-system' href=''>
+          <a href="/projecten/">Project</a>
+          <a className="/systems/" className='nav-system' href=''>
             system
           </a>
           <a href="">Emergency</a>
