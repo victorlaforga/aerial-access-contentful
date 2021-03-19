@@ -4,6 +4,7 @@ import '../styles/styles.scss';
 import Banner from './banner-desktop';
 import SystemHomeHero from './systems/system-home-menu'
 import Footer from './footer';
+import CopyrightFooter from './copyright-footer';
 
 const StyledLayout = {
   width: '100%',
@@ -22,6 +23,7 @@ const LayoutSystemsHome = ({ children }) => {
       <Banner />
 <SystemHomeHero />
       <Footer />
+      <CopyrightFooter /> 
     </div>
   );
 };

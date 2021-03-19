@@ -7,6 +7,7 @@ import BannerPage from './banner-page';
 import IntroOption from './intro-options';
 import Project from './projecten/project';
 import ProjectFooter from './projecten/footer-section';
+import CopyrightFooter from './copyright-footer';
 
 const StyledLayout = {
   width: '100%',
@@ -34,6 +35,7 @@ const LayoutProjecten = ({ projects, children }) => {
       )}
 <ProjectFooter />
       <Footer />
+      <CopyrightFooter />
     </div>
   );
 };

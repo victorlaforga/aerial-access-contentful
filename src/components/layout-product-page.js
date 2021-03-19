@@ -3,11 +3,8 @@ import Navigation from './navigation';
 import '../styles/styles.scss';
 import Banner from './banner-desktop';
 import Footer from './footer';
-import AdviesBanner from './systems/advies-service/banner-advies';
-import MainPageAdvies from './systems/advies-service/advies-main';
+import SingleProduct from './systems/producten/product-page';
 import CopyrightFooter from './copyright-footer';
-
-
 
 const StyledLayout = {
   width: '100%',
@@ -19,13 +16,12 @@ const StyledLayout = {
 };
 
 
-const LayoutSystemsAdvies = ({ projects, children }) => {
+const LayoutProductPage = ({ }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
       <Banner />
-      <AdviesBanner />
- <MainPageAdvies />
+<SingleProduct />
       <Footer />
       <CopyrightFooter />
     </div>
@@ -33,4 +29,4 @@ const LayoutSystemsAdvies = ({ projects, children }) => {
   );
 };
 
-export default LayoutSystemsAdvies;
+export default LayoutProductPage;

@@ -6,7 +6,7 @@ return (
 <section className='main-page-systems'>
     <div className="container">
         <div className="content-block-systems">
-            <p>Aerial Access systems zijn verschillende type rope access systemen die op alle denkbare plekken te
+            <p className="intro-bouwinfra">Aerial Access systems zijn verschillende type rope access systemen die op alle denkbare plekken te
                 monteren zijn zodat rope access werkzaamheden makkelijker en veiliger kan worden uitgevoerd. Deze rails
                 is onderhoud vriendelijk en zijn uitermate geschikt voor de bouw en infra. Als architect, bouwer of
                 gebouw eigenaar wil je natuurlijk waarborgen dat toegang tot alle locaties van je gebouw gewaarborgd is.

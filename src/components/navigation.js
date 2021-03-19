@@ -5,16 +5,16 @@ const Navigation = () => {
   return (
     <header className='nav-container'>
       <div className='navigation container'>
-        <img className='Logo' src={Logo} alt='logo-aerial-access' />
+        <a href="/"><img className='Logo' src={Logo} alt='logo-aerial-access' /></a>
         <nav>
           <a href="/projecten/">Project</a>
-          <a className="/systems/" className='nav-system' href=''>
+          <a  className='nav-system' href='/systems/'>
             system
           </a>
-          <a href="">Emergency</a>
-          <a href=''>Trainingen</a>
-          <a href=''>Over ons</a>
-          <a href=''>Contact</a>
+          <a href='/emergency/'>Emergency</a>
+          <a href='/trainingen/'>Trainingen</a>
+          <a href='/over-ons/'>Over ons</a>
+          <a href='/contact/'>Contact</a>
         </nav>
       </div>
     </header>

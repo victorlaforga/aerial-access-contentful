@@ -5,6 +5,7 @@ import Banner from './banner-desktop';
 import Hero from './hero';
 import HomeInfo from './home-info';
 import Footer from './footer';
+import CopyrightFooter from './copyright-footer';
 
 const StyledLayout = {
   width: '100%',
@@ -24,6 +25,7 @@ const LayoutHome = ({ children }) => {
       <Hero />
       <HomeInfo />
       <Footer />
+      <CopyrightFooter />
     </div>
   );
 };

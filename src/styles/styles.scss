@@ -34,6 +34,13 @@ h4 {
   margin-block-end: auto;
 }
 
+li,
+ul {
+  list-style: none;
+  padding: 0;
+
+}
+
 a {
   text-decoration: none;
 }
@@ -407,7 +414,7 @@ body {
 
     .intro-option--text {
       padding-right: 120px;
-
+line-height: 36px;
       display: block;
 
       p {
@@ -419,7 +426,12 @@ body {
     .intro-option--links {
       display: flex;
       flex-direction: column;
-
+h2 {
+  font-family: "Din-Bold";
+font-size: 18px;
+line-height: 18px;
+margin-bottom: 5px;
+}
       a {
         padding: 7px 11px;
         color: white;
@@ -588,6 +600,11 @@ body {
       max-width: 75%;
       padding-right: 45px;
 
+      .intro-bouwinfra {
+        font-family: "Din-Light";
+
+      }
+
       p {
         font-size: 24px;
         line-height: 36px;
@@ -747,69 +764,66 @@ body {
 .load-current-bar {
   display: flex;
   margin-bottom: 30px;
-  div:nth-of-type(1) {
-      margin-right: -328px !important;
-  }
 
   div {
     margin-right: -5px;
     position: relative;
     width: 20%;
 
-a {
-    span {
-      position: absolute;
-      color: white;
-      text-transform: uppercase;
-      // // bottom: 27px;
-      // // width: 100%;
-      // // right: 33px;
+    a {
+      span {
+        position: absolute;
+        color: white;
+        text-transform: uppercase;
+        // // bottom: 27px;
+        // // width: 100%;
+        // // right: 33px;
 
-      // max-width: 100px;
-      font-family: "Din-Bold";
-      color: white;
+        // max-width: 100px;
+        font-family: "Din-Bold";
+        color: white;
+      }
     }
-  }
-    img, svg {
+
+    img,
+    svg {
       width: auto;
       height: 65px;
     }
-    
+
   }
 
-}
-.load-current-bar--firstTitle:hover + .loading-bar {
-  fill: #ff7300;
 }
 
 .loading-bar {
   fill: #001E50;
 }
+
+.loading-bar:hover,
+.loading-bar::selection,
 .loading-bar:active {
   fill: #ff7300;
 }
+
 .load-current-bar--firstTitle {
   left: 25px;
 
 }
+
 .load-current-bar--secondTitle {
-  left: 355px;
-bottom: 26px;
 
-}
-
-.load-current-bar--thirdTitle {
-  left: 350px;
-}
-.load-current-bar--fourthTitle {
-  left: 350px;
-bottom: 26px;
-}
-.load-current-bar--fifthTitle {
   bottom: 26px;
-  left: 350px;
 
 }
+
+.load-current-bar--fourthTitle {
+  bottom: 26px;
+}
+
+.load-current-bar--fifthTitle {
+  bottom: 26px
+}
+
 .content-block-systems__buttons {
   display: flex;
   margin-top: 25px;
@@ -837,8 +851,8 @@ bottom: 26px;
 }
 
 .product-collection-container:nth-of-type(even) {
-padding-top: 45px;
-padding-bottom: 45px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background: rgba(0, 30, 80, 0.1);
 }
 
@@ -846,7 +860,7 @@ padding-bottom: 45px;
 
   .product-collection-container {
     padding-top: 45px;
-padding-bottom: 45px;
+    padding-bottom: 45px;
 
 
     .collection-block {
@@ -861,41 +875,309 @@ padding-bottom: 45px;
           line-height: 40px;
           color: #FF7300;
           text-transform: uppercase;
-         
-        }
-p {
-  font-size: 16px;
-  line-height: 26px;
-  margin: 10px auto 35px auto;
 
-}
-}
-.uitleg-img {
-  max-width: -webkit-fill-available;
-  
-}
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 26px;
+          margin: 10px auto 35px auto;
+
+        }
       }
 
-      .collection-block-products {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 25px;
-        padding-top: 0px;
-        
-
-        
+      .uitleg-img {
         max-width: -webkit-fill-available;
-        .single-product {
-          max-width: 200px;
-          min-width: 145px;
-          max-height: 140px;
-          min-height: 100px;
-          margin: 10px;
-          span {
-            text-transform: uppercase;
-          }
+
+      }
+    }
+
+    .collection-block-products {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 25px;
+      padding-top: 0px;
+
+
+
+      max-width: -webkit-fill-available;
+
+      .single-product {
+        max-width: 200px;
+        min-width: 145px;
+        max-height: 140px;
+        min-height: 100px;
+        margin: 10px;
+
+        span {
+          text-transform: uppercase;
         }
       }
     }
   }
+}
 
+
+// SINGLE PRODUCT PAGE
+.product-info-title {
+  font-size: 16px;
+  font-family: "Din-Bold";
+}
+
+.single-product-container {
+  background: rgba(0, 30, 80, 0.1);
+
+  .product-page-container {
+    display: flex;
+    margin: 40px auto;
+
+    .product-info {
+      font-family: "Din-Light";
+      max-width: 485px;
+      min-width: 300px;
+      margin-right: 40px;
+      line-height: 24px;
+
+      ul {
+        margin: 0;
+      }
+
+      .product-info--intro {
+        font-size: 18px;
+        margin-top: 5px;
+
+      }
+
+      .product-info--route {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: "Din-Bold";
+
+        span {
+          font-family: "Din-Bold";
+        }
+
+        .product-info--route-name {
+          color: #ff7300;
+
+
+        }
+      }
+
+      .product-info--oneliner {
+        text-transform: uppercase;
+      }
+
+      .product-info-details2 {
+        p {
+          margin: 15px auto;
+        }
+      }
+    }
+
+    .product-media {
+      max-width: 735px;
+      min-width: 300px;
+      width: auto;
+
+
+      .container-main-image {
+        background-color: white;
+        padding: 25px;
+
+        .main-image {
+          width: -webkit-fill-available;
+        }
+
+        div.preview-images {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 5px;
+
+          .preview-image {
+            max-width: 105px;
+            margin: 5px;
+            height: -webkit-fill-available;
+          }
+        }
+      }
+
+      .content-block-systems__buttons a {
+        max-width: 190px;
+      }
+    }
+  }
+}
+
+.product-info-details2,
+.product-info-details {
+  margin-top: 35px;
+
+}
+
+// FOOTER COPYRIGHT
+
+.copyright-footer {
+  height: 60px;
+  background-color: white;
+
+  div {
+
+    width: 100vw;
+
+    p {
+      font-family: "Din-Light";
+      color: #001E50;
+      width: 100%;
+      font-size: 15px;
+      line-height: 24px;
+      margin: 17.5px auto;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}
+
+
+// BANNER EMERGENCY
+.banner-page.emergency {
+  background-image: linear-gradient(90deg, rgba(190, 0, 0, 1) 27.2%, rgba(221, 170, 170, 0.486) 80%),
+    url('../images/Headers_1140x390px6.jpg');
+  mix-blend-mode: multiply;
+}
+
+
+
+.emergency-main-page {
+
+  .container {
+    margin: 60px auto;
+    display: flex;
+
+
+    .emergency-content {
+    max-width: 725px;
+    margin-right: auto;
+
+      h2 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 30px;
+        font-family: "Din-Light";
+
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 30px auto;
+        font-family: "Din-Light";
+
+      }
+
+      .links-emergency {
+        font-family: "Din-Light";
+        font-size: 16px;
+        color: #001E50;
+
+        span {
+          width: 35px;
+
+          display: inline-block;
+
+        }
+
+
+      }
+    }
+
+    .emergency-images {
+display: flex;
+flex-direction: column;
+      img {
+        max-width: 370px;
+        margin: 25px auto;
+      }
+    }
+  }
+}
+
+.footer-project.emergency {
+  background: #BE0000;
+ .container {
+   max-width: 800px;
+   display: flex;
+   margin-left: 80px;
+   
+  
+ }
+  .footer-emergency-content {
+    margin-left: 25px;
+
+    h2,p {
+      color: white !important;
+    }
+    h2 {
+      margin-top: 15px;
+    
+
+    }
+  }
+}
+
+// TRAININGEN
+
+.banner-page.trainingen {
+  background-image: url("../images/Headers_1140x390px7.jpg");
+}
+
+.intro-option--links.emergency {
+  a {
+    background: #0D71B9 !important;
+  }
+  a:hover {
+    background: #001E50 !important;
+  }
+}
+.training-block:nth-of-type(even) {
+  background: rgba(0, 30, 80, 0.1);
+}
+
+
+.training-block {
+  .container {
+    display: flex;
+    margin: 50px auto;
+    
+    h2 {
+      text-transform: uppercase;
+      font-family: "Din-Bold";
+      font-size: 16px;
+      line-height: 24px;
+    
+    }
+    .training-content {
+max-width: 710px;
+h1 {
+font-family: "Din-Bold";
+font-size: 24px;
+line-height: 24px;
+color:#007EC2;
+text-transform: uppercase;
+margin-bottom: 10px;
+
+}
+
+    }
+    .training-details {
+     margin-left: 100px;
+      .works {
+        margin: 20px auto;
+
+        .arrow-horizontal {
+          color: #007EC2;
+        }
+      }
+    }
+  }
+}

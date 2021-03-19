@@ -3,12 +3,10 @@ import Navigation from './navigation';
 import '../styles/styles.scss';
 import Banner from './banner-desktop';
 import Footer from './footer';
-import AdviesBanner from './systems/advies-service/banner-advies';
-import MainPageAdvies from './systems/advies-service/advies-main';
 import CopyrightFooter from './copyright-footer';
-
-
-
+import EmergencyBanner from './emergency/emergency-banner';
+import EmergencyMain from './emergency/emergency-main';
+import FooterEmergency from '../components/emergency/footer-emergency'
 const StyledLayout = {
   width: '100%',
   minHeight: '100vh',
@@ -18,19 +16,18 @@ const StyledLayout = {
   gridTemplateColumns: '100%',
 };
 
-
-const LayoutSystemsAdvies = ({ projects, children }) => {
+const LayoutEmergency = () => {
   return (
     <div style={StyledLayout}>
       <Navigation />
       <Banner />
-      <AdviesBanner />
- <MainPageAdvies />
+     <EmergencyBanner />
+<EmergencyMain />
+<FooterEmergency />
       <Footer />
       <CopyrightFooter />
     </div>
-
   );
 };
 
-export default LayoutSystemsAdvies;
+export default LayoutEmergency;

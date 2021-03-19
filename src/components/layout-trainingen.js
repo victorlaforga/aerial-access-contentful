@@ -3,11 +3,10 @@ import Navigation from './navigation';
 import '../styles/styles.scss';
 import Banner from './banner-desktop';
 import Footer from './footer';
-import AdviesBanner from './systems/advies-service/banner-advies';
-import MainPageAdvies from './systems/advies-service/advies-main';
 import CopyrightFooter from './copyright-footer';
-
-
+import TrainingenBanner from '../components/trainingen/trainingen-banner';
+import IntroOptionTrainingen from '../components/trainingen/intro-emergency';
+import TrainingBlock from '../components/trainingen/training-block';
 
 const StyledLayout = {
   width: '100%',
@@ -19,13 +18,17 @@ const StyledLayout = {
 };
 
 
-const LayoutSystemsAdvies = ({ projects, children }) => {
+const LayoutTrainingen = () => {
   return (
     <div style={StyledLayout}>
       <Navigation />
       <Banner />
-      <AdviesBanner />
- <MainPageAdvies />
+      <TrainingenBanner />
+      <IntroOptionTrainingen />
+      <TrainingBlock />
+      <TrainingBlock />
+      <TrainingBlock />
+      <TrainingBlock />
       <Footer />
       <CopyrightFooter />
     </div>
@@ -33,4 +36,4 @@ const LayoutSystemsAdvies = ({ projects, children }) => {
   );
 };
 
-export default LayoutSystemsAdvies;
+export default LayoutTrainingen;

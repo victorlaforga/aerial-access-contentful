@@ -5,6 +5,7 @@ import Banner from './banner-desktop';
 import Footer from './footer';
 import IndustrieBanner from './systems/industrie-banner';
 import MainPageIndustrie from './systems/industrie/industrie-main'
+import CopyrightFooter from './copyright-footer';
 
 
 const StyledLayout = {
@@ -25,6 +26,7 @@ const LayoutSystemsIndustrie = ({ projects, children }) => {
       <IndustrieBanner />
 <MainPageIndustrie />
       <Footer />
+      <CopyrightFooter />
     </div>
 
   );

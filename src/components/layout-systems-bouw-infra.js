@@ -5,7 +5,7 @@ import Banner from './banner-desktop';
 import Footer from './footer';
 import BannerPage from './systems/systems-banner';
 import MainPageSystems from './systems/bouw-infra/main-page'
-
+import CopyrightFooter from './copyright-footer';
 
 const StyledLayout = {
   width: '100%',
@@ -25,6 +25,7 @@ const LayoutSystemsBouwInfra = ({ projects, children }) => {
       <BannerPage />
   <MainPageSystems />
       <Footer />
+      <CopyrightFooter />
     </div>
 
   );

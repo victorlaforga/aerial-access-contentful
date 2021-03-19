@@ -23,7 +23,9 @@ return (
         </div>
         <div className="collection-block-products">
 <div className="single-product">
-    <img src={Placeholder} />
+    <a href="/systems/producten/product"> <img src={Placeholder} /></a>
+   
+
     <span>ProductName</span>
 
 </div>

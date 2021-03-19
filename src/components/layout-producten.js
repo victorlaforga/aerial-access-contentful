@@ -5,6 +5,7 @@ import Banner from './banner-desktop';
 import Footer from './footer';
 import ProductenBanner from'./systems/producten/producten-banner';
 import ProductenPage from './systems/producten/collection';
+import CopyrightFooter from './copyright-footer';
 
 
 const StyledLayout = {
@@ -25,6 +26,7 @@ const LayoutSystemsProducten = ({ projects, children }) => {
     <ProductenBanner />
     <ProductenPage />
       <Footer />
+      <CopyrightFooter />
     </div>
 
   );

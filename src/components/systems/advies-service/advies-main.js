@@ -1,7 +1,7 @@
 import React from 'react';
 
-import ArrowstartSVG from "../../../assets/stap-1-balk_tranparant.svg";
-import ArrowrestSVG from "../../../assets/stap-3-balk_tranparant.svg";
+import ArrowstartSVG from "../../../assets/stap-1-new-balk_tranparant.svg";
+import ArrowrestSVG from "../../../assets/stap-2-new-balk_tranparant.svg";
 
 import imgsystem from "../../../images/Systems_Industrie_367x440px.jpg";
 import imgsystem2 from "../../../images/Systems_Industrie_367x440px2.jpg";
@@ -9,19 +9,13 @@ import imgsystem2 from "../../../images/Systems_Industrie_367x440px2.jpg";
 
 
 const MainPageAdvies = () => {
-    // function changeColor(color) {
-    //       document.getElementsByClassName("loading-bar").style.fill = "purple";
-    //   };
-      
-    //   document.getElementsByClassName("load-current-bar--firstTitle").addEventListener("click", changeColor)
-
 return (
 <section className='main-page-systems industrie'>
     <div className="container">
         <div className="content-block-systems advies">
             <div className="load-current-bar">
                 <div className="load-current-bar--long-title"> <ArrowstartSVG className="loading-bar firstBar" /><a className="link-loading-bar"><span className="load-current-bar--firstTitle">Advies& <br /> service</span></a></div>    
-                  <div><ArrowrestSVG className="loading-bar secondBar" /><a className="link-loading-bar"><span className="load-current-bar--secondTitle">Montage</span></a></div>
+                  <div><ArrowrestSVG className="loading-bar secondBar" id="testSVG" /><a className="link-loading-bar"><span className="load-current-bar--secondTitle" id="testtitle">Montage</span></a></div>
                   <div className="load-current-bar--long-title"><ArrowrestSVG className="loading-bar thirdBar" /><a className="link-loading-bar"><span className="load-current-bar--thirdTitle">Service & <br /> onderhoud</span></a></div>
                   <div><ArrowrestSVG className="loading-bar fourthBar" /><a className="link-loading-bar"><span className="load-current-bar--fourthTitle">Training</span></a></div>
                  <div><ArrowrestSVG className="loading-bar fifthBar" /><a className="link-loading-bar"><span className="load-current-bar--fifthTitle">Projects</span></a></div>
