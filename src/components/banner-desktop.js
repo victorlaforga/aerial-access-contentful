@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <section className='banner'>
       <div className='container'>
-        <span>International Rope Access</span>
+        <span>Industrial Rope Access</span>
         <SubNav />
       </div>
     </section>

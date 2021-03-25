@@ -1,11 +1,15 @@
 import React from 'react';
 import Logo from '../images/logo.png';
+import MobileNavPng from '../images/mobilenav.png';
+
 
 const Navigation = () => {
   return (
     <header className='nav-container'>
       <div className='navigation container'>
         <a href="/"><img className='Logo' src={Logo} alt='logo-aerial-access' /></a>
+
+<img className="mobile-nav" src={MobileNavPng} />
         <nav>
           <a href="/projecten/">Project</a>
           <a  className='nav-system' href='/systems/'>

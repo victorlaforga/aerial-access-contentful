@@ -414,7 +414,7 @@ body {
 
     .intro-option--text {
       padding-right: 120px;
-line-height: 36px;
+      line-height: 36px;
       display: block;
 
       p {
@@ -426,12 +426,14 @@ line-height: 36px;
     .intro-option--links {
       display: flex;
       flex-direction: column;
-h2 {
-  font-family: "Din-Bold";
-font-size: 18px;
-line-height: 18px;
-margin-bottom: 5px;
-}
+
+      h2 {
+        font-family: "Din-Bold";
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 5px;
+      }
+
       a {
         padding: 7px 11px;
         color: white;
@@ -1056,8 +1058,8 @@ margin-bottom: 5px;
 
 
     .emergency-content {
-    max-width: 725px;
-    margin-right: auto;
+      max-width: 725px;
+      margin-right: auto;
 
       h2 {
         font-size: 24px;
@@ -1092,8 +1094,9 @@ margin-bottom: 5px;
     }
 
     .emergency-images {
-display: flex;
-flex-direction: column;
+      display: flex;
+      flex-direction: column;
+
       img {
         max-width: 370px;
         margin: 25px auto;
@@ -1104,22 +1107,26 @@ flex-direction: column;
 
 .footer-project.emergency {
   background: #BE0000;
- .container {
-   max-width: 800px;
-   display: flex;
-   margin-left: 80px;
-   
-  
- }
+
+  .container {
+    max-width: 800px;
+    display: flex;
+    margin-left: 80px;
+
+
+  }
+
   .footer-emergency-content {
     margin-left: 25px;
 
-    h2,p {
+    h2,
+    p {
       color: white !important;
     }
+
     h2 {
       margin-top: 15px;
-    
+
 
     }
   }
@@ -1135,10 +1142,12 @@ flex-direction: column;
   a {
     background: #0D71B9 !important;
   }
+
   a:hover {
     background: #001E50 !important;
   }
 }
+
 .training-block:nth-of-type(even) {
   background: rgba(0, 30, 80, 0.1);
 }
@@ -1148,29 +1157,33 @@ flex-direction: column;
   .container {
     display: flex;
     margin: 50px auto;
-    
+
     h2 {
       text-transform: uppercase;
       font-family: "Din-Bold";
       font-size: 16px;
       line-height: 24px;
-    
+
     }
+
     .training-content {
-max-width: 710px;
-h1 {
-font-family: "Din-Bold";
-font-size: 24px;
-line-height: 24px;
-color:#007EC2;
-text-transform: uppercase;
-margin-bottom: 10px;
+      max-width: 710px;
 
-}
+      h1 {
+        font-family: "Din-Bold";
+        font-size: 24px;
+        line-height: 24px;
+        color: #007EC2;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+
+      }
 
     }
+
     .training-details {
-     margin-left: 100px;
+      margin-left: 100px;
+
       .works {
         margin: 20px auto;
 
@@ -1180,4 +1193,220 @@ margin-bottom: 10px;
       }
     }
   }
+}
+
+// OVER ONS 
+
+.banner-page.over-ons {
+  background-image: url("../images/Headers_1140x390px8.jpg");
+
+  .banner-page--container {
+    margin-top: 40px;
+
+    h1 {
+      font-family: "Din-Light" !important;
+      font-weight: 300;
+      font-size: 84px;
+      line-height: 90px;
+
+    }
+  }
+}
+
+.intro-over-ons {
+  background: rgba(0, 30, 80, 0.1);
+
+  .container {
+
+    div {
+      margin: 75px 0;
+      max-width: 800px;
+
+      h1 {
+        font-size: 34px;
+        line-height: 46px;
+        font-family: "Din-Light";
+        margin-bottom: 55px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+.main-over-ons {
+  .container {
+
+
+    .description-about {
+      margin: 90px 0;
+      display: flex;
+      justify-content: space-between;
+
+      .description {
+
+        max-width: 585px;
+
+        img {
+          border-radius: 100px;
+          margin: 0px auto 30px auto;
+
+        }
+
+        h1 {
+          text-transform: uppercase;
+          color: #ff7300;
+          font-family: "Din-Light";
+          font-size: 24px;
+          line-height: 24px;
+          margin: 15px auto;
+        }
+
+        p.description--intro {
+          font-size: 16px;
+          line-height: 24px;
+
+          font-family: "Din-Bold";
+        }
+
+        p.description--main {
+          font-size: 16px;
+          line-height: 24px;
+          margin: 15px auto;
+
+        }
+      }
+    }
+  }
+}
+
+// CONTACT PAGE
+
+.banner-page.contact {
+  background-image: url("../images/Headers_1140x390px9.jpg");
+}
+
+.contact-main {
+  .container {
+
+
+    .contact-container {
+      display: flex;
+      margin: 65px auto;
+
+      .contact-info {
+        min-width: 200px;
+
+        .social-icons {}
+
+
+      }
+
+      .contact-form {
+        form {
+          display: flex;
+          flex-direction: column;
+          max-width: 440px;
+
+          label {
+            font-size: 14px;
+            line-height: 12px;
+            color: #001E50;
+
+          }
+
+          input {
+            min-width: 280px;
+            max-width: 435px;
+            width: -webkit-fill-available;
+            background: rgba(0, 126, 194, 0.1);
+            border-radius: 5px;
+            height: 30px;
+            margin: 10px 0px;
+            border: none;
+
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1275px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .nav-container {
+    padding: 0 25px;
+  }
+}
+
+@media only screen and (max-width: 875px) {
+  .mobile {
+    display: block !important;
+  }
+  .nav-container {
+    .navigation {
+      padding: 0 5px;
+      margin-bottom: 15px;
+
+      nav {
+        display: none;
+      }
+    }
+  }
+  .banner {
+    background-color: #001E50;
+    height: 40px;
+    div.container {
+      span {
+        color: #ff7300;
+        text-align: center;
+        letter-spacing: 4px;
+      }
+    }
+  }
+  .mobile-nav {
+    display: block !important;
+    height: 23px;
+    margin: auto 0;
+
+  }
+  .logo-aerial-access {
+    width: 105px;
+  }
+  .sub-nav {
+    display: none;
+  }
+  .hero--main {
+    flex-direction: column;
+  }
+.hero-element {
+  width: 100%;
+  height: 75px;
+  margin-left: 0 !important;
+  min-height: 75px;
+  max-width: 100%;
+  margin: 10px;
+ 
+   .hero-element-text {
+     display: none;
+   }
+   .hero-element-image {
+     display: none;
+   }
+}
+}
+
+
+.mobile-nav {
+  display: none;
+}
+.mobile {
+  display: none;
 }
