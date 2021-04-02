@@ -1,4 +1,8 @@
 import React from 'react';
+import FacebookLogo from '../images/facebook-white.png';
+import InstaLogo from '../images/insta-white.png';
+import LinkedLogo from '../images/linkedin-white.png';
+
 
 const Footer = () => {
   return (
@@ -46,7 +50,13 @@ const Footer = () => {
           <a>+31 640523217</a>
           <a>info@aerial-access.com</a>
 
-          <div className='social-icons'></div>
+          <div className="social-icons footer">
+                    <img src={FacebookLogo} alt="" />
+                    <img src={InstaLogo} alt="" />
+                    <img src={LinkedLogo} alt="" />
+
+              
+                </div>
         </div>
       </div>
     </section>

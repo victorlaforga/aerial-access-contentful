@@ -7,13 +7,25 @@ import Banner from '../images/Homepage_482x526px.jpg';
 const HomeInfo = () => {
   return (
     <section className='home-info'>
+       <section className="mobile mobile-image-home">
+        
+            <div className="container">
+            <p>
+            Door het gebruik van <br/> gespecialiseerde rope access <br/> technieken zijn
+            wij in staat <br/> op moeilijke toegankelijke <br/> locaties werkzaamheden <br/> uit
+            te voeren.
+          </p>
+          </div>
+          </section>
       <div className='home-info--container container'>
+     
         <div>
           <h2 className='h2'>
             Door het gebruik van gespecialiseerde rope access technieken zijn
             wij in staat op moeilijke toegankelijke locaties werkzaamheden uit
             te voeren.
           </h2>
+          
           <p>
             Het doel bij het gebruik van rope access is om het werk efficiënt en
             effectief uit te voeren. Om te zorgen dat er altijd een veilig

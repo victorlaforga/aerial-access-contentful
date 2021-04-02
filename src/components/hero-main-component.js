@@ -1,15 +1,17 @@
 import React from 'react';
-import Doublearrow from '../assets/arrowupside.svg';
 import LogoMobileHero from '../assets/logo-diensen_project.svg';
+
+
 const HeroMain = () => {
   return (
     <div className='hero-element'>
       <article>
         <div className='hero-element-titel'>
-          <Doublearrow fill='#73A400' />
-
-          <h2 className='hero-element-titel__h2'>Rope access project</h2>
-          <img className="mobile hero-logo" src={LogoMobileHero} />
+          
+      
+        <LogoMobileHero className="desktop-hero-logo" fill="#73a400"/>
+          <LogoMobileHero className="mobile-hero-logo mobile" fill="#73a400"/>
+         <span className="mobile-hero-button"><span>></span></span>
         </div>
         <div className='hero-element-text '>
           <p>
@@ -21,7 +23,7 @@ const HeroMain = () => {
         </div>
       </article>
       <div className='hero-element-image'>
-        <a href='' className='hero-element-image__link'>
+        <a href='/projecten/' className='hero-element-image__link'>
           Projecten
         </a>
       </div>

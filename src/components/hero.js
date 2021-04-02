@@ -1,5 +1,8 @@
 import React from 'react';
 import HeroMain from './hero-main-component';
+import HeroMainSystems from './hero-main-systems';
+import HeroMainEmergency from './hero-main-emergency';
+import HeroMainTraining from './hero-main-training';
 
 const Hero = () => {
   return (
@@ -12,9 +15,9 @@ const Hero = () => {
 
         <div className='hero--main'>
           <HeroMain />
-          <HeroMain />
-          <HeroMain />
-          <HeroMain />
+          <HeroMainSystems />
+          <HeroMainEmergency />
+          <HeroMainTraining />
         </div>
       </div>
     </section>
