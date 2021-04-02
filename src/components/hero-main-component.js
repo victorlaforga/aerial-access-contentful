@@ -9,7 +9,7 @@ const HeroMain = () => {
         <div className='hero-element-titel'>
           
       
-        <LogoMobileHero className="desktop-hero-logo" fill="#73a400"/>
+        <LogoMobileHero className="desktop-hero-logo projecten-logo" fill="#73a400"/>
           <LogoMobileHero className="mobile-hero-logo mobile" fill="#73a400"/>
          <span className="mobile-hero-button"><span>></span></span>
         </div>
