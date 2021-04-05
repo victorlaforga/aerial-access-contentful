@@ -3,10 +3,9 @@ import Navigation from './navigation';
 import '../styles/styles.scss';
 import Banner from './banner-desktop';
 import Footer from './footer';
-import ProductenBanner from'./systems/producten/producten-banner';
+import ProductenBanner from './systems/producten/producten-banner';
 import ProductenPage from './systems/producten/collection';
 import CopyrightFooter from './copyright-footer';
-
 
 const StyledLayout = {
   width: '100%',
@@ -17,18 +16,20 @@ const StyledLayout = {
   gridTemplateColumns: '100%',
 };
 
-
-const LayoutSystemsProducten = ({ projects, children }) => {
+const LayoutSystemsProducten = ({ categories, children }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
       <Banner />
-    <ProductenBanner />
-    <ProductenPage />
+      <ProductenBanner />
+      <ProductenPage
+        {...{
+          categories: categories,
+        }}
+      />
       <Footer />
       <CopyrightFooter />
     </div>
-
   );
 };
 

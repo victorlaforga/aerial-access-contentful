@@ -15,17 +15,15 @@ const StyledLayout = {
   gridTemplateColumns: '100%',
 };
 
-
-const LayoutProductPage = ({ }) => {
+const LayoutProductPage = ({ product }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
       <Banner />
-<SingleProduct />
+      <SingleProduct {...product} />
       <Footer />
       <CopyrightFooter />
     </div>
-
   );
 };
 
