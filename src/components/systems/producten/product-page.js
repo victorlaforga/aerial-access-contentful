@@ -17,8 +17,6 @@ const ProductPage = (props) => {
     description2,
   } = props;
 
-  console.log('images', images);
-
   return (
     <section className='single-product-container'>
       <div className='product-page-container container'>

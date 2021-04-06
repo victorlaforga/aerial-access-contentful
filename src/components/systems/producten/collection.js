@@ -11,12 +11,8 @@ const AdviesBanner = (props) => {
             id,
             name,
             slug: categorySlug,
-            description: {
-              internal: { content },
-            },
-            image: {
-              file: { url: categoryImageSrc },
-            },
+            description,
+            image: categoryImage,
             product: products,
           },
         }) => (
@@ -24,9 +20,9 @@ const AdviesBanner = (props) => {
             <div className='collection-block container'>
               <div className='collection-block-info'>
                 <h2>{name}</h2>
-                {content ? <p>{content}</p> : <></>}
-                {categoryImageSrc ? (
-                  <img className='uitleg-img' src={categoryImageSrc} />
+                {description ? <p>{description?.internal?.content}</p> : <></>}
+                {categoryImage ? (
+                  <img className='uitleg-img' src={categoryImage?.file?.url} />
                 ) : (
                   <></>
                 )}
@@ -38,18 +34,11 @@ const AdviesBanner = (props) => {
               {products && products.length ? (
                 <div className='collection-block-products'>
                   {products.map(
-                    ({
-                      id,
-                      name,
-                      slug: productSlug,
-                      image: {
-                        file: { url: productImageSrc },
-                      },
-                    }) => (
+                    ({ id, name, slug: productSlug, image: productImage }) => (
                       <div key={id} className='single-product'>
                         <a href={`/systems/producten/${productSlug}`}>
-                          {productImageSrc ? (
-                            <img src={productImageSrc} />
+                          {productImage ? (
+                            <img src={productImage?.file?.url} />
                           ) : (
                             <></>
                           )}
