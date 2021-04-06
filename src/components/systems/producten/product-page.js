@@ -78,7 +78,7 @@ const ProductPage = (props) => {
           </div>
           <div className='content-block-systems__buttons'>
             <a href=''>ADVIES & SERVICES</a>
-            <a href=''>PDF FACTSHEET</a>
+            <a download="">PDF FACTSHEET</a>
           </div>
         </div>
       </div>
