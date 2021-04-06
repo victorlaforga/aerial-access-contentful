@@ -25,7 +25,9 @@ const Footer = () => {
           <a>Industrie</a>
           <a>Advies & Service</a>
           <br />
-          <a>Producten</a>
+          <a href=''>
+            <h3>Producten</h3>
+          </a>
           <a>Railsysteem</a>
           <a>Davids- & Deviation Arm</a>
           <a>Ankerpoints</a>
@@ -47,9 +49,8 @@ const Footer = () => {
           </a>
           <a>Trawlerkade 60</a>
           <a>1976 CC IJmuiden</a>
-          <a>+31 640523217</a>
-          <a>info@aerial-access.com</a>
-
+          <a>+31 255500392</a>
+          <a href="mailto:info@aerial-access.com">info@aerial-access.com</a>
           <div className="social-icons footer">
                     <img src={FacebookLogo} alt="" />
                     <img src={InstaLogo} alt="" />
