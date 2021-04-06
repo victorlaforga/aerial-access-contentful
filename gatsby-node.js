@@ -59,6 +59,11 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 }
               }
               specs
+              pdf {
+                file {
+                  url
+                }
+              }
             }
           }
         }
