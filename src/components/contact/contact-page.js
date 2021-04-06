@@ -85,6 +85,7 @@ const ContactMain = (props) => {
                 <input
                   type='text'
                   name='email'
+                  required
                   value={form.email || ''}
                   onChange={handleInputChange}
                 />
