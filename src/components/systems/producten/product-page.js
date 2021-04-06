@@ -15,6 +15,7 @@ const ProductPage = (props) => {
     description2title,
     description1,
     description2,
+    pdf,
   } = props;
 
   return (
@@ -78,7 +79,13 @@ const ProductPage = (props) => {
           </div>
           <div className='content-block-systems__buttons'>
             <a href=''>ADVIES & SERVICES</a>
-            <a href=''>PDF FACTSHEET</a>
+            {pdf ? (
+              <a target='_blank' href={pdf?.file?.url}>
+                PDF FACTSHEET
+              </a>
+            ) : (
+              <></>
+            )}
           </div>
         </div>
       </div>
