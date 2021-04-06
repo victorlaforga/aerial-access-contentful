@@ -33,7 +33,7 @@ return (
             hoogte en in diepte.</p>
         <p>Ons Emergency Response Team beschikt over de volgende kwalificaties: <br/>
             <span className="bold">IRATA*</span> en/of <span className="bold">ITRA**</span> (level I t/m III); <br/>
-           <span className="bold">ITLS***</span> of in het bezig van een International First Aid-certificaat. <br/>
+           <span className="bold">ITLS***</span> of in het bezit van een International First Aid-certificaat. <br/>
            <span className="bold">VOL-VCA****</span></p>
         <div className="links-emergency"><span>*</span> Industrial Rope Access Trade Association (https://irata.org) <br/>
         <span>**</span> International Technical Rescue Association (https://itra.international) <br/>
