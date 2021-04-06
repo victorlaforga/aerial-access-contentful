@@ -1,13 +1,13 @@
 
 import React from 'react';
 import HeroMain from '../hero-main-component';
-import aerialAccess from '../../images/logo-diensten_training_wit.svg'
+import AerialAccess from '../../images/systems-home2.png';
 
 const SystemHomeHero = () => {
   return (
     <section className='hero systems'>
       <div className='container container-systems'>
-        <img src={aerialAccess}/>
+        <img id="system-home-logo" src={AerialAccess} />
 
         <div className='hero--main'>
           <HeroMain />
