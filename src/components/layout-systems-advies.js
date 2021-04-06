@@ -7,8 +7,6 @@ import AdviesBanner from './systems/advies-service/banner-advies';
 import MainPageAdvies from './systems/advies-service/advies-main';
 import CopyrightFooter from './copyright-footer';
 
-
-
 const StyledLayout = {
   width: '100%',
   minHeight: '100vh',
@@ -18,18 +16,16 @@ const StyledLayout = {
   gridTemplateColumns: '100%',
 };
 
-
 const LayoutSystemsAdvies = ({ projects, children }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
       <Banner />
       <AdviesBanner />
- <MainPageAdvies />
+      <MainPageAdvies />
       <Footer />
       <CopyrightFooter />
     </div>
-
   );
 };
 

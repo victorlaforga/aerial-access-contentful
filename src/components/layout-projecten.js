@@ -33,7 +33,7 @@ const LayoutProjecten = ({ projects, children }) => {
       ) : (
         <></>
       )}
-<ProjectFooter />
+      <ProjectFooter />
       <Footer />
       <CopyrightFooter />
     </div>
