@@ -1,5 +1,6 @@
 import React from 'react';
 import imgsystem from "../../../images/Systems_Bouw en Infra_367x440px.jpg";
+import imgsystemmobile from "../../../images/image-systems-mobile.png";
 
 const MainPageSystems = () => {
 return (
@@ -11,6 +12,14 @@ return (
                 is onderhoud vriendelijk en zijn uitermate geschikt voor de bouw en infra. Als architect, bouwer of
                 gebouw eigenaar wil je natuurlijk waarborgen dat toegang tot alle locaties van je gebouw gewaarborgd is.
                 Schakel ons tijdig in om  tijdens ontwerp fase mee te kunnen denken.</p>
+                <div className="content-block-systems-2 mobile">
+                <div className="content-block-systems__buttons">
+                <a href="">advies & services</a>
+                <a href="">producten</a>
+            </div>
+            <img src={imgsystemmobile} alt="" />
+            
+        </div>
             <div className="content-block-systems-points">
                 <div>
                     <h2 className="h2">Locaties</h2>
@@ -38,7 +47,7 @@ return (
                 </div>
             </div>
         </div>
-        <div className="content-block-systems-2">
+        <div className="content-block-systems-2 mobile-hide">
             <img src={imgsystem} alt="" />
             <div className="content-block-systems__buttons">
                 <a href="">advies & services</a>

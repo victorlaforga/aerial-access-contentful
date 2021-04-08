@@ -180,6 +180,7 @@ body {
 
 // Hero Main section
 .desktop-hero-logo {
+
   width: 230px;
   left: 17px;
   top: 19px;
@@ -1284,9 +1285,13 @@ section.intro-over-ons {
   .mobile {
     display: block !important;
   }
+
   .desktop-hero-logo {
     display: none;
   }
+
+
+
   .copyright-footer {
     font-size: 14px;
   }
@@ -1491,16 +1496,140 @@ section.intro-over-ons {
       margin-top: -25px !important;
     }
   }
+
   .mobile-hero-logo {
     max-width: 215px !important;
     position: absolute;
     min-width: 215px;
   }
+
+  .main-page-systems {
+    .container {
+      flex-direction: column;
+
+      .content-block-systems {
+        width: 100%;
+        padding-right: 0px;
+        max-width: 100%;
+
+        .content-block-systems-points {
+          margin: 0px auto 50px auto;
+          display: flex;
+          flex-wrap: wrap;
+
+          div {
+            min-width: 200px;
+
+          }
+
+          div:nth-of-type(2) {
+            margin-left: 0px !important;
+            margin-top: 0px;
+
+          }
+        }
+      }
+
+      .content-block-systems-2.mobile {
+        img {
+          margin: 25px auto;
+        }
+      }
+    }
+  }
+
+  div.mobile-hide {
+    display: none;
+  }
+
+  h1.titel-systems {
+    font-size: 50px !important;
+
+
+  }
+
+  .content-block-systems__buttons a {
+    width: auto;
+    max-width: 200px;
+
+  }
+.project-block {
+  .project-block--container {
+    display: flex;
+    flex-direction: column;
+    div.project-element {
+      margin: auto;
+    }
+  }
+}
+  .intro-option {
+
+    .intro-option--container {
+      flex-direction: column-reverse;
+      margin: 40px auto;
+  
+      .intro-option--text {
+        padding: 0 !important;
+      }
+      .intro-option--links {
+        margin-bottom: 15px;
+        a {
+          margin: 6px 0;
+        }
+      }
+    }
+  }
+  .footer-project {
+
+    .container {
+      display: flex;
+      margin: 25px auto;
+      grid-template-columns: none;
+      width: auto;
+      div.footer-project-content {
+        margin: 15px auto 15px 15px;
+        
+      }
+    }
+  }
 }
 
-.mobile-hero-button.systems {
-  background-color: #ff7300;
+@media screen and (max-width: 381px) {
+  .banner-page--img {
+    width: auto;
+    max-width: 250px;
+  }
+
+  .banner-page .container h1 {
+    margin-top: 100px !important;
+  }
+
+  .main-page-systems .container .content-block-systems-2 img {
+    max-width: 275px;
+    width: -webkit-fill-available;
+  }
 }
+
+@media screen and (max-width: 655px) {
+  .content-block-systems {
+
+    .content-block-systems-points {
+
+
+      div:nth-of-type(2) {
+        margin-top: 25px !important;
+
+      }
+    }
+  }
+}
+
+
+
+.mobile-hero-button.systems {
+  background-color: #FF7300;
+}
+
 .mobile-nav {
   display: none;
 }
@@ -1540,28 +1669,36 @@ section.intro-over-ons {
 }
 
 .hero-element-image.systems {
+
   background-image: linear-gradient(
       0deg,
       rgba(255, 115, 0, 0.5),
       rgba(255, 115, 0, 0.5)
     ),
     url('../images/Homepage\ diensten_280x196px2.jpg');
+
 }
+
 .hero-element-image.emergency {
+
   background-image: linear-gradient(
       0deg,
       rgba(153, 37, 37, 0.5),
       rgba(153, 37, 37, 0.5)
     ),
     url('../images/Homepage\ diensten_280x196px3.jpg');
+
 }
+
 .hero-element-image.training {
+
   background-image: linear-gradient(
       0deg,
       rgba(0, 126, 194, 0.5),
       rgba(0, 126, 194, 0.5)
     ),
     url('../images/Homepage\ diensten_280x196px4.jpg');
+
 }
 
 .mobile-hero-button.emergency {
@@ -1571,6 +1708,7 @@ section.intro-over-ons {
 .mobile-hero-button.systems {
   background-color: #ff7300;
 }
+
 .mobile-hero-button.training {
   background-color: #007ec2;
 }
@@ -1585,6 +1723,7 @@ section.intro-over-ons {
   margin-top: -10px;
   background-size: cover;
   position: relative;
+
   p {
     color: white;
     font-family: 'Din-Bold';
@@ -1592,6 +1731,7 @@ section.intro-over-ons {
     line-height: 26px;
     font-size: 14px;
   }
+
   a {
     width: auto;
     padding: 5px 15px;
@@ -1605,10 +1745,15 @@ section.intro-over-ons {
     left: 20px;
   }
 }
+
 .container-info-mobile.project {
+
   background-image: url('../images/Homepage\ diensten_280x196px.jpg');
+
 }
+
 .container-info-mobile.training {
+
   background-image: url('../images/Homepage\ diensten_280x196px4.jpg');
 }
 .container-info-mobile.emergency {
