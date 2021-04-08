@@ -6,7 +6,7 @@ import Footer from './footer';
 import IndustrieBanner from './systems/industrie-banner';
 import MainPageIndustrie from './systems/industrie/industrie-main'
 import CopyrightFooter from './copyright-footer';
-
+import NavMobile from './nav-mobile';
 
 const StyledLayout = {
   width: '100%',
@@ -22,6 +22,7 @@ const LayoutSystemsIndustrie = ({ projects, children }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
+      <NavMobile />
       <Banner />
       <IndustrieBanner />
 <MainPageIndustrie />

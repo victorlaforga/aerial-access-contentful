@@ -5,7 +5,9 @@ import Banner from './banner-desktop';
 import Footer from './footer';
 import CopyrightFooter from './copyright-footer';
 import ContactBanner from './contact/contact-banner';
-import ContactMain from './contact/contact-page'
+import ContactMain from './contact/contact-page';
+import NavMobile from './nav-mobile';
+
 const StyledLayout = {
   width: '100%',
   minHeight: '100vh',
@@ -19,6 +21,7 @@ const ContactLayout = () => {
   return (
     <div style={StyledLayout}>
       <Navigation />
+      <NavMobile />
       <Banner />
 <ContactBanner />
 <ContactMain />

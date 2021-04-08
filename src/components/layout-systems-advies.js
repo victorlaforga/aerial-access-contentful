@@ -6,6 +6,7 @@ import Footer from './footer';
 import AdviesBanner from './systems/advies-service/banner-advies';
 import MainPageAdvies from './systems/advies-service/advies-main';
 import CopyrightFooter from './copyright-footer';
+import NavMobile from './nav-mobile';
 
 const StyledLayout = {
   width: '100%',
@@ -20,6 +21,7 @@ const LayoutSystemsAdvies = ({ projects, children }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
+      <NavMobile />
       <Banner />
       <AdviesBanner />
       <MainPageAdvies />
