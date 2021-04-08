@@ -2,7 +2,8 @@ import React from 'react';
 
 const SubNav = () => {
   return (
-    <div className='sub-nav'>
+    
+    <div id="subnav" className='sub-nav'>
       <a href="/systems/bouw-infra/" className='sub-nav--link light'>Bouw & infra</a>
       <a href="/systems/industrie/" className='sub-nav--link light'>Industrie</a>
       <a href="/systems/advies-service/" className='sub-nav--link light'>Advies & service</a>
