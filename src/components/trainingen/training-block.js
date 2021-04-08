@@ -27,7 +27,7 @@ return (
                 <div class="works"><span><span class="arrow-horizontal">>></span>Alle trainingsdagen vinden plaats op de trainingslocatie</span></div>
                 <div class="works"><span><span class="arrow-horizontal">>></span>Geldigheid certificaat 3 jaar</span></div>
                 <div class="works"><span><span class="arrow-horizontal">>></span>€ 1250, – excl. BTW.</span></div>
-
+    <a href="/contact/" className="sign-up-training">Inschrijven</a>
         </div>
     </div>
 </section>

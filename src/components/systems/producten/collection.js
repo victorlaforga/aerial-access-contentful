@@ -27,9 +27,9 @@ const AdviesBanner = (props) => {
                   <></>
                 )}
                 {/* TODO: Should we do single category page? */}
-                {/* <div className='content-block-systems__buttons'>
-                  <a href={`/systems/producten/${categorySlug}`}>producten</a>
-                </div> */}
+                <div className='content-block-systems__buttons'>
+                  <a href="/systems/advies-service/">advies & service</a>
+                </div>
               </div>
               {products && products.length ? (
                 <div className='collection-block-products'>

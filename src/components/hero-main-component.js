@@ -59,10 +59,10 @@ class HeroMain extends Component {
               staat op moeilijke toegankelijke locaties werkzaamheden uit te
               voeren.
             </p>
-            <a href=''>projecten</a>
+            <a href='/projecten/'>projecten</a>
           </div>
         </article>) } 
-        
+
         
       </div>
     );

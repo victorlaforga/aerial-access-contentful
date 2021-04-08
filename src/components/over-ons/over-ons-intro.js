@@ -6,7 +6,7 @@ return (
 <section className='intro-over-ons'>
     <div className='container'>
         <div>
-        <h1>Wij zien onszelf als professionals met de focus op  specialisme in de rope-access en kijken vanuit
+        <h1 className="mobile-hide">Wij zien onszelf als professionals met de focus op  specialisme in de rope-access en kijken vanuit
              verschillende perspectieven naar situaties.</h1>
         <p>Hierdoor is er altijd een mogelijke oplossing voor handen en regelmatig uit onverwachte hoek. Daarbij hebben
             wij een talent voor. Wij hebben oog voor de resultaten die behaald moeten worden en staan voor vertrouwen en

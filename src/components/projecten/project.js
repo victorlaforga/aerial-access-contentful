@@ -30,7 +30,7 @@ const Project = (props) => {
           {activities && activities.length ? (
             <>
               <h3>Werkzaamheden</h3>
-              <br />
+              <br className="mobile-hide" />
               {activities.map((activity) => (
                 <div key={uniqueId()} className='works'>
                   <span>
