@@ -31,41 +31,72 @@ return (
                         fysiek aan de klimmer bevestigd hoeft te worden.
                     </p>
                 </div>
-                <div className="industrie-block__right">
-                    <div>
+                <div className="industrie-block__right mobile-hide">
+                <div>
                         <h2>Voordelen</h2>
-                        <p><span>></span> Nieuwe mogelijkheden</p>
-                        <p><span>></span> Estetische oplossingen</p>
-                        <p><span>></span> Lage onderhouds kosten</p>
-                        <p><span>></span> Lage installatie kosten</p>
+                        <p><span>></span> Verhoging van de veiligheid</p>
+                        <p><span>></span> Tijdsbesparing door effectiviteit</p>
+                        <p><span>></span> Geld bespaard</p>
+                       
                     </div>
                     <div>
-                        <h2 className="industrieInfo">Voordelen</h2>
-                        <p><span>></span> Nieuwe mogelijkheden</p>
-                        <p><span>></span> Estetische oplossingen</p>
-                        <p><span>></span> Lage onderhouds kosten</p>
-                        <p><span>></span> Lage installatie kosten</p>
+                        <h2 className="industrieInfo">Locaties</h2>
+                        <p><span>></span> Silo's</p>
+                        <p><span>></span> Tranistion piece</p>
+                        <p><span>></span> Heli deck</p>
+                        <p><span>></span> Scheepvaart</p>
                     </div>
                     <div>
-                        <h2 className="industrieInfo">Voordelen</h2>
-                        <p><span>></span> Nieuwe mogelijkheden</p>
-                        <p><span>></span> Estetische oplossingen</p>
-                        <p><span>></span> Lage onderhouds kosten</p>
-                        <p><span>></span> Lage installatie kosten</p>
+                        <h2 className="industrieInfo">industrie en offshore</h2>
+                        <p><span>></span> Weinig onderhoud</p>
+                        <p><span>></span> Makkelijk te installeren</p>
+                        <p><span>></span> Hogere veiligheid</p>
+                        <p><span>></span> Efficiënter werken</p>
+                        <p><span>></span> Offshore bestendig</p>
+                        <p><span>></span> Adequatere reddings mogelijkheden</p>
+                        <p><span>></span> Werkuren beter te calculeren</p>
                     </div>
-
-
                 </div>
             </div>
         </div>
         <div className="content-block-systems-2">
-            <img src={imgsystem} alt="" />
-            <img src={imgsystem2} alt="" />
+            <img className="mobile-hide" src={imgsystem} alt="" />
+            <img className="mobile-hide" src={imgsystem2} alt="" />
             <div className="content-block-systems__buttons">
                 <a href="">advies & services</a>
                 <a href="">producten</a>
             </div>
+            <img className="mobile" src={imgsystem} alt="" />
+            <img className="mobile" src={imgsystem2} alt="" />
         </div>
+        <div className="industrie-block__right mobile">
+                    <div>
+                        <h2>Voordelen</h2>
+                        <p><span>></span> Verhoging van de veiligheid</p>
+                        <p><span>></span> Tijdsbesparing door effectiviteit</p>
+                        <p><span>></span> Geld bespaard</p>
+                       
+                    </div>
+                    <div>
+                        <h2 className="industrieInfo">Locaties</h2>
+                        <p><span>></span> Silo's</p>
+                        <p><span>></span> Tranistion piece</p>
+                        <p><span>></span> Heli deck</p>
+                        <p><span>></span> Scheepvaart</p>
+                    </div>
+                    <div>
+                        <h2 className="industrieInfo">industrie en offshore</h2>
+                        <p><span>></span> Weinig onderhoud</p>
+                        <p><span>></span> Makkelijk te installeren</p>
+                        <p><span>></span> Hogere veiligheid</p>
+                        <p><span>></span> Efficiënter werken</p>
+                        <p><span>></span> Offshore bestendig</p>
+                        <p><span>></span> Adequatere reddings mogelijkheden</p>
+                        <p><span>></span> Werkuren beter te calculeren</p>
+                    </div>
+
+
+                </div>
     </div>
 
 </section>

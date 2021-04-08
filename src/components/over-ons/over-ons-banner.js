@@ -11,7 +11,7 @@ const OverOnsBanner = () => {
           Waarom <br/>
           Aerial Access?
         </h1>
- 
+ <p className="subtext-banner mobile">Wij zien onszelf als professionals met de focus op specialisme in de rope-access en kijken vanuit verschillende perspectieven naar situaties.</p>
       </div>
     </section>
   );
