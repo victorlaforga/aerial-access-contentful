@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import LogoMobileHero from '../assets/logo-diensen_project.svg';
 
-import { withPrefix, Link } from "gatsby"
-import Helmet from "react-helmet"
 
 
 class HeroMain extends Component {
@@ -16,15 +14,12 @@ class HeroMain extends Component {
   };
 
   render() {
-    const { showMenu } = this.state; // that will make your code readable
-    const menuVis = !showMenu ? 'hideDiv' : ''; // use positive
+    const { showMenu } = this.state; 
+    const menuVis = !showMenu ? 'hideDiv' : ''; 
 
     return (
 
       <div onClick={this.toggleMenu}>
-        <Helmet>
-    <script src={withPrefix('script.js')} type="text/javascript" />
-    </Helmet>
         <div className='hero-element'>
           <article>
             <div className='hero-element-titel'>
@@ -56,7 +51,7 @@ class HeroMain extends Component {
           </div>
         </div>
 
-        {menuVis ? (<article>
+        {menuVis ? <> </> : (<article>
           <div className={`mobile container-info-mobile project`}>
             <p>
               Het gebruik van rope access is efficiënt en effectief. Door het
@@ -66,7 +61,8 @@ class HeroMain extends Component {
             </p>
             <a href=''>projecten</a>
           </div>
-        </article>) :<> </> } 
+        </article>) } 
+        
         
       </div>
     );

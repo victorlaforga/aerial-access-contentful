@@ -1,10 +1,21 @@
-import React from 'react';
-// import Doublearrow from '../assets/arrowupside.svg';
+import React, { Component } from 'react';
+
 import LogoMobileHeroSystems from '../assets/logo-diensten_system.svg';
 
-const HeroMainSystems = () => {
+class HeroMainSystems extends Component {
+  state = { showMenu: false };
+
+  toggleMenu = () => {
+    this.setState({
+      showMenu: !this.state.showMenu,
+    });
+  };
+
+  render() {
+    const { showMenu } = this.state; 
+    const menuVis = !showMenu ? 'hideDiv' : ''; 
 return (
-<div>
+<div onClick={this.toggleMenu}>
   <div className='hero-element'>
     <article>
       <div className='hero-element-titel'>
@@ -30,13 +41,21 @@ return (
       </a>
     </div>
   </div>
-  <div className="mobile container-info-mobile system">
-    <p>Het gebruik van rope access is efficiënt en effectief. Door het gebruik van gespecialiseerde rope access
-      technieken zijn wij in staat op moeilijke toegankelijke locaties werkzaamheden uit te voeren. </p>
-    <a href="">projecten</a>
-  </div>
+  {menuVis ? <> </> : (<article>
+          <div className={`mobile container-info-mobile system`}>
+            <p>
+              Het gebruik van rope access is efficiënt en effectief. Door het
+              gebruik van gespecialiseerde rope access technieken zijn wij in
+              staat op moeilijke toegankelijke locaties werkzaamheden uit te
+              voeren.
+            </p>
+            <a href=''>projecten</a>
+          </div>
+        </article>) } 
 </div>
-);
-};
+   );
+  }
+}
+
 
 export default HeroMainSystems;
