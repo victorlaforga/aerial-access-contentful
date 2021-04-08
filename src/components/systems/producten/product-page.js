@@ -52,6 +52,7 @@ const ProductPage = (props) => {
           <div className='product-info-details2'>
             <h2 className='product-info-title'>{description2title}</h2>
             {description2?.internal?.content}
+            
           </div>
         </div>
         <div className='product-media'>

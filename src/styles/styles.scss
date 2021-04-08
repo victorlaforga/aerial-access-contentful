@@ -1647,6 +1647,9 @@ section.intro-over-ons {
   .project-block--container {
     display: flex;
     flex-direction: column;
+    div.project-element {
+      margin: auto;
+    }
   }
 }
   .intro-option {
@@ -1663,6 +1666,19 @@ section.intro-over-ons {
         a {
           margin: 6px 0;
         }
+      }
+    }
+  }
+  .footer-project {
+
+    .container {
+      display: flex;
+      margin: 25px auto;
+      grid-template-columns: none;
+      width: auto;
+      div.footer-project-content {
+        margin: 15px auto 15px 15px;
+        
       }
     }
   }
@@ -1839,4 +1855,12 @@ section.intro-over-ons {
 
 .hideDiv {
   display: none;
+}
+
+#subnav {
+  display: none;
+}
+
+.visible {
+  display: block !important;
 }
