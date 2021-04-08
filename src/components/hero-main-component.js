@@ -32,7 +32,7 @@ class HeroMain extends Component {
                 <span>{'>'}</span>
               </span>
             </div>
-            <div className='hero-element-text '>
+            <div className='hero-element-text'>
               <p>
                 Het gebruik van rope access is efficiënt en effectief. Door het
                 gebruik van gespecialiseerde rope access technieken zijn wij in

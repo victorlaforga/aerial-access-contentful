@@ -38,7 +38,6 @@ li,
 ul {
   list-style: none;
   padding: 0;
-
 }
 
 a {
@@ -181,7 +180,6 @@ body {
 
 // Hero Main section
 .desktop-hero-logo {
-  
   width: 230px;
   left: 17px;
   top: 19px;
@@ -189,11 +187,13 @@ body {
 
 .hero {
   height: auto;
-  background: linear-gradient(177.72deg,
-      #001e50 -85.11%,
-      rgba(0, 30, 80, 0.44) -85.09%,
-      #001e50 100.99%,
-      rgba(0, 30, 80, 0.58) 101.01%);
+  background: linear-gradient(
+    177.72deg,
+    #001e50 -85.11%,
+    rgba(0, 30, 80, 0.44) -85.09%,
+    #001e50 100.99%,
+    rgba(0, 30, 80, 0.58) 101.01%
+  );
 
   .container {
     margin-bottom: 25px;
@@ -254,9 +254,11 @@ body {
   }
 
   .hero-element-image {
-    background-image: linear-gradient(0deg,
+    background-image: linear-gradient(
+        0deg,
         rgba(115, 164, 0, 0.5),
-        rgba(115, 164, 0, 0.5)),
+        rgba(115, 164, 0, 0.5)
+      ),
       url('../images/Homepage\ diensten_280x196px.jpg');
     position: absolute;
     bottom: 0;
@@ -342,11 +344,12 @@ body {
 
 //  FOOTER
 .footer-container {
-
   width: 100%;
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+      to right,
       rgba(0, 30, 80, 0.94),
-      rgba(0, 30, 80, 0.94)),
+      rgba(0, 30, 80, 0.94)
+    ),
     url('../images/beeld\ foooter.svg') !important;
   background-position-x: center;
 
@@ -436,7 +439,7 @@ body {
       flex-direction: column;
 
       h2 {
-        font-family: "Din-Bold";
+        font-family: 'Din-Bold';
         font-size: 18px;
         line-height: 18px;
         margin-bottom: 5px;
@@ -535,11 +538,10 @@ body {
   }
 }
 
-
 // FOOTER PROJECT
 
 .footer-project {
-  background: #73A400;
+  background: #73a400;
 
   .container {
     display: grid;
@@ -554,18 +556,10 @@ body {
       flex-direction: column;
       margin-left: 30px;
 
-
-
-
       h2 {
         text-transform: uppercase;
         color: white;
-        font-family: "Din-Bold";
-
-
-
-
-
+        font-family: 'Din-Bold';
       }
 
       p {
@@ -576,27 +570,29 @@ body {
 }
 
 .banner-page.systems {
-  background-image:
-    url('../images/Headers_1140x390px2.jpg');
+  background-image: url('../images/Headers_1140x390px2.jpg');
 }
 
 .titel-systems {
-  font-family: "Din-Bold" !important;
+  font-family: 'Din-Bold' !important;
   font-size: 59px !important;
   margin-top: 140px !important;
 }
 
 .hero.systems {
-  background-image: linear-gradient(180deg, rgba(0, 30, 80, 0.7) 0%, rgba(0, 30, 80, 0.343) 63.54%, rgba(0, 30, 80, 0.7) 100%),
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 30, 80, 0.7) 0%,
+      rgba(0, 30, 80, 0.343) 63.54%,
+      rgba(0, 30, 80, 0.7) 100%
+    ),
     url('../images/systems-banner.svg') !important;
 
   .container-systems {
-
     img {
       max-width: 400px;
       margin-top: 70px;
       margin-bottom: 45px;
-
     }
   }
 }
@@ -611,14 +607,12 @@ body {
       padding-right: 45px;
 
       .intro-bouwinfra {
-        font-family: "Din-Light";
-
+        font-family: 'Din-Light';
       }
 
       p {
         font-size: 24px;
         line-height: 36px;
-
       }
 
       .content-block-systems-points {
@@ -627,7 +621,7 @@ body {
 
         div {
           h2 {
-            font-family: "Din-Bold";
+            font-family: 'Din-Bold';
             font-size: 16px;
             text-transform: uppercase;
           }
@@ -636,48 +630,37 @@ body {
             margin: 8px auto;
             font-size: 16px;
             line-height: 24px;
-
           }
         }
 
         div:nth-of-type(2) {
           margin-left: 80px;
-
         }
       }
-
     }
-
-
 
     .content-block-systems-2 {
       img {
-
         max-width: 365px;
       }
-
-
     }
   }
 }
 
 // INDUSTRIE PAGE
 .banner-page.industrie {
-  background-image:
-    url('../images/Headers_1140x390px3.jpg');
+  background-image: url('../images/Headers_1140x390px3.jpg');
   background-size: cover;
-
 }
 
 .main-page-systems.industrie {
   margin-bottom: 100px;
 
-
   .container {
     h2 {
       text-transform: uppercase;
       color: #ff7300;
-      font-weight: "DinBold";
+      font-weight: 'DinBold';
       font-size: 16px;
     }
 
@@ -695,7 +678,7 @@ body {
           width: 65%;
 
           h2 {
-            margin-top: 50px
+            margin-top: 50px;
           }
 
           p {
@@ -708,28 +691,20 @@ body {
           margin-left: 60px;
 
           p {
-
-
             font-size: 16px;
             line-height: 24px;
-
           }
 
           div {
-
             .industrieInfo {
               margin-top: 25px;
-
             }
           }
-
         }
       }
     }
 
     .content-block-systems-2 {
-
-
       img:nth-of-type(2) {
         margin-top: 30px;
       }
@@ -741,7 +716,6 @@ body {
 
 .content-block-systems.advies {
   max-width: 65% !important;
-
 
   .advies-service-main {
     margin-top: 40px;
@@ -755,20 +729,15 @@ body {
       margin-block-start: 0em;
       margin-block-end: 0em;
       list-style: none;
-      color: #001E50;
+      color: #001e50;
       margin: 30px auto;
       padding-inline-start: 0px;
-
-
     }
   }
-
-
 }
 
 .load-current-bar--long-title span {
   top: 11px;
-
 }
 
 .load-current-bar {
@@ -790,7 +759,7 @@ body {
         // // right: 33px;
 
         // max-width: 100px;
-        font-family: "Din-Bold";
+        font-family: 'Din-Bold';
         color: white;
       }
     }
@@ -800,13 +769,11 @@ body {
       width: auto;
       height: 65px;
     }
-
   }
-
 }
 
 .loading-bar {
-  fill: #001E50;
+  fill: #001e50;
 }
 
 .loading-bar:hover,
@@ -817,13 +784,10 @@ body {
 
 .load-current-bar--firstTitle {
   left: 25px;
-
 }
 
 .load-current-bar--secondTitle {
-
   bottom: 26px;
-
 }
 
 .load-current-bar--fourthTitle {
@@ -831,7 +795,7 @@ body {
 }
 
 .load-current-bar--fifthTitle {
-  bottom: 26px
+  bottom: 26px;
 }
 
 .content-block-systems__buttons {
@@ -847,17 +811,16 @@ body {
     border-radius: 50px;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Din-Bold";
+    font-family: 'Din-Bold';
     margin: 10px 0px;
     width: 45%;
-
   }
 }
 
 // PRODUCTEN COLLECTION PAGE
 
 .banner-page.systems.producten {
-  background-image: url("../images/Headers_1140x390px5.jpg");
+  background-image: url('../images/Headers_1140x390px5.jpg');
 }
 
 .product-collection-container:nth-of-type(even) {
@@ -867,14 +830,11 @@ body {
 }
 
 .product-collection {
-
   .product-collection-container {
     padding-top: 45px;
     padding-bottom: 45px;
 
-
     .collection-block {
-
       display: flex;
 
       .collection-block-info {
@@ -883,22 +843,19 @@ body {
         h2 {
           font-size: 36px;
           line-height: 40px;
-          color: #FF7300;
+          color: #ff7300;
           text-transform: uppercase;
-
         }
 
         p {
           font-size: 16px;
           line-height: 26px;
           margin: 10px auto 35px auto;
-
         }
       }
 
       .uitleg-img {
         max-width: -webkit-fill-available;
-
       }
     }
 
@@ -907,8 +864,6 @@ body {
       flex-wrap: wrap;
       padding: 25px;
       padding-top: 0px;
-
-
 
       max-width: -webkit-fill-available;
 
@@ -927,11 +882,10 @@ body {
   }
 }
 
-
 // SINGLE PRODUCT PAGE
 .product-info-title {
   font-size: 16px;
-  font-family: "Din-Bold";
+  font-family: 'Din-Bold';
 }
 
 .single-product-container {
@@ -942,7 +896,7 @@ body {
     margin: 40px auto;
 
     .product-info {
-      font-family: "Din-Light";
+      font-family: 'Din-Light';
       max-width: 485px;
       min-width: 300px;
       margin-right: 40px;
@@ -955,22 +909,19 @@ body {
       .product-info--intro {
         font-size: 18px;
         margin-top: 5px;
-
       }
 
       .product-info--route {
         text-transform: uppercase;
         font-size: 20px;
-        font-family: "Din-Bold";
+        font-family: 'Din-Bold';
 
         span {
-          font-family: "Din-Bold";
+          font-family: 'Din-Bold';
         }
 
         .product-info--route-name {
           color: #ff7300;
-
-
         }
       }
 
@@ -989,7 +940,6 @@ body {
       max-width: 735px;
       min-width: 300px;
       width: -webkit-fill-available;
-
 
       .container-main-image {
         background-color: white;
@@ -1022,7 +972,6 @@ body {
 .product-info-details2,
 .product-info-details {
   margin-top: 35px;
-
 }
 
 // FOOTER COPYRIGHT
@@ -1033,12 +982,9 @@ body {
   background-color: white;
 
   div {
-
-
-
     p {
-      font-family: "Din-Light";
-      color: #001E50;
+      font-family: 'Din-Light';
+      color: #001e50;
       width: 100%;
       font-size: 15px;
       line-height: 24px;
@@ -1049,22 +995,21 @@ body {
   }
 }
 
-
 // BANNER EMERGENCY
 .banner-page.emergency {
-  background-image: linear-gradient(90deg, rgba(190, 0, 0, 1) 27.2%, rgba(221, 170, 170, 0.486) 80%),
+  background-image: linear-gradient(
+      90deg,
+      rgba(190, 0, 0, 1) 27.2%,
+      rgba(221, 170, 170, 0.486) 80%
+    ),
     url('../images/Headers_1140x390px6.jpg');
   mix-blend-mode: multiply;
 }
 
-
-
 .emergency-main-page {
-
   .container {
     margin: 60px auto;
     display: flex;
-
 
     .emergency-content {
       max-width: 725px;
@@ -1074,31 +1019,26 @@ body {
         font-size: 24px;
         line-height: 36px;
         margin-bottom: 30px;
-        font-family: "Din-Light";
-
+        font-family: 'Din-Light';
       }
 
       p {
         font-size: 16px;
         line-height: 24px;
         margin: 30px auto;
-        font-family: "Din-Light";
-
+        font-family: 'Din-Light';
       }
 
       .links-emergency {
-        font-family: "Din-Light";
+        font-family: 'Din-Light';
         font-size: 16px;
-        color: #001E50;
+        color: #001e50;
 
         span {
           width: 35px;
 
           display: inline-block;
-
         }
-
-
       }
     }
 
@@ -1115,14 +1055,12 @@ body {
 }
 
 .footer-project.emergency {
-  background: #BE0000;
+  background: #be0000;
 
   .container {
     max-width: 800px;
     display: flex;
     margin-left: 80px;
-
-
   }
 
   .footer-emergency-content {
@@ -1135,8 +1073,6 @@ body {
 
     h2 {
       margin-top: 15px;
-
-
     }
   }
 }
@@ -1144,23 +1080,22 @@ body {
 // TRAININGEN
 
 .banner-page.trainingen {
-  background-image: url("../images/Headers_1140x390px7.jpg");
+  background-image: url('../images/Headers_1140x390px7.jpg');
 }
 
 .intro-option--links.emergency {
   a {
-    background: #0D71B9 !important;
+    background: #0d71b9 !important;
   }
 
   a:hover {
-    background: #001E50 !important;
+    background: #001e50 !important;
   }
 }
 
 .training-block:nth-of-type(even) {
   background: rgba(0, 30, 80, 0.1);
 }
-
 
 .training-block {
   .container {
@@ -1169,25 +1104,22 @@ body {
 
     h2 {
       text-transform: uppercase;
-      font-family: "Din-Bold";
+      font-family: 'Din-Bold';
       font-size: 16px;
       line-height: 24px;
-
     }
 
     .training-content {
       max-width: 710px;
 
       h1 {
-        font-family: "Din-Bold";
+        font-family: 'Din-Bold';
         font-size: 24px;
         line-height: 24px;
-        color: #007EC2;
+        color: #007ec2;
         text-transform: uppercase;
         margin-bottom: 10px;
-
       }
-
     }
 
     .training-details {
@@ -1197,27 +1129,26 @@ body {
         margin: 20px auto;
 
         .arrow-horizontal {
-          color: #007EC2;
+          color: #007ec2;
         }
       }
     }
   }
 }
 
-// OVER ONS 
+// OVER ONS
 
 .banner-page.over-ons {
-  background-image: url("../images/Headers_1140x390px8.jpg");
+  background-image: url('../images/Headers_1140x390px8.jpg');
 
   .banner-page--container {
     margin-top: 40px;
 
     h1 {
-      font-family: "Din-Light" !important;
+      font-family: 'Din-Light' !important;
       font-weight: 300;
       font-size: 84px;
       line-height: 90px;
-
     }
   }
 }
@@ -1225,9 +1156,7 @@ body {
 section.intro-over-ons {
   background: rgba(0, 30, 80, 0.1);
 
-
   .container {
-
     div {
       margin: 75px 0;
       max-width: 800px;
@@ -1235,7 +1164,7 @@ section.intro-over-ons {
       h1 {
         font-size: 34px;
         line-height: 46px;
-        font-family: "Din-Light";
+        font-family: 'Din-Light';
         margin-bottom: 55px;
       }
 
@@ -1249,27 +1178,23 @@ section.intro-over-ons {
 
 .main-over-ons {
   .container {
-
-
     .description-about {
       margin: 90px 0;
       display: flex;
       justify-content: space-between;
 
       .description {
-
         max-width: 585px;
 
         img {
           border-radius: 100px;
           margin: 0px auto 30px auto;
-
         }
 
         h1 {
           text-transform: uppercase;
           color: #ff7300;
-          font-family: "Din-Light";
+          font-family: 'Din-Light';
           font-size: 24px;
           line-height: 24px;
           margin: 15px auto;
@@ -1279,14 +1204,13 @@ section.intro-over-ons {
           font-size: 16px;
           line-height: 24px;
 
-          font-family: "Din-Bold";
+          font-family: 'Din-Bold';
         }
 
         p.description--main {
           font-size: 16px;
           line-height: 24px;
           margin: 15px auto;
-
         }
       }
     }
@@ -1296,13 +1220,11 @@ section.intro-over-ons {
 // CONTACT PAGE
 
 .banner-page.contact {
-  background-image: url("../images/Headers_1140x390px9.jpg");
+  background-image: url('../images/Headers_1140x390px9.jpg');
 }
 
 .contact-main {
   .container {
-
-
     .contact-container {
       display: flex;
       margin: 65px auto;
@@ -1310,9 +1232,8 @@ section.intro-over-ons {
       .contact-info {
         min-width: 200px;
 
-        .social-icons {}
-
-
+        .social-icons {
+        }
       }
 
       .contact-form {
@@ -1324,8 +1245,7 @@ section.intro-over-ons {
           label {
             font-size: 14px;
             line-height: 12px;
-            color: #001E50;
-
+            color: #001e50;
           }
 
           input {
@@ -1337,10 +1257,8 @@ section.intro-over-ons {
             height: 30px;
             margin: 10px 0px;
             border: none;
-
           }
         }
-
       }
     }
   }
@@ -1354,7 +1272,6 @@ section.intro-over-ons {
   .nav-container {
     padding: 0 25px;
   }
-
 }
 
 @media only screen and (max-width: 1439px) {
@@ -1367,23 +1284,24 @@ section.intro-over-ons {
   .mobile {
     display: block !important;
   }
-.desktop-hero-logo {
-  display: none;
-}
+  .desktop-hero-logo {
+    display: none;
+  }
   .copyright-footer {
     font-size: 14px;
-
   }
 
   div.social-icons.footer {
     margin-top: 65px !important;
-
-
   }
 
   .mobile-image-home {
     height: 265px;
-    background-image: linear-gradient(0deg, rgba(255, 115, 0, 0.5), rgba(255, 115, 0, 0.5)),
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 115, 0, 0.5),
+        rgba(255, 115, 0, 0.5)
+      ),
       url('../images/mobile-home-img.jpg') !important;
     background-position-x: 80%;
     background-size: cover;
@@ -1393,10 +1311,8 @@ section.intro-over-ons {
       font-size: 18px;
       line-height: 24px;
       color: white;
-      font-family: "Din-Bold";
+      font-family: 'Din-Bold';
       padding-top: 35px;
-
-
     }
   }
 
@@ -1425,7 +1341,6 @@ section.intro-over-ons {
         // flex-wrap: wrap;
         justify-content: space-between;
 
-
         img {
           min-width: 50px;
           margin-bottom: 0 !important;
@@ -1438,10 +1353,8 @@ section.intro-over-ons {
 
     div:nth-of-type(2) {
       img {
-
         display: none;
       }
-
     }
   }
 
@@ -1468,7 +1381,6 @@ section.intro-over-ons {
     h2 {
       display: none;
     }
-
   }
 
   .footer-container-blocks {
@@ -1480,7 +1392,7 @@ section.intro-over-ons {
   }
 
   .banner {
-    background-color: #001E50;
+    background-color: #001e50;
     height: 40px;
 
     div.container {
@@ -1496,7 +1408,6 @@ section.intro-over-ons {
     display: block !important;
     height: 23px;
     margin: auto 0;
-
   }
 
   .logo-aerial-access {
@@ -1507,7 +1418,7 @@ section.intro-over-ons {
     display: none;
   }
 
-  .hero--main {
+  .hero .container .hero--main {
     flex-direction: column;
   }
 
@@ -1544,7 +1455,7 @@ section.intro-over-ons {
       font-size: 60px;
       right: 10px;
       top: -6px;
-      position: absolute
+      position: absolute;
     }
   }
 
@@ -1559,10 +1470,8 @@ section.intro-over-ons {
     }
 
     .--col1 {
-
       grid-column: 1;
       grid-row: 1;
-
     }
 
     .--col2 {
@@ -1580,19 +1489,17 @@ section.intro-over-ons {
       grid-column: 2;
       grid-row: 2;
       margin-top: -25px !important;
-
     }
   }
   .mobile-hero-logo {
     max-width: 215px !important;
     position: absolute;
     min-width: 215px;
-
   }
 }
 
-.mobile-hero-button.systems{
-  background-color:#FF7300;
+.mobile-hero-button.systems {
+  background-color: #ff7300;
 }
 .mobile-nav {
   display: none;
@@ -1613,10 +1520,6 @@ section.intro-over-ons {
   display: none;
 }
 
-
-
-
-
 .social-icons.footer {
   margin: 15px 0px !important;
 
@@ -1630,8 +1533,6 @@ section.intro-over-ons {
   img {
     margin: 0 10px;
   }
-
-
 }
 
 .cls-2 {
@@ -1640,34 +1541,42 @@ section.intro-over-ons {
 
 .hero-element-image.systems {
   background-image: linear-gradient(
-    0deg
-    , rgba(255,115,0,0.5), rgba(255,115,0,0.5)), url("../images/Homepage\ diensten_280x196px2.jpg");
+      0deg,
+      rgba(255, 115, 0, 0.5),
+      rgba(255, 115, 0, 0.5)
+    ),
+    url('../images/Homepage\ diensten_280x196px2.jpg');
 }
 .hero-element-image.emergency {
   background-image: linear-gradient(
-    0deg
-    , rgba(153, 37, 37, 0.5), rgba(153, 37, 37, 0.5)), url("../images/Homepage\ diensten_280x196px3.jpg");
+      0deg,
+      rgba(153, 37, 37, 0.5),
+      rgba(153, 37, 37, 0.5)
+    ),
+    url('../images/Homepage\ diensten_280x196px3.jpg');
 }
 .hero-element-image.training {
   background-image: linear-gradient(
-    0deg
-    , rgba(0.0, 126.0, 194.0, 0.5), rgba(0.0, 126.0, 194.0, 0.5)), url("../images/Homepage\ diensten_280x196px4.jpg");
+      0deg,
+      rgba(0, 126, 194, 0.5),
+      rgba(0, 126, 194, 0.5)
+    ),
+    url('../images/Homepage\ diensten_280x196px4.jpg');
 }
 
 .mobile-hero-button.emergency {
-  background-color: #BE0000;
+  background-color: #be0000;
 }
 
 .mobile-hero-button.systems {
   background-color: #ff7300;
 }
 .mobile-hero-button.training {
-  background-color: #007EC2;
+  background-color: #007ec2;
 }
 
 #system-home-logo {
   max-width: 355px;
-
 }
 
 .container-info-mobile {
@@ -1678,52 +1587,39 @@ section.intro-over-ons {
   position: relative;
   p {
     color: white;
-    font-family: "Din-Bold";
+    font-family: 'Din-Bold';
     padding: 20px;
     line-height: 26px;
     font-size: 14px;
-
   }
   a {
     width: auto;
     padding: 5px 15px;
     text-transform: uppercase;
-    font-family: "Din-Bold";
+    font-family: 'Din-Bold';
     color: white;
     border: 1.5px solid white;
     border-radius: 31px;
     position: absolute;
     bottom: 20px;
     left: 20px;
-
-
-
-
   }
 }
 .container-info-mobile.project {
- background-image: url("../images/Homepage\ diensten_280x196px.jpg");
-
+  background-image: url('../images/Homepage\ diensten_280x196px.jpg');
 }
 .container-info-mobile.training {
-  background-image: url("../images/Homepage\ diensten_280x196px4.jpg");
- 
- }
- .container-info-mobile.emergency{
-  background-image: url("../images/Homepage\ diensten_280x196px3.jpg");
-
- }
- .container-info-mobile.system {
-  background-image: url("../images/Homepage\ diensten_280x196px2.jpg");
- 
- }
- .visible {
-   display: block ;
- }
- .hideDiv {
-   display: none;
- }
-
-
-
- 
+  background-image: url('../images/Homepage\ diensten_280x196px4.jpg');
+}
+.container-info-mobile.emergency {
+  background-image: url('../images/Homepage\ diensten_280x196px3.jpg');
+}
+.container-info-mobile.system {
+  background-image: url('../images/Homepage\ diensten_280x196px2.jpg');
+}
+.visible {
+  display: block;
+}
+.hideDiv {
+  display: none;
+}
