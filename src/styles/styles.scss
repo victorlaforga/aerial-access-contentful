@@ -1296,7 +1296,38 @@ section.intro-over-ons {
     padding: 0 25px;
   }
 }
+// MOBILE NAV
+.nav-container-mobile {
+  background: #001E50;
+  color: white;
+}
+hr {
+  border-color: #ff7300;
+  margin: 15px auto;
+}
 
+.nav-container-mobile div a.orange-nav {
+  color: #FF7300;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+}
+.nav-container-mobile div a,
+.nav-container-mobile div h2 {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 10px auto;
+}
+
+.nav-container-mobile div {
+  margin: 50px 25px;
+  max-width: 1440px;
+}
 @media only screen and (max-width: 1439px) {
   .home-info .home-info--container div:nth-of-type(2) img {
     position: relative;

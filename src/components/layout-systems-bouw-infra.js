@@ -6,6 +6,7 @@ import Footer from './footer';
 import BannerPage from './systems/systems-banner';
 import MainPageSystems from './systems/bouw-infra/main-page'
 import CopyrightFooter from './copyright-footer';
+import NavMobile from './nav-mobile';
 
 const StyledLayout = {
   width: '100%',
@@ -21,6 +22,7 @@ const LayoutSystemsBouwInfra = ({ projects, children }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
+      <NavMobile />
       <Banner />
       <BannerPage />
   <MainPageSystems />

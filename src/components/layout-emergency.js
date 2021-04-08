@@ -6,7 +6,9 @@ import Footer from './footer';
 import CopyrightFooter from './copyright-footer';
 import EmergencyBanner from './emergency/emergency-banner';
 import EmergencyMain from './emergency/emergency-main';
-import FooterEmergency from '../components/emergency/footer-emergency'
+import FooterEmergency from '../components/emergency/footer-emergency';
+import NavMobile from './nav-mobile';
+
 const StyledLayout = {
   width: '100%',
   minHeight: '100vh',
@@ -21,6 +23,7 @@ const LayoutEmergency = () => {
     <div style={StyledLayout}>
       <Navigation />
       <Banner />
+      <NavMobile />
      <EmergencyBanner />
 <EmergencyMain />
 <FooterEmergency />

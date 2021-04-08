@@ -5,6 +5,7 @@ import Banner from './banner-desktop';
 import Footer from './footer';
 import SingleProduct from './systems/producten/product-page';
 import CopyrightFooter from './copyright-footer';
+import NavMobile from './nav-mobile';
 
 const StyledLayout = {
   width: '100%',
@@ -19,6 +20,7 @@ const LayoutProductPage = ({ product }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
+      <NavMobile />
       <Banner />
       <SingleProduct {...product} />
       <Footer />

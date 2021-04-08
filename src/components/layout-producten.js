@@ -6,6 +6,7 @@ import Footer from './footer';
 import ProductenBanner from './systems/producten/producten-banner';
 import ProductenPage from './systems/producten/collection';
 import CopyrightFooter from './copyright-footer';
+import NavMobile from './nav-mobile';
 
 const StyledLayout = {
   width: '100%',
@@ -20,6 +21,7 @@ const LayoutSystemsProducten = ({ categories, children }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
+      <NavMobile />
       <Banner />
       <ProductenBanner />
       <ProductenPage

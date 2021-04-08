@@ -7,7 +7,7 @@ import CopyrightFooter from './copyright-footer';
 import TrainingenBanner from '../components/trainingen/trainingen-banner';
 import IntroOptionTrainingen from '../components/trainingen/intro-emergency';
 import TrainingBlock from '../components/trainingen/training-block';
-
+import NavMobile from './nav-mobile';
 const StyledLayout = {
   width: '100%',
   minHeight: '100vh',
@@ -22,6 +22,7 @@ const LayoutTrainingen = () => {
   return (
     <div style={StyledLayout}>
       <Navigation />
+      <NavMobile />
       <Banner />
       <TrainingenBanner />
       <IntroOptionTrainingen />

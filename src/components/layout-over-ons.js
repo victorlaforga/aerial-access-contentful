@@ -7,6 +7,7 @@ import CopyrightFooter from './copyright-footer';
 import OverOnsBanner from '../components/over-ons/over-ons-banner';
 import OverOnsIntro from '../components/over-ons/over-ons-intro';
 import OverOnsMain from '../components/over-ons/over-ons-main';
+import NavMobile from './nav-mobile';
 
 const StyledLayout = {
   width: '100%',
@@ -22,6 +23,7 @@ const OverOns = ({ }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
+      <NavMobile />
       <Banner />
 <OverOnsBanner />
 <OverOnsIntro />

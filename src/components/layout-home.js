@@ -6,6 +6,7 @@ import Hero from './hero';
 import HomeInfo from './home-info';
 import Footer from './footer';
 import CopyrightFooter from './copyright-footer';
+import NavMobile from './nav-mobile';
 
 const StyledLayout = {
   width: '100%',
@@ -20,6 +21,7 @@ const LayoutHome = ({ children }) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
+      <NavMobile />
       <Banner />
 
       <Hero />
