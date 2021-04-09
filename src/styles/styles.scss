@@ -1296,11 +1296,13 @@ section.intro-over-ons {
     padding: 0 25px;
   }
 }
+
 // MOBILE NAV
 .nav-container-mobile {
   background: #001E50;
   color: white;
 }
+
 hr {
   border-color: #ff7300;
   margin: 15px auto;
@@ -1316,6 +1318,7 @@ hr {
   display: flex;
   flex-direction: column;
 }
+
 .nav-container-mobile div a,
 .nav-container-mobile div h2 {
   color: white;
@@ -1328,13 +1331,15 @@ hr {
   margin: 50px 25px;
   max-width: 1440px;
 }
+
 @media only screen and (max-width: 1439px) {
   .home-info .home-info--container div:nth-of-type(2) img {
     position: relative;
   }
 }
+
 a.sign-up-training {
-margin-top: 30px;
+  margin-top: 30px;
   text-transform: uppercase;
   padding: 8px 25px;
   border-radius: 31px;
@@ -1342,13 +1347,41 @@ margin-top: 30px;
   background-color: #007EC2;
   color: white;
 }
+
 @media only screen and (max-width: 875px) {
   .mobile {
     display: block !important;
   }
+
+  #system-home-logo {
+    max-width: 270px !important;
+  }
+
+  div.hero--Systems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .hero-element.system-hero {
+    .hero-element-titel {
+      display: block;
+
+      h1.titel-hero-systems {
+        color: #ff7300;
+        font-size: 28px;
+        padding: 0;
+        margin: 0 !important;
+
+
+      }
+    }
+  }
+
   .training-block {
     .container {
       flex-direction: column;
+
       .training-details {
         margin-top: 25px;
         margin-left: 0px;
@@ -1356,10 +1389,13 @@ margin-top: 30px;
       }
     }
   }
+
   .banner-page {
     height: 275px;
+
     .banner-page--container {
       margin-top: 40px;
+
       h1 {
         font-size: 36px;
         line-height: 48px;
@@ -1368,24 +1404,28 @@ margin-top: 30px;
       }
     }
   }
-.banner-page.over-ons {
 
-  .banner-page--container {
-    position: relative;
-    h1 {
-      font-size: 40px;
-      line-height: 40px;
-      margin-top: 40px !important;
-    }
-    p {
-      position: absolute;
-      font-family: "Din";
-      color: white;
-      font-weight: 700;
-      bottom: -120px;
+  .banner-page.over-ons {
+
+    .banner-page--container {
+      position: relative;
+
+      h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 40px !important;
+      }
+
+      p {
+        position: absolute;
+        font-family: "Din";
+        color: white;
+        font-weight: 700;
+        bottom: -120px;
+      }
     }
   }
-}
+
   .container-main-image {
     margin-top: 15px;
   }
@@ -1396,13 +1436,15 @@ margin-top: 30px;
 
     }
   }
-.intro-over-ons {
-  .container {
-    div {
-      margin: 50px 0px !important;
+
+  .intro-over-ons {
+    .container {
+      div {
+        margin: 50px 0px !important;
+      }
     }
   }
-}
+
   .description-about {
     flex-direction: column;
 
@@ -1835,6 +1877,7 @@ margin-top: 30px;
   div#mobile.mobile-menu.mobile {
     display: flex !important;
   }
+
   .main-over-ons .container .description-about {
     margin: 0px;
 
@@ -1850,19 +1893,23 @@ div.firstBarDiv {
     width: auto;
     max-width: 250px;
   }
+
   .banner-page {
     height: 275px;
+
     .banner-page--container {
       margin-top: 40px;
+
       h1 {
         font-size: 26px !important;
         line-height: 48px;
         font-family: "Din" !important;
         font-weight: 700 !important;
-  
+
       }
     }
   }
+
   .banner-page .container h1 {
     margin-top: 100px !important;
   }
@@ -2076,5 +2123,68 @@ div.mobile-menu {
 
   span {
     left: 55px;
+  }
+}
+
+.hero--Systems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.hero-element.system-hero {
+  .hero-element-titel {
+    display: block;
+
+    span.mobile-hero-button {
+      background: #ff7300;
+    }
+
+    h1.titel-hero-systems {
+      color: #ff7300;
+      font-size: 28px;
+      padding: 0;
+      margin: 5px 0 -5px 0;
+
+
+
+    }
+  }
+}
+.systems-mobile-toggle-info {
+  background: rgba(255, 255, 255, 0.9);
+  min-height: 175px;
+  height: auto;
+margin-top: -21px;
+
+  p {
+    color: #001e50;
+    font-family: "Din-Bold";
+    padding: 25px;
+    margin: 20px auto;
+  }
+}
+.mobile.container-info-mobile.systems.bouwEnInfra,
+.hero-element-image.systems.bouwEnInfra {
+  background-image: linear-gradient(0deg, rgba(255, 115, 0, 0.5), rgba(255, 115, 0, 0.5)), url("../images/Diensten\ Systems_280x196px.jpg");
+}
+
+.mobile.container-info-mobile.systems.industrie,
+.hero-element-image.systems.industrie {
+
+  background-image: linear-gradient(0deg, rgba(255, 115, 0, 0.5), rgba(255, 115, 0, 0.5)), url("../images/Diensten\ Systems_280x196px2.jpg");
+
+}
+
+.mobile.container-info-mobile.systems {
+  background-size: cover;
+  margin-top: -20px;
+  position: relative;
+  a {
+    width: 158px;
+    text-align: center;
+    margin: auto;
   }
 }

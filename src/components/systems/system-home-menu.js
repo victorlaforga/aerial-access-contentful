@@ -1,7 +1,9 @@
 
 import React from 'react';
-import HeroMain from '../hero-main-component';
+import HeroSystems from '../hero-systems';
+import HeroSystemsIndustrie from '../hero-systems-industrie';
 import AerialAccess from '../../images/systems-home2.png';
+
 
 const SystemHomeHero = () => {
   return (
@@ -9,11 +11,11 @@ const SystemHomeHero = () => {
       <div className='container container-systems'>
         <img id="system-home-logo" src={AerialAccess} />
 
-        <div className='hero--main'>
-          <HeroMain />
-          <HeroMain />
-          <HeroMain />
-          <HeroMain />
+        <div className='hero--Systems'>
+          <HeroSystems />
+          <HeroSystemsIndustrie />
+          <HeroSystems />
+          <HeroSystems />
         </div>
       </div>
     </section>
