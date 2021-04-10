@@ -29,8 +29,8 @@ const LayoutProjecten = ({ projects, children }) => {
       <IntroOption />
 
       {projects && projects.length ? (
-        projects.map(({ node: { id, ...project } }) => (
-          <Project key={id} {...project} />
+        projects.map(({ node: { ...project } }) => (
+          <Project key={project?.id} {...project} />
         ))
       ) : (
         <></>

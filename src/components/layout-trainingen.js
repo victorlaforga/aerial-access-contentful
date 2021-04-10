@@ -8,6 +8,7 @@ import TrainingenBanner from '../components/trainingen/trainingen-banner';
 import IntroOptionTrainingen from '../components/trainingen/intro-emergency';
 import TrainingBlock from '../components/trainingen/training-block';
 import NavMobile from './nav-mobile';
+
 const StyledLayout = {
   width: '100%',
   minHeight: '100vh',
@@ -17,7 +18,6 @@ const StyledLayout = {
   gridTemplateColumns: '100%',
 };
 
-
 const LayoutTrainingen = () => {
   return (
     <div style={StyledLayout}>
@@ -26,14 +26,13 @@ const LayoutTrainingen = () => {
       <Banner />
       <TrainingenBanner />
       <IntroOptionTrainingen />
-      <TrainingBlock />
-      <TrainingBlock />
-      <TrainingBlock />
-      <TrainingBlock />
+      <TrainingBlock id='trainingBlock_1' />
+      <TrainingBlock id='trainingBlock_2' />
+      <TrainingBlock id='trainingBlock_3' />
+      <TrainingBlock id='trainingBlock_4' />
       <Footer />
       <CopyrightFooter />
     </div>
-
   );
 };
 

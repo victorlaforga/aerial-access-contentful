@@ -3,7 +3,6 @@ import FacebookLogo from '../images/facebook-white.png';
 import InstaLogo from '../images/insta-white.png';
 import LinkedLogo from '../images/linkedin-white.png';
 
-
 const Footer = () => {
   return (
     <section className='footer-container'>
@@ -50,14 +49,12 @@ const Footer = () => {
           <a>Trawlerkade 60</a>
           <a>1976 CC IJmuiden</a>
           <a>+31 255500392</a>
-          <a href="mailto:info@aerial-access.com">info@aerial-access.com</a>
-          <div className="social-icons footer">
-                    <img src={FacebookLogo} alt="" />
-                    <img src={InstaLogo} alt="" />
-                    <img src={LinkedLogo} alt="" />
-
-              
-                </div>
+          <a href='mailto:info@aerial-access.com'>info@aerial-access.com</a>
+          <div className='social-icons footer'>
+            <img src={FacebookLogo} alt='' />
+            <img src={InstaLogo} alt='' />
+            <img src={LinkedLogo} alt='' />
+          </div>
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const ProductPage = (props) => {
   if (!props) return <></>;
@@ -17,6 +17,8 @@ const ProductPage = (props) => {
     description2,
     pdf,
   } = props;
+
+  const [mainImageSrc, setImage] = useState(image?.file?.url || '');
 
   return (
     <section className='single-product-container'>
@@ -52,7 +54,6 @@ const ProductPage = (props) => {
           <div className='product-info-details2'>
             <h2 className='product-info-title'>{description2title}</h2>
             {description2?.internal?.content}
-            
           </div>
         </div>
         <div className='product-media'>
@@ -60,17 +61,23 @@ const ProductPage = (props) => {
             <img
               id='currentImage'
               className='main-image'
-              src={image?.file?.url}
+              src={mainImageSrc}
               alt=''
             />
             {images && images.length ? (
               <div className='preview-images'>
+                <img
+                  className='preview-image'
+                  src={image?.file?.url}
+                  onClick={() => setImage(image?.file?.url)}
+                />
                 {images.map(({ id, file }) => (
                   <img
                     key={id}
                     className='preview-image'
                     src={file?.url}
                     alt=''
+                    onClick={() => setImage(file?.url)}
                   />
                 ))}
               </div>

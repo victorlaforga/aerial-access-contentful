@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from './navigation';
 import '../styles/styles.scss';
 import Banner from './banner-desktop';
-import SystemHomeHero from './systems/system-home-menu'
+import SystemHomeHero from './systems/system-home-menu';
 import Footer from './footer';
 import CopyrightFooter from './copyright-footer';
 import NavMobile from './nav-mobile';
@@ -18,18 +18,14 @@ const StyledLayout = {
 
 const LayoutSystemsHome = ({ children }) => {
   return (
-  
-
-
     <div style={StyledLayout}>
       <Navigation />
       <NavMobile />
-    
-  
+
       <Banner />
-<SystemHomeHero />
+      <SystemHomeHero />
       <Footer />
-      <CopyrightFooter /> 
+      <CopyrightFooter />
     </div>
   );
 };
