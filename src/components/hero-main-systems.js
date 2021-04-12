@@ -52,7 +52,7 @@ class HeroMainSystems extends Component {
         {menuVis ? (
           <> </>
         ) : (
-          <article>
+          <article className="mobile home-hero-mobile">
             <div className={`mobile container-info-mobile system`}>
               <p>
                 Het gebruik van rope access is efficiënt en effectief. Door het

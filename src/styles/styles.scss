@@ -546,8 +546,8 @@ body {
           width: auto;
           max-width: 50%;
           height: auto;
-          position: absolute;
-          right: 0;
+          // position: absolute;
+          // right: 0;
         }
       }
     }
@@ -1271,6 +1271,25 @@ section.intro-over-ons {
   background-image: url('../images/Headers_1140x390px9.jpg');
 }
 
+input[type=textarea] {
+  height: 115px !important;
+}
+
+.submit-form-btn {
+  width: 115px;
+  border-radius: 31px;
+  background-color: #ff7300;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 700;
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+
+}
+
 .contact-main {
   .container {
     .contact-container {
@@ -1280,14 +1299,33 @@ section.intro-over-ons {
       .contact-info {
         min-width: 200px;
 
-        .social-icons {}
+        h2 {
+          font-size: 16px;
+          font-family: "Din-Bold";
+        }
+
+        .social-icons {
+          margin-top: 20px;
+
+          img:nth-of-type(1) {
+            margin-left: 0;
+          }
+
+          img {
+            margin: 0 4px;
+          }
+        }
       }
 
       .contact-form {
+        width: -webkit-fill-available;
+        max-width: 500px;
+
         form {
           display: flex;
           flex-direction: column;
           max-width: 440px;
+          position: relative;
 
           label {
             font-size: 14px;
@@ -1310,7 +1348,10 @@ section.intro-over-ons {
     }
   }
 }
+.bus-img {
+  max-width: 750px;
 
+}
 @media only screen and (max-width: 1275px) {
   .container {
     padding: 0 30px;
@@ -1371,18 +1412,43 @@ a.sign-up-training {
   background-color: #007ec2;
   color: white;
 }
-
+.ias-logo {
+  object-fit: contain;
+  max-width: 200px;
+}
 @media only screen and (max-width: 875px) {
   .mobile {
     display: block !important;
   }
+  .ias-logo {
+    object-fit: contain;
+    max-width: 35%;
+  }
+  .bus-img {
+    object-fit: contain;
+    width: auto;
+  max-width: 100%;
+  }
+.contact-main {
+  .container {
+    .contact-container {
+      flex-direction: column;
+      margin: 35px auto;
+      .contact-form {
+        margin: 25px auto;
+      }
+    }
 
+  }
+}
   h1.titelSystemsHero {
     margin-left: 0px !important;
     position: absolute;
     left: 25px;
   }
-  .banner-page.emergency {
+
+  .banner-page.emergency,
+  .banner-page.trainingen {
     .container {
 
       h1 {
@@ -1393,30 +1459,34 @@ a.sign-up-training {
       }
     }
   }
-.footer-project.emergency {
-.container {
-  max-width: 100%;
-  margin-left: 0;
-  img {
-    width: auto;
-    object-fit: contain;
-    height: auto;
-  }
-}
-}
 
-.emergency-main-page {
-  .container {
-    margin: 40px auto;
-    flex-direction: column;
-    .emergency-images {
+  .footer-project.emergency {
+    .container {
+      max-width: 100%;
+      margin-left: 0;
+
       img {
-        max-width: 100%;
+        width: auto;
+        object-fit: contain;
+        height: auto;
       }
     }
   }
 
-}
+  .emergency-main-page {
+    .container {
+      margin: 40px auto;
+      flex-direction: column;
+
+      .emergency-images {
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+
+  }
+
   .training-block {
     .container {
       flex-direction: column;
@@ -1577,6 +1647,7 @@ a.sign-up-training {
           margin-bottom: 0 !important;
           width: auto;
           margin: 15px auto;
+          object-fit: contain;
           height: auto;
         }
       }
@@ -1908,6 +1979,10 @@ div.firstBarDiv {
     max-width: 250px;
   }
 
+  section.banner {
+    height: 52px;
+  }
+
   .banner-page {
     height: 275px;
 
@@ -2150,10 +2225,11 @@ h1.titelSystemsHero {
   color: #ff7300 !important;
   font-size: 24px !important;
   padding: 0 !important;
-  margin-left: -30px ;
+  margin-left: -30px;
   margin-bottom: 0 !important;
 
 }
+
 .systemContainerMobileInfo {
   height: auto;
   background: rgba(255, 255, 255, 0.9);
@@ -2172,15 +2248,20 @@ h1.titelSystemsHero {
 .extraInfoMobile {
   .container-info-mobile {
     position: relative;
-      a {
-       text-align: center;
-       transform: translate(-50%, -50%);
-        width: 150px;
-        height: 24px;
-        position: absolute;
-  top: 35%;
-  left: 50%;
-   
+
+    a {
+      text-align: center;
+      transform: translate(-50%, -50%);
+      width: 150px;
+      height: 24px;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+
     }
   }
+}
+
+.home-hero-mobile {
+  margin-top: -10px;
 }

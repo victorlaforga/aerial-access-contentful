@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import FacebookLogo from '../../images/facebooklogo.png';
 import InstagramLogo from '../../images/instagramlogo.png';
 import LinkedinLogo from '../../images/linkedinlogo.png';
+// import GoogleApiWrapper from './google-map';
+import BusImg from '../../images/contact_781x371px.jpg'
 
 const ContactMain = (props) => {
   const [form, setForm] = useState({});
@@ -34,13 +36,13 @@ const ContactMain = (props) => {
       .then(() => {
         setResponse({
           status: 'success',
-          message: 'Message sent',
+          message: 'Bericht verstuurd!',
         });
       })
       .catch((error) => {
         setResponse({
           status: 'success',
-          message: 'Message not sent',
+          message: 'Bericht is niet verzonden vanwege een error.',
         });
       });
   };
@@ -108,7 +110,7 @@ const ContactMain = (props) => {
                   onChange={handleInputChange}
                 />
               </label>
-              <button type='submit'>Verstuur</button>
+              <button className="submit-form-btn" type='submit'>Verstuur</button>
             </form>
             {response ? (
               <div
@@ -122,38 +124,19 @@ const ContactMain = (props) => {
               <></>
             )}
           </div>
+          <div>
+      {/* <GoogleApiWrapper /> */}
+      GOOGLE MAPS API 
+          </div>
+          
         </div>
+        
+
+    <img className="bus-img" src={BusImg} alt=""/>
       </div>
     </section>
   );
 };
 
-// const ContactMain = () => {
-// return (
-// <section className='contact-main'>
-// <div className='container'>
-// <div className="contact-container">
-// <div className="contact-info">
-// <h2>AERIAL ACCESS</h2>
-// <p>Trawlerkade 60</p>
-// <p>1976 CC IJmuiden</p>
-// <p>info@aerial-access.com</p>
-// <br />
-// <p>KvK. 000000000000</p>
-// <p>BTW Nr. 0000000000</p>
-// <div className="social-icons">
-// <img src={FacebookLogo} alt="" />
-// <img src={InstagramLogo} alt="" />
-// <img src={LinkedinLogo} alt="" />
-// </div>
-// </div>
-// <div className="contact-form">
-// <label htmlFor=""></label>
-// </div>
-// </div>
-// </div>
-// </section>
-// );
-// };
 
 export default ContactMain;

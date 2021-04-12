@@ -11,38 +11,38 @@ const Footer = () => {
           <a>
             <h3>Rope access projects</h3>
           </a>
-          <a>Bouw & Infra Structuur</a>
-          <a>Wind</a>
-          <a>Maritiem</a>
-          <a>Olie & Gas</a>
+          <a href="/systems/bouw-infra/">Bouw & Infra Structuur</a>
+          <a href="/systems/bouw-infra/">Wind</a>
+          <a href="/systems/bouw-infra/">Maritiem</a>
+          <a href="/systems/bouw-infra/">Olie & Gas</a>
         </div>
         <div className='footer --col2'>
           <a href=''>
             <h3>AREIAL ACCESS SYSTEMS</h3>
           </a>
-          <a>Bouw & Infra Structuur</a>
-          <a>Industrie</a>
+          <a href="/systems/bouw-infra/">Bouw & Infra Structuur</a>
+          <a href="/systems/industrie/">Industrie</a>
           <a>Advies & Service</a>
           <br />
-          <a href=''>
+          <a href='/producten/'>
             <h3>Producten</h3>
           </a>
-          <a>Railsysteem</a>
-          <a>Davids- & Deviation Arm</a>
-          <a>Ankerpoints</a>
+          <a href="/producten/">Railsysteem</a>
+          <a href="/producten/">Davids- & Deviation Arm</a>
+          <a href="/producten/">Ankerpoints</a>
         </div>
         <div className='footer --col3'>
-          <a>
+          <a href="/emergency/">
             <h3>Emergency Response Team</h3>
           </a>
           <br />
-          <a>
+          <a href="/trainingen/">
             {' '}
             <h3>Trainigen</h3>
           </a>
         </div>
         <div className='footer --col4'>
-          <a>
+          <a href="/contact/">
             {' '}
             <h3>Contact</h3>
           </a>
@@ -51,9 +51,10 @@ const Footer = () => {
           <a>+31 255500392</a>
           <a href='mailto:info@aerial-access.com'>info@aerial-access.com</a>
           <div className='social-icons footer'>
-            <img src={FacebookLogo} alt='' />
-            <img src={InstaLogo} alt='' />
-            <img src={LinkedLogo} alt='' />
+           <a href="/emergency/"> <img src={FacebookLogo} alt='' /></a>
+           <a href="/emergency/"> <img src={InstaLogo} alt='' /></a>
+           <a href="/emergency/"> <img src={LinkedLogo} alt='' /></a>
+
           </div>
         </div>
       </div>

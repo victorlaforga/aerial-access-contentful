@@ -18,30 +18,30 @@ const NavMobile = () => {
       {isOpen ? (
         <section className='nav-container-mobile mobile'>
           <div>
-            <a href='/' className='orange-nav'>
+            <a href='/projecten/' className='orange-nav'>
               ROPE ACCESS PROJECT
             </a>
             <hr />
 
             <h2>AERIAL ACCESS SYSTEM</h2>
-            <a href='/'>Bouw & infra structuur</a>
-            <a href='/'>Industrie</a>
-            <a href='/'>Advies & service</a>
-            <a href='/'>Producten</a>
+            <a href='/systems/bouw-infra/'>Bouw & infra structuur</a>
+            <a href='/systems/industrie/'>Industrie</a>
+            <a href='/systems/advies-service/'>Advies & service</a>
+            <a href='/systems/producten/'>Producten</a>
             <hr />
-            <a href='/' className='orange-nav'>
+            <a href='/emergency/' className='orange-nav'>
               Emergency responseteam
             </a>
             <hr />
-            <a href='/' className='orange-nav'>
+            <a href='/trainingen/' className='orange-nav'>
               Aerial access training
             </a>
             <hr />
-            <a href='/' className='orange-nav'>
+            <a href='/over-ons/' className='orange-nav'>
               Over ons
             </a>
             <hr />
-            <a href='/' className='orange-nav'>
+            <a href='/contact/' className='orange-nav'>
               Contact
             </a>
             <hr />

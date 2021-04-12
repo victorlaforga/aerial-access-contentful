@@ -1,10 +1,10 @@
 import React from 'react';
-
+import IasLogo from '../../images/logo-ias.png'
 const FooterProject = () => {
 return (
 <section className='footer-project'>
     <div className="container">
-        <a href="">tijdelijke oplossing</a>
+    <img className="ias-logo" src={IasLogo}/>
         <div className="footer-project-content">
             <h2>
                 Verhuur

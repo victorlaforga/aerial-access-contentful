@@ -24,6 +24,7 @@
     "gatsby-source-contentful": "~3.0.0",
     "gatsby-source-filesystem": "^2.10.0",
     "gatsby-transformer-sharp": "^2.11.0",
+    "google-maps-react": "^2.0.6",
     "lodash": "^4.17.21",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
