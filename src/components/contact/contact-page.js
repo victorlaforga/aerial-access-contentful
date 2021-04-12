@@ -60,9 +60,9 @@ const ContactMain = (props) => {
             <p>KvK. 000000000000</p>
             <p>BTW Nr. 0000000000</p>
             <div className='social-icons'>
-              <img src={FacebookLogo} alt='' />
-              <img src={InstagramLogo} alt='' />
-              <img src={LinkedinLogo} alt='' />
+              <a href="https://www.facebook.com/Aerial-Access-104703344550697/"><img src={FacebookLogo} alt='' /></a>
+              <a href="https://instagram.com/aerial_access_?igshid=1p8xvvrpa0oc5"><img src={InstagramLogo} alt='' /></a>
+              <a href="https://www.linkedin.com/in/raymond-burger-8832a91a7/"> <img src={LinkedinLogo} alt='' /></a>
             </div>
           </div>
           <div className='contact-form'>

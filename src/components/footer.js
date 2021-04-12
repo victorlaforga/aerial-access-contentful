@@ -51,9 +51,9 @@ const Footer = () => {
           <a>+31 255500392</a>
           <a href='mailto:info@aerial-access.com'>info@aerial-access.com</a>
           <div className='social-icons footer'>
-           <a href="/emergency/"> <img src={FacebookLogo} alt='' /></a>
-           <a href="/emergency/"> <img src={InstaLogo} alt='' /></a>
-           <a href="/emergency/"> <img src={LinkedLogo} alt='' /></a>
+           <a href="https://instagram.com/aerial_access_?igshid=1p8xvvrpa0oc5"> <img src={FacebookLogo} alt='' /></a>
+           <a href="https://www.facebook.com/Aerial-Access-104703344550697/"> <img src={InstaLogo} alt='' /></a>
+           <a href="https://www.linkedin.com/in/raymond-burger-8832a91a7/"> <img src={LinkedLogo} alt='' /></a>
 
           </div>
         </div>
