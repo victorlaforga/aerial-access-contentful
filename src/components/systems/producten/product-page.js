@@ -86,7 +86,7 @@ const ProductPage = (props) => {
             )}
           </div>
           <div className='content-block-systems__buttons'>
-            <a href=''>ADVIES & SERVICES</a>
+            <a href='/systems/advies-service/'>ADVIES & SERVICES</a>
 
             {pdf ? (
               <a target='_blank' href={pdf?.file?.url}>
