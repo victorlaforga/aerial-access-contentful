@@ -1348,7 +1348,6 @@ input[type='textarea'] {
           }
 
           input {
-            min-width: 280px;
             max-width: 435px;
             width: -webkit-fill-available;
             background: rgba(0, 126, 194, 0.1);
@@ -1432,6 +1431,13 @@ a.sign-up-training {
 @media only screen and (max-width: 875px) {
   .mobile {
     display: block !important;
+  }
+  .banner-page .container h1.titelMobileProjects {
+    font-size: 25px !important;
+  line-height: 34px !important;
+  font-family: "Din-Light" !important;
+  margin-top: 30px !important;
+  
   }
   .ias-logo {
     object-fit: contain;
@@ -2278,3 +2284,13 @@ h1.titelSystemsHero {
 .home-hero-mobile {
   margin-top: -10px;
 }
+
+
+#gatsby-focus-wrapper > div > section.hero.systems > div > div > div > div > article > div.hero-element-titel {
+  justify-content: start;
+ h1 {
+  margin-left: 0;
+  
+ }
+}
+

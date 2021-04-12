@@ -32,7 +32,7 @@ class HeroMainSystemsAdviesEnService extends Component {
             </div>
           </article>
           <div className='hero-element-image systems'>
-            <a href='/systems/' className='hero-element-image__link'>
+            <a href='/systems/advies-service/' className='hero-element-image__link'>
               bekijk hier
             </a>
           </div>
@@ -44,7 +44,7 @@ class HeroMainSystemsAdviesEnService extends Component {
               <div className="systemContainerMobileInfo"> <p>Het Emergency Response Team van Aerial Access staat voor het leveren van professionele rope rescue-specialisten aan bedrijven en voor hun mensen. Bij werkzaamheden op hoogte, diepte en/of in besloten ruimtes raden wij een standby reddingsteam aan. </p> </div>
             <div className={`mobile container-info-mobile system`}>
       
-              <a href='/systems/'>bekijk hier</a>
+              <a href='/systems/advies-service/'>bekijk hier</a>
    
 
             </div>

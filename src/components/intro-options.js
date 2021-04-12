@@ -46,7 +46,7 @@ const IntroOption = () => {
           >
             Maritiem
           </a>
-          <a className='introOption' href=''  onClick={() => hangleClick('95a8fed2-f08a-5be3-bdaa-ba2ecf7f8708')}>
+          <a className='introOption' onClick={() => hangleClick('95a8fed2-f08a-5be3-bdaa-ba2ecf7f8708')}>
             Olie & Gas
           </a>
         </div>
