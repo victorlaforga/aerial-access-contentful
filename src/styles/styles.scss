@@ -209,11 +209,13 @@ body {
 
 .hero {
   height: auto;
-  background: linear-gradient(177.72deg,
-      #001e50 -85.11%,
-      rgba(0, 30, 80, 0.44) -85.09%,
-      #001e50 100.99%,
-      rgba(0, 30, 80, 0.58) 101.01%);
+  background: linear-gradient(
+    177.72deg,
+    #001e50 -85.11%,
+    rgba(0, 30, 80, 0.44) -85.09%,
+    #001e50 100.99%,
+    rgba(0, 30, 80, 0.58) 101.01%
+  );
 
   .container {
     margin-bottom: 25px;
@@ -275,9 +277,11 @@ body {
   }
 
   .hero-element-image {
-    background-image: linear-gradient(0deg,
+    background-image: linear-gradient(
+        0deg,
         rgba(115, 164, 0, 0.5),
-        rgba(115, 164, 0, 0.5)),
+        rgba(115, 164, 0, 0.5)
+      ),
       url('../images/Homepage\ diensten_280x196px.jpg');
     position: absolute;
     bottom: 0;
@@ -364,9 +368,11 @@ body {
 //  FOOTER
 .footer-container {
   width: 100%;
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+      to right,
       rgba(0, 30, 80, 0.94),
-      rgba(0, 30, 80, 0.94)),
+      rgba(0, 30, 80, 0.94)
+    ),
     url('../images/beeld\ foooter.svg') !important;
   background-position-x: center;
 
@@ -601,10 +607,12 @@ body {
 }
 
 .hero.systems {
-  background-image: linear-gradient(180deg,
+  background-image: linear-gradient(
+      180deg,
       rgba(0, 30, 80, 0.7) 0%,
       rgba(0, 30, 80, 0.343) 63.54%,
-      rgba(0, 30, 80, 0.7) 100%),
+      rgba(0, 30, 80, 0.7) 100%
+    ),
     url('../images/systems-banner.svg') !important;
 
   .container-systems {
@@ -816,9 +824,14 @@ body {
   fill: #001e50;
 }
 
+.load-current-bar a {
+  cursor: pointer;
+}
+
 .loading-bar:hover,
 .loading-bar::selection,
-.loading-bar:active {
+.loading-bar:active,
+.load-current-bar .active svg {
   fill: #ff7300;
 }
 
@@ -1047,9 +1060,11 @@ span.load-current-bar--thirdTitle {
 
 // BANNER EMERGENCY
 .banner-page.emergency {
-  background-image: linear-gradient(90deg,
+  background-image: linear-gradient(
+      90deg,
       rgba(190, 0, 0, 1) 27.2%,
-      rgba(221, 170, 170, 0.486) 80%),
+      rgba(221, 170, 170, 0.486) 80%
+    ),
     url('../images/Headers_1140x390px6.jpg');
   mix-blend-mode: multiply;
 }
@@ -1271,7 +1286,7 @@ section.intro-over-ons {
   background-image: url('../images/Headers_1140x390px9.jpg');
 }
 
-input[type=textarea] {
+input[type='textarea'] {
   height: 115px !important;
 }
 
@@ -1287,7 +1302,6 @@ input[type=textarea] {
   position: absolute;
   bottom: -50px;
   right: 0;
-
 }
 
 .contact-main {
@@ -1301,7 +1315,7 @@ input[type=textarea] {
 
         h2 {
           font-size: 16px;
-          font-family: "Din-Bold";
+          font-family: 'Din-Bold';
         }
 
         .social-icons {
@@ -1349,7 +1363,6 @@ input[type=textarea] {
 }
 .bus-img {
   max-width: 750px;
-
 }
 @media only screen and (max-width: 1275px) {
   .container {
@@ -1433,20 +1446,19 @@ a.sign-up-training {
   .bus-img {
     object-fit: contain;
     width: auto;
-  max-width: 100%;
+    max-width: 100%;
   }
-.contact-main {
-  .container {
-    .contact-container {
-      flex-direction: column;
-      margin: 35px auto;
-      .contact-form {
-        margin: 25px auto;
+  .contact-main {
+    .container {
+      .contact-container {
+        flex-direction: column;
+        margin: 35px auto;
+        .contact-form {
+          margin: 25px auto;
+        }
       }
     }
-
   }
-}
   h1.titelSystemsHero {
     margin-left: 0px !important;
     position: absolute;
@@ -1456,10 +1468,9 @@ a.sign-up-training {
   .banner-page.emergency,
   .banner-page.trainingen {
     .container {
-
       h1 {
         font-size: 16px !important;
-        font-family: "Din-Bold" !important;
+        font-family: 'Din-Bold' !important;
         line-height: 24px !important;
         margin-top: 35px !important;
       }
@@ -1490,7 +1501,6 @@ a.sign-up-training {
         }
       }
     }
-
   }
 
   .training-block {
@@ -1606,9 +1616,11 @@ a.sign-up-training {
 
   .mobile-image-home {
     height: 265px;
-    background-image: linear-gradient(0deg,
+    background-image: linear-gradient(
+        0deg,
         rgba(255, 115, 0, 0.5),
-        rgba(255, 115, 0, 0.5)),
+        rgba(255, 115, 0, 0.5)
+      ),
       url('../images/mobile-home-img.jpg') !important;
     background-position-x: 80%;
     background-size: cover;
@@ -2071,23 +2083,29 @@ div.firstBarDiv {
 }
 
 .hero-element-image.systems {
-  background-image: linear-gradient(0deg,
+  background-image: linear-gradient(
+      0deg,
       rgba(255, 115, 0, 0.5),
-      rgba(255, 115, 0, 0.5)),
+      rgba(255, 115, 0, 0.5)
+    ),
     url('../images/Homepage\ diensten_280x196px2.jpg');
 }
 
 .hero-element-image.emergency {
-  background-image: linear-gradient(0deg,
+  background-image: linear-gradient(
+      0deg,
       rgba(153, 37, 37, 0.5),
-      rgba(153, 37, 37, 0.5)),
+      rgba(153, 37, 37, 0.5)
+    ),
     url('../images/Homepage\ diensten_280x196px3.jpg');
 }
 
 .hero-element-image.training {
-  background-image: linear-gradient(0deg,
+  background-image: linear-gradient(
+      0deg,
       rgba(0, 126, 194, 0.5),
-      rgba(0, 126, 194, 0.5)),
+      rgba(0, 126, 194, 0.5)
+    ),
     url('../images/Homepage\ diensten_280x196px4.jpg');
 }
 
@@ -2226,14 +2244,12 @@ div.mobile-menu {
   }
 }
 
-
 h1.titelSystemsHero {
   color: #ff7300 !important;
   font-size: 24px !important;
   padding: 0 !important;
   margin-left: -30px;
   margin-bottom: 0 !important;
-
 }
 
 .systemContainerMobileInfo {
@@ -2244,10 +2260,8 @@ h1.titelSystemsHero {
   p {
     padding: 25px;
     color: #001e50;
-    font-family: "Din-Bold";
+    font-family: 'Din-Bold';
     line-height: 20px;
-
-
   }
 }
 
@@ -2263,7 +2277,6 @@ h1.titelSystemsHero {
       position: absolute;
       top: 35%;
       left: 50%;
-
     }
   }
 }
@@ -2272,6 +2285,7 @@ h1.titelSystemsHero {
   margin-top: -10px;
 }
 
+
 #gatsby-focus-wrapper > div > section.hero.systems > div > div > div > div > article > div.hero-element-titel {
   justify-content: start;
  h1 {
@@ -2279,3 +2293,4 @@ h1.titelSystemsHero {
   
  }
 }
+

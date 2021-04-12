@@ -12,7 +12,9 @@ const tabs = [
   {
     title: 'Advies & verkoop',
     desktopTitle: (props) => (
-      <div className='load-current-bar--long-title firstBarDiv'>
+      <div
+        className={`load-current-bar--long-title firstBarDiv ${props.className}`}
+      >
         <ArrowstartSVG className='loading-bar firstBar' />
         <a className='link-loading-bar' onClick={props.onClick}>
           <span className='load-current-bar--firstTitle'>
@@ -53,7 +55,7 @@ const tabs = [
   {
     title: 'Montage',
     desktopTitle: (props) => (
-      <div>
+      <div className={`${props.className}`}>
         <ArrowrestSVG className='loading-bar secondBar' id='testSVG' />
         <a className='link-loading-bar' onClick={props.onClick}>
           <span className='load-current-bar--secondTitle' id='testtitle'>
@@ -93,7 +95,7 @@ const tabs = [
   {
     title: 'service & onderhoud',
     desktopTitle: (props) => (
-      <div className='load-current-bar--long-title'>
+      <div className={`load-current-bar--long-title ${props.className}`}>
         <ArrowrestSVG className='loading-bar thirdBar' />
         <a className='link-loading-bar' onClick={props.onClick}>
           <span className='load-current-bar--thirdTitle'>
@@ -133,7 +135,7 @@ const tabs = [
   {
     title: 'training',
     desktopTitle: (props) => (
-      <div>
+      <div className={`${props.className}`}>
         <ArrowrestSVG className='loading-bar fourthBar' />
         <a className='link-loading-bar' onClick={props.onClick}>
           <span className='load-current-bar--fourthTitle'>Training</span>
@@ -170,7 +172,7 @@ const tabs = [
   {
     title: 'project',
     desktopTitle: (props) => (
-      <div>
+      <div className={`${props.className}`}>
         <ArrowrestSVG className='loading-bar fifthBar' />
         <a className='link-loading-bar' onClick={props.onClick}>
           <span className='load-current-bar--fifthTitle'>Projects</span>
@@ -236,6 +238,7 @@ const MainPageAdvies = () => {
               <Title
                 key={`tabsNaviDesktop${index}`}
                 onClick={() => setActiveTab(index)}
+                className={activeTab === index ? 'active' : ''}
               />
             ))}
           </div>
