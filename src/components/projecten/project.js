@@ -3,6 +3,7 @@ import uniqueId from 'lodash/uniqueId';
 
 const Project = (props) => {
   const {
+    id,
     title,
     images,
     image,
@@ -16,7 +17,7 @@ const Project = (props) => {
   } = image || { file: { url: '' } };
 
   return (
-    <section className='project-block'>
+    <section className='project-block' id={id}>
       <div className='project-block--container container'>
         <div className='project-block--textImage project-element'>
           <h2>{title}</h2>
@@ -30,7 +31,7 @@ const Project = (props) => {
           {activities && activities.length ? (
             <>
               <h3>Werkzaamheden</h3>
-              <br className="mobile-hide" />
+              <br className='mobile-hide' />
               {activities.map((activity) => (
                 <div key={uniqueId()} className='works'>
                   <span>

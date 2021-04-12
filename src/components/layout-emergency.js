@@ -24,9 +24,9 @@ const LayoutEmergency = () => {
       <Navigation />
       <Banner />
       <NavMobile />
-     <EmergencyBanner />
-<EmergencyMain />
-<FooterEmergency />
+      <EmergencyBanner />
+      <EmergencyMain />
+      <FooterEmergency />
       <Footer />
       <CopyrightFooter />
     </div>

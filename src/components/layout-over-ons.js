@@ -18,20 +18,18 @@ const StyledLayout = {
   gridTemplateColumns: '100%',
 };
 
-
-const OverOns = ({ }) => {
+const OverOns = ({}) => {
   return (
     <div style={StyledLayout}>
       <Navigation />
       <NavMobile />
       <Banner />
-<OverOnsBanner />
-<OverOnsIntro />
-<OverOnsMain />
+      <OverOnsBanner />
+      <OverOnsIntro />
+      <OverOnsMain />
       <Footer />
       <CopyrightFooter />
     </div>
-
   );
 };
 

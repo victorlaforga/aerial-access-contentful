@@ -110,7 +110,30 @@ body {
     position: absolute;
     color: #001e50;
     right: 0;
-    bottom: -8px;
+    bottom: -19px;
+
+    ul {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+
+      li {
+        padding-bottom: 11px;
+
+        &:hover {
+          .sub-nav {
+            display: block;
+          }
+        }
+
+        .sub-nav {
+          margin-top: 11px;
+          display: none;
+          z-index: 100;
+        }
+      }
+    }
 
     a {
       margin: 0 15px;
@@ -130,7 +153,6 @@ body {
   width: 100%;
   height: 30px;
   background-color: #ff7300;
-  position: relative;
 
   div.container {
     margin: 0 auto;
@@ -180,7 +202,6 @@ body {
 
 // Hero Main section
 .desktop-hero-logo {
-
   width: 230px;
   left: 17px;
   top: 19px;
@@ -188,11 +209,13 @@ body {
 
 .hero {
   height: auto;
-  background: linear-gradient(177.72deg,
-      #001e50 -85.11%,
-      rgba(0, 30, 80, 0.44) -85.09%,
-      #001e50 100.99%,
-      rgba(0, 30, 80, 0.58) 101.01%);
+  background: linear-gradient(
+    177.72deg,
+    #001e50 -85.11%,
+    rgba(0, 30, 80, 0.44) -85.09%,
+    #001e50 100.99%,
+    rgba(0, 30, 80, 0.58) 101.01%
+  );
 
   .container {
     margin-bottom: 25px;
@@ -253,9 +276,11 @@ body {
   }
 
   .hero-element-image {
-    background-image: linear-gradient(0deg,
+    background-image: linear-gradient(
+        0deg,
         rgba(115, 164, 0, 0.5),
-        rgba(115, 164, 0, 0.5)),
+        rgba(115, 164, 0, 0.5)
+      ),
       url('../images/Homepage\ diensten_280x196px.jpg');
     position: absolute;
     bottom: 0;
@@ -342,9 +367,11 @@ body {
 //  FOOTER
 .footer-container {
   width: 100%;
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+      to right,
       rgba(0, 30, 80, 0.94),
-      rgba(0, 30, 80, 0.94)),
+      rgba(0, 30, 80, 0.94)
+    ),
     url('../images/beeld\ foooter.svg') !important;
   background-position-x: center;
 
@@ -575,10 +602,12 @@ body {
 }
 
 .hero.systems {
-  background-image: linear-gradient(180deg,
+  background-image: linear-gradient(
+      180deg,
       rgba(0, 30, 80, 0.7) 0%,
       rgba(0, 30, 80, 0.343) 63.54%,
-      rgba(0, 30, 80, 0.7) 100%),
+      rgba(0, 30, 80, 0.7) 100%
+    ),
     url('../images/systems-banner.svg') !important;
 
   .container-systems {
@@ -695,8 +724,6 @@ body {
             }
           }
         }
-
-
       }
     }
 
@@ -800,7 +827,6 @@ body {
 
 span.load-current-bar--firstTitle,
 span.load-current-bar--thirdTitle {
-
   top: -58px;
 }
 
@@ -973,6 +999,7 @@ span.load-current-bar--thirdTitle {
 
         .main-image {
           width: -webkit-fill-available;
+          max-width: 100%;
         }
 
         div.preview-images {
@@ -1023,9 +1050,11 @@ span.load-current-bar--thirdTitle {
 
 // BANNER EMERGENCY
 .banner-page.emergency {
-  background-image: linear-gradient(90deg,
+  background-image: linear-gradient(
+      90deg,
       rgba(190, 0, 0, 1) 27.2%,
-      rgba(221, 170, 170, 0.486) 80%),
+      rgba(221, 170, 170, 0.486) 80%
+    ),
     url('../images/Headers_1140x390px6.jpg');
   mix-blend-mode: multiply;
 }
@@ -1256,7 +1285,8 @@ section.intro-over-ons {
       .contact-info {
         min-width: 200px;
 
-        .social-icons {}
+        .social-icons {
+        }
       }
 
       .contact-form {
@@ -1298,7 +1328,7 @@ section.intro-over-ons {
 }
 // MOBILE NAV
 .nav-container-mobile {
-  background: #001E50;
+  background: #001e50;
   color: white;
 }
 hr {
@@ -1307,7 +1337,7 @@ hr {
 }
 
 .nav-container-mobile div a.orange-nav {
-  color: #FF7300;
+  color: #ff7300;
   font-size: 20px;
   line-height: 26px;
   text-decoration: none;
@@ -1334,12 +1364,12 @@ hr {
   }
 }
 a.sign-up-training {
-margin-top: 30px;
+  margin-top: 30px;
   text-transform: uppercase;
   padding: 8px 25px;
   border-radius: 31px;
   display: inline-block;
-  background-color: #007EC2;
+  background-color: #007ec2;
   color: white;
 }
 @media only screen and (max-width: 875px) {
@@ -1352,7 +1382,6 @@ margin-top: 30px;
       .training-details {
         margin-top: 25px;
         margin-left: 0px;
-
       }
     }
   }
@@ -1363,29 +1392,28 @@ margin-top: 30px;
       h1 {
         font-size: 36px;
         line-height: 48px;
-        font-family: "Din" !important;
+        font-family: 'Din' !important;
         font-weight: 700 !important;
       }
     }
   }
-.banner-page.over-ons {
-
-  .banner-page--container {
-    position: relative;
-    h1 {
-      font-size: 40px;
-      line-height: 40px;
-      margin-top: 40px !important;
-    }
-    p {
-      position: absolute;
-      font-family: "Din";
-      color: white;
-      font-weight: 700;
-      bottom: -120px;
+  .banner-page.over-ons {
+    .banner-page--container {
+      position: relative;
+      h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 40px !important;
+      }
+      p {
+        position: absolute;
+        font-family: 'Din';
+        color: white;
+        font-weight: 700;
+        bottom: -120px;
+      }
     }
   }
-}
   .container-main-image {
     margin-top: 15px;
   }
@@ -1393,21 +1421,19 @@ margin-top: 30px;
   .single-product-container {
     .product-page-container {
       flex-direction: column;
-
     }
   }
-.intro-over-ons {
-  .container {
-    div {
-      margin: 50px 0px !important;
+  .intro-over-ons {
+    .container {
+      div {
+        margin: 50px 0px !important;
+      }
     }
   }
-}
   .description-about {
     flex-direction: column;
 
     div.description {
-
       max-width: 100% !important;
 
       img {
@@ -1415,7 +1441,6 @@ margin-top: 30px;
         display: flex;
       }
     }
-
   }
 
   .product-collection {
@@ -1444,8 +1469,6 @@ margin-top: 30px;
     display: none;
   }
 
-
-
   .copyright-footer {
     font-size: 14px;
   }
@@ -1456,9 +1479,11 @@ margin-top: 30px;
 
   .mobile-image-home {
     height: 265px;
-    background-image: linear-gradient(0deg,
+    background-image: linear-gradient(
+        0deg,
         rgba(255, 115, 0, 0.5),
-        rgba(255, 115, 0, 0.5)),
+        rgba(255, 115, 0, 0.5)
+      ),
       url('../images/mobile-home-img.jpg') !important;
     background-position-x: 80%;
     background-size: cover;
@@ -1665,13 +1690,10 @@ margin-top: 30px;
         padding-right: 0px;
         max-width: 100% !important;
 
-
-
         div p {
           font-size: 16px !important;
           line-height: 22px !important;
           margin: 6px auto !important;
-
         }
 
         p {
@@ -1686,13 +1708,11 @@ margin-top: 30px;
 
           div {
             min-width: 200px;
-
           }
 
           div:nth-of-type(2) {
             margin-left: 0px !important;
             margin-top: 0px;
-
           }
         }
       }
@@ -1712,14 +1732,11 @@ margin-top: 30px;
 
   h1.titel-systems {
     font-size: 50px !important;
-
-
   }
 
   .content-block-systems__buttons a {
     width: auto;
     max-width: 200px;
-
   }
 
   .project-block {
@@ -1733,7 +1750,6 @@ margin-top: 30px;
         h3 {
           margin-top: 15px;
         }
-
       }
 
       .project-block--text {
@@ -1749,7 +1765,6 @@ margin-top: 30px;
   }
 
   .intro-option {
-
     .intro-option--container {
       flex-direction: column-reverse;
       margin: 40px auto;
@@ -1769,7 +1784,6 @@ margin-top: 30px;
   }
 
   .footer-project {
-
     .container {
       display: flex;
       margin: 25px auto;
@@ -1778,14 +1792,12 @@ margin-top: 30px;
 
       div.footer-project-content {
         margin: 15px auto 15px 15px;
-
       }
     }
   }
 
   .main-page-systems.industrie {
     .container {
-
       .industrie-block__right {
         margin-left: 0px;
       }
@@ -1793,7 +1805,7 @@ margin-top: 30px;
       .content-block-systems {
         p.light {
           font-size: 16px;
-          font-family: "Din-Bold";
+          font-family: 'Din-Bold';
           line-height: 24px;
         }
 
@@ -1801,9 +1813,8 @@ margin-top: 30px;
           flex-direction: column;
           margin-top: 25px;
 
-
           .bold {
-            font-family: "Din";
+            font-family: 'Din';
           }
 
           .industrie-block__left {
@@ -1812,11 +1823,8 @@ margin-top: 30px;
             h2 {
               margin-top: 25px;
               margin-bottom: 10px;
-
-
             }
           }
-
         }
       }
 
@@ -1837,7 +1845,6 @@ margin-top: 30px;
   }
   .main-over-ons .container .description-about {
     margin: 0px;
-
   }
 }
 
@@ -1857,9 +1864,8 @@ div.firstBarDiv {
       h1 {
         font-size: 26px !important;
         line-height: 48px;
-        font-family: "Din" !important;
+        font-family: 'Din' !important;
         font-weight: 700 !important;
-  
       }
     }
   }
@@ -1875,22 +1881,16 @@ div.firstBarDiv {
 
 @media screen and (max-width: 655px) {
   .content-block-systems {
-
     .content-block-systems-points {
-
-
       div:nth-of-type(2) {
         margin-top: 25px !important;
-
       }
     }
   }
 }
 
-
-
 .mobile-hero-button.systems {
-  background-color: #FF7300;
+  background-color: #ff7300;
 }
 
 .mobile-nav {
@@ -1903,7 +1903,6 @@ div.firstBarDiv {
 
 .mobile {
   display: none;
-
 }
 
 .mobile-hero-logo {
@@ -1937,30 +1936,30 @@ div.firstBarDiv {
 }
 
 .hero-element-image.systems {
-
-  background-image: linear-gradient(0deg,
+  background-image: linear-gradient(
+      0deg,
       rgba(255, 115, 0, 0.5),
-      rgba(255, 115, 0, 0.5)),
+      rgba(255, 115, 0, 0.5)
+    ),
     url('../images/Homepage\ diensten_280x196px2.jpg');
-
 }
 
 .hero-element-image.emergency {
-
-  background-image: linear-gradient(0deg,
+  background-image: linear-gradient(
+      0deg,
       rgba(153, 37, 37, 0.5),
-      rgba(153, 37, 37, 0.5)),
+      rgba(153, 37, 37, 0.5)
+    ),
     url('../images/Homepage\ diensten_280x196px3.jpg');
-
 }
 
 .hero-element-image.training {
-
-  background-image: linear-gradient(0deg,
+  background-image: linear-gradient(
+      0deg,
       rgba(0, 126, 194, 0.5),
-      rgba(0, 126, 194, 0.5)),
+      rgba(0, 126, 194, 0.5)
+    ),
     url('../images/Homepage\ diensten_280x196px4.jpg');
-
 }
 
 .mobile-hero-button.emergency {
@@ -2009,13 +2008,10 @@ div.firstBarDiv {
 }
 
 .container-info-mobile.project {
-
   background-image: url('../images/Homepage\ diensten_280x196px.jpg');
-
 }
 
 .container-info-mobile.training {
-
   background-image: url('../images/Homepage\ diensten_280x196px4.jpg');
 }
 
@@ -2062,7 +2058,7 @@ div.mobile-menu {
     span {
       color: white;
       text-transform: uppercase;
-      font-family: "Din-Bold";
+      font-family: 'Din-Bold';
       font-size: 20px;
       position: absolute;
       top: 8px;
@@ -2076,5 +2072,28 @@ div.mobile-menu {
 
   span {
     left: 55px;
+  }
+}
+
+.mobile-menu-btn {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  right: 20px;
+
+  top: calc(109px / 2);
+  margin-top: -12px;
+  outline: none;
+  width: 36px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen {
+    @media (min-width: 885px) {
+      display: none;
+    }
   }
 }

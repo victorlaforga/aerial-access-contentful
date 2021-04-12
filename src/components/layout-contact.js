@@ -23,8 +23,8 @@ const ContactLayout = () => {
       <Navigation />
       <NavMobile />
       <Banner />
-<ContactBanner />
-<ContactMain />
+      <ContactBanner />
+      <ContactMain />
       <Footer />
       <CopyrightFooter />
     </div>

@@ -4,7 +4,7 @@ import '../styles/styles.scss';
 import Banner from './banner-desktop';
 import Footer from './footer';
 import BannerPage from './systems/systems-banner';
-import MainPageSystems from './systems/bouw-infra/main-page'
+import MainPageSystems from './systems/bouw-infra/main-page';
 import CopyrightFooter from './copyright-footer';
 import NavMobile from './nav-mobile';
 
@@ -17,7 +17,6 @@ const StyledLayout = {
   gridTemplateColumns: '100%',
 };
 
-
 const LayoutSystemsBouwInfra = ({ projects, children }) => {
   return (
     <div style={StyledLayout}>
@@ -25,11 +24,10 @@ const LayoutSystemsBouwInfra = ({ projects, children }) => {
       <NavMobile />
       <Banner />
       <BannerPage />
-  <MainPageSystems />
+      <MainPageSystems />
       <Footer />
       <CopyrightFooter />
     </div>
-
   );
 };
 

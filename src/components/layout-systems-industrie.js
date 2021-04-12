@@ -4,7 +4,7 @@ import '../styles/styles.scss';
 import Banner from './banner-desktop';
 import Footer from './footer';
 import IndustrieBanner from './systems/industrie-banner';
-import MainPageIndustrie from './systems/industrie/industrie-main'
+import MainPageIndustrie from './systems/industrie/industrie-main';
 import CopyrightFooter from './copyright-footer';
 import NavMobile from './nav-mobile';
 
@@ -17,7 +17,6 @@ const StyledLayout = {
   gridTemplateColumns: '100%',
 };
 
-
 const LayoutSystemsIndustrie = ({ projects, children }) => {
   return (
     <div style={StyledLayout}>
@@ -25,11 +24,10 @@ const LayoutSystemsIndustrie = ({ projects, children }) => {
       <NavMobile />
       <Banner />
       <IndustrieBanner />
-<MainPageIndustrie />
+      <MainPageIndustrie />
       <Footer />
       <CopyrightFooter />
     </div>
-
   );
 };
 

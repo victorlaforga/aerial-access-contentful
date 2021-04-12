@@ -8,7 +8,7 @@ const BannerPage = () => {
         <img className='banner-page--img' src={SVGWhite} alt='' />
         <h1>
           Het gebruik van rope access is <br />
-          efficiënt en effectief.{' '}
+          efficiënt en effectief.
         </h1>
       </div>
     </section>

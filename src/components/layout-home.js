@@ -23,7 +23,6 @@ const LayoutHome = ({ children }) => {
       <Navigation />
       <NavMobile />
       <Banner />
-
       <Hero />
       <HomeInfo />
       <Footer />
