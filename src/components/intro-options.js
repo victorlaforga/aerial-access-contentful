@@ -30,23 +30,23 @@ const IntroOption = () => {
         <div className='intro-option--links'>
           <a
             className='introOption'
-            onClick={() => hangleClick('95a8fed2-f08a-5be3-bdaa-ba2ecf7f8708')}
+            onClick={() => hangleClick('8ae985b3-c4de-5140-9836-e6b320f41e2d')}
           >
             Bouw & Infrastructuur
           </a>
           <a
             className='introOption'
-            onClick={() => hangleClick('95a8fed2-f08a-5be3-bdaa-ba2ecf7f8708')}
+            onClick={() => hangleClick('0894ff6a-6c07-5a5a-9831-803651b4225f')}
           >
             Wind
           </a>
           <a
             className='introOption'
-            onClick={() => hangleClick('95a8fed2-f08a-5be3-bdaa-ba2ecf7f8708')}
+            onClick={() => hangleClick('ce60a490-56c2-5186-bb1b-6cbb3700271e')}
           >
             Maritiem
           </a>
-          <a className='introOption' href=''>
+          <a className='introOption' href=''  onClick={() => hangleClick('95a8fed2-f08a-5be3-bdaa-ba2ecf7f8708')}>
             Olie & Gas
           </a>
         </div>

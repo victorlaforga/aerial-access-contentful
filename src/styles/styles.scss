@@ -209,13 +209,11 @@ body {
 
 .hero {
   height: auto;
-  background: linear-gradient(
-    177.72deg,
-    #001e50 -85.11%,
-    rgba(0, 30, 80, 0.44) -85.09%,
-    #001e50 100.99%,
-    rgba(0, 30, 80, 0.58) 101.01%
-  );
+  background: linear-gradient(177.72deg,
+      #001e50 -85.11%,
+      rgba(0, 30, 80, 0.44) -85.09%,
+      #001e50 100.99%,
+      rgba(0, 30, 80, 0.58) 101.01%);
 
   .container {
     margin-bottom: 25px;
@@ -237,6 +235,7 @@ body {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      justify-content: space-between;
     }
   }
 }
@@ -276,11 +275,9 @@ body {
   }
 
   .hero-element-image {
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(115, 164, 0, 0.5),
-        rgba(115, 164, 0, 0.5)
-      ),
+        rgba(115, 164, 0, 0.5)),
       url('../images/Homepage\ diensten_280x196px.jpg');
     position: absolute;
     bottom: 0;
@@ -367,11 +364,9 @@ body {
 //  FOOTER
 .footer-container {
   width: 100%;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(0, 30, 80, 0.94),
-      rgba(0, 30, 80, 0.94)
-    ),
+      rgba(0, 30, 80, 0.94)),
     url('../images/beeld\ foooter.svg') !important;
   background-position-x: center;
 
@@ -487,7 +482,7 @@ body {
   }
 }
 
-.project-block:nth-child(odd) {
+.project-block:nth-child(even) {
   background: rgba(0, 30, 80, 0.1);
 }
 
@@ -542,6 +537,8 @@ body {
         display: flex;
         align-items: flex-end;
         width: 100%;
+        position: relative;
+        justify-content: flex-end;
 
         img {
           display: block;
@@ -549,6 +546,8 @@ body {
           width: auto;
           max-width: 50%;
           height: auto;
+          position: absolute;
+          right: 0;
         }
       }
     }
@@ -602,12 +601,10 @@ body {
 }
 
 .hero.systems {
-  background-image: linear-gradient(
-      180deg,
+  background-image: linear-gradient(180deg,
       rgba(0, 30, 80, 0.7) 0%,
       rgba(0, 30, 80, 0.343) 63.54%,
-      rgba(0, 30, 80, 0.7) 100%
-    ),
+      rgba(0, 30, 80, 0.7) 100%),
     url('../images/systems-banner.svg') !important;
 
   .container-systems {
@@ -1050,11 +1047,9 @@ span.load-current-bar--thirdTitle {
 
 // BANNER EMERGENCY
 .banner-page.emergency {
-  background-image: linear-gradient(
-      90deg,
+  background-image: linear-gradient(90deg,
       rgba(190, 0, 0, 1) 27.2%,
-      rgba(221, 170, 170, 0.486) 80%
-    ),
+      rgba(221, 170, 170, 0.486) 80%),
     url('../images/Headers_1140x390px6.jpg');
   mix-blend-mode: multiply;
 }
@@ -1285,8 +1280,7 @@ section.intro-over-ons {
       .contact-info {
         min-width: 200px;
 
-        .social-icons {
-        }
+        .social-icons {}
       }
 
       .contact-form {
@@ -1326,11 +1320,13 @@ section.intro-over-ons {
     padding: 0 25px;
   }
 }
+
 // MOBILE NAV
 .nav-container-mobile {
   background: #001e50;
   color: white;
 }
+
 hr {
   border-color: #ff7300;
   margin: 15px auto;
@@ -1346,6 +1342,7 @@ hr {
   display: flex;
   flex-direction: column;
 }
+
 .nav-container-mobile div a,
 .nav-container-mobile div h2 {
   color: white;
@@ -1358,11 +1355,13 @@ hr {
   margin: 50px 25px;
   max-width: 1440px;
 }
+
 @media only screen and (max-width: 1439px) {
   .home-info .home-info--container div:nth-of-type(2) img {
     position: relative;
   }
 }
+
 a.sign-up-training {
   margin-top: 30px;
   text-transform: uppercase;
@@ -1372,23 +1371,69 @@ a.sign-up-training {
   background-color: #007ec2;
   color: white;
 }
+
 @media only screen and (max-width: 875px) {
   .mobile {
     display: block !important;
   }
+
+  h1.titelSystemsHero {
+    margin-left: 0px !important;
+    position: absolute;
+    left: 25px;
+  }
+  .banner-page.emergency {
+    .container {
+
+      h1 {
+        font-size: 16px !important;
+        font-family: "Din-Bold" !important;
+        line-height: 24px !important;
+        margin-top: 35px !important;
+      }
+    }
+  }
+.footer-project.emergency {
+.container {
+  max-width: 100%;
+  margin-left: 0;
+  img {
+    width: auto;
+    object-fit: contain;
+    height: auto;
+  }
+}
+}
+
+.emergency-main-page {
+  .container {
+    margin: 40px auto;
+    flex-direction: column;
+    .emergency-images {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+}
   .training-block {
     .container {
       flex-direction: column;
+
       .training-details {
         margin-top: 25px;
         margin-left: 0px;
       }
     }
   }
+
   .banner-page {
     height: 275px;
+
     .banner-page--container {
       margin-top: 40px;
+
       h1 {
         font-size: 36px;
         line-height: 48px;
@@ -1397,14 +1442,17 @@ a.sign-up-training {
       }
     }
   }
+
   .banner-page.over-ons {
     .banner-page--container {
       position: relative;
+
       h1 {
         font-size: 40px;
         line-height: 40px;
         margin-top: 40px !important;
       }
+
       p {
         position: absolute;
         font-family: 'Din';
@@ -1414,6 +1462,7 @@ a.sign-up-training {
       }
     }
   }
+
   .container-main-image {
     margin-top: 15px;
   }
@@ -1423,6 +1472,7 @@ a.sign-up-training {
       flex-direction: column;
     }
   }
+
   .intro-over-ons {
     .container {
       div {
@@ -1430,6 +1480,7 @@ a.sign-up-training {
       }
     }
   }
+
   .description-about {
     flex-direction: column;
 
@@ -1479,11 +1530,9 @@ a.sign-up-training {
 
   .mobile-image-home {
     height: 265px;
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(255, 115, 0, 0.5),
-        rgba(255, 115, 0, 0.5)
-      ),
+        rgba(255, 115, 0, 0.5)),
       url('../images/mobile-home-img.jpg') !important;
     background-position-x: 80%;
     background-size: cover;
@@ -1843,6 +1892,7 @@ a.sign-up-training {
   div#mobile.mobile-menu.mobile {
     display: flex !important;
   }
+
   .main-over-ons .container .description-about {
     margin: 0px;
   }
@@ -1857,10 +1907,13 @@ div.firstBarDiv {
     width: auto;
     max-width: 250px;
   }
+
   .banner-page {
     height: 275px;
+
     .banner-page--container {
       margin-top: 40px;
+
       h1 {
         font-size: 26px !important;
         line-height: 48px;
@@ -1869,6 +1922,7 @@ div.firstBarDiv {
       }
     }
   }
+
   .banner-page .container h1 {
     margin-top: 100px !important;
   }
@@ -1936,29 +1990,23 @@ div.firstBarDiv {
 }
 
 .hero-element-image.systems {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(255, 115, 0, 0.5),
-      rgba(255, 115, 0, 0.5)
-    ),
+      rgba(255, 115, 0, 0.5)),
     url('../images/Homepage\ diensten_280x196px2.jpg');
 }
 
 .hero-element-image.emergency {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(153, 37, 37, 0.5),
-      rgba(153, 37, 37, 0.5)
-    ),
+      rgba(153, 37, 37, 0.5)),
     url('../images/Homepage\ diensten_280x196px3.jpg');
 }
 
 .hero-element-image.training {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 126, 194, 0.5),
-      rgba(0, 126, 194, 0.5)
-    ),
+      rgba(0, 126, 194, 0.5)),
     url('../images/Homepage\ diensten_280x196px4.jpg');
 }
 
@@ -1981,7 +2029,6 @@ div.firstBarDiv {
 .container-info-mobile {
   max-height: 250px;
   height: 225px;
-  margin-top: -10px;
   background-size: cover;
   position: relative;
 
@@ -2094,6 +2141,46 @@ div.mobile-menu {
   @media screen {
     @media (min-width: 885px) {
       display: none;
+    }
+  }
+}
+
+
+h1.titelSystemsHero {
+  color: #ff7300 !important;
+  font-size: 24px !important;
+  padding: 0 !important;
+  margin-left: -30px ;
+  margin-bottom: 0 !important;
+
+}
+.systemContainerMobileInfo {
+  height: auto;
+  background: rgba(255, 255, 255, 0.9);
+  margin-top: -10px;
+
+  p {
+    padding: 25px;
+    color: #001e50;
+    font-family: "Din-Bold";
+    line-height: 20px;
+
+
+  }
+}
+
+.extraInfoMobile {
+  .container-info-mobile {
+    position: relative;
+      a {
+       text-align: center;
+       transform: translate(-50%, -50%);
+        width: 150px;
+        height: 24px;
+        position: absolute;
+  top: 35%;
+  left: 50%;
+   
     }
   }
 }

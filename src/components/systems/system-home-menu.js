@@ -1,7 +1,11 @@
 
 import React from 'react';
-import HeroMain from '../hero-main-component';
+
 import AerialAccess from '../../images/systems-home2.png';
+import HeroMainSystemsAdviesEnService from '../hero-system-advies';
+import HeroMainSystemsBouwEnInfra from '../hero-system-bouweninfra';
+import HeroMainSystemsProducten from '../hero-system-producten';
+import HeroMainSystemsIndustrie from '../hero-system-industrie';
 
 const SystemHomeHero = () => {
   return (
@@ -10,10 +14,11 @@ const SystemHomeHero = () => {
         <img id="system-home-logo" src={AerialAccess} />
 
         <div className='hero--main'>
-          <HeroMain />
-          <HeroMain />
-          <HeroMain />
-          <HeroMain />
+         
+          <HeroMainSystemsBouwEnInfra />
+          <HeroMainSystemsIndustrie />
+          <HeroMainSystemsAdviesEnService />
+          <HeroMainSystemsProducten />
         </div>
       </div>
     </section>
