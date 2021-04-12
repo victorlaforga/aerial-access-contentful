@@ -7,11 +7,10 @@ return (
     <img className="ias-logo" src={IasLogo}/>
         <div className="footer-project-content">
             <h2>
-                Verhuur
+                Partner
             </h2>
             <p>
-                Boor- en raffinaderij situaties hebben een groot deel van de werklocaties op hoogte. Geavanceerde
-                oplossingen voor service, inspectie en onderhoud aan de installaties.</p>
+                Samen met onze partner Industrial Access Services ondersteunen wij u daar proffesioneel bij. Naast het leveren van onze rope access-materialen en gereedschappen, adviseren wij klanten bij het inzetten van het juiste materiaal. Hun jarenlange ervaring garandeert u een deskundig advies.</p>
         </div>
         <div></div>
     </div>

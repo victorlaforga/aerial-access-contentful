@@ -23,7 +23,7 @@ const NavMobile = () => {
             </a>
             <hr />
 
-            <h2>AERIAL ACCESS SYSTEM</h2>
+            <a href="/systems/"><h2>AERIAL ACCESS SYSTEM</h2></a>
             <a href='/systems/bouw-infra/'>Bouw & infra structuur</a>
             <a href='/systems/industrie/'>Industrie</a>
             <a href='/systems/advies-service/'>Advies & service</a>

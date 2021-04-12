@@ -29,7 +29,7 @@ return (
             </div>
         </article>
         <div className='hero-element-image systems'>
-            <a href='/systems/' className='hero-element-image__link'>
+            <a href='/systems/producten/' className='hero-element-image__link'>
             bekijk hier
             </a>
         </div>
@@ -43,7 +43,7 @@ return (
         </div>
         <div className={`mobile container-info-mobile system`}>
 
-            <a href='/systems/'>bekijk hier</a>
+            <a href='/systems/producten/'>bekijk hier</a>
 
 
         </div>
