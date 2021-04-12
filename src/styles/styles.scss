@@ -1429,10 +1429,17 @@ a.sign-up-training {
   max-width: 200px;
   margin: auto;
 }
+@media only screen and (max-width: 420px) {
+  #titel-advies {
+margin-top: 50px !important;
+  }
+ }
+
 @media only screen and (max-width: 875px) {
   .mobile {
     display: block !important;
   }
+  
   .banner-page .container h1.titelMobileProjects {
     font-size: 25px !important;
   line-height: 34px !important;

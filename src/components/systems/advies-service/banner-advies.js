@@ -8,7 +8,7 @@ const AdviesBanner = () => {
     <section className='banner-page systems industrie'>
       <div className='banner-page--container container'>
         <SVGWhite className='banner-page--img' />
-        <h1 className="titel-systems">
+        <h1 id='titel-advies' className="titel-systems advies">
           Advies & Service
         </h1>
       </div>
