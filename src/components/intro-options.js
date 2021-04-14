@@ -1,4 +1,10 @@
 import React from 'react';
+import Svg1 from '../images/olieengas1.png';
+import Svg2 from '../images/olieengas2.png';
+import Svg3 from '../images/windmolen.png';
+import Svg4 from '../images/maritiem.png';
+import Svg5 from '../images/maritiem2.png';
+import Svg6 from '../images/gebouw.png';
 
 const IntroOption = () => {
   const hangleClick = (id) => {
@@ -9,7 +15,7 @@ const IntroOption = () => {
   };
 
   return (
-    <section className='intro-option'>
+    <section className='intro-option projects'>
       <div className='intro-option--container container'>
         <div className='intro-option--text'>
           <p>
@@ -22,10 +28,10 @@ const IntroOption = () => {
           </p>
           <br />
           <br />
-          <span>
+          <p>
             Voor elk project wordt een zorgvuldige planning en gedocumenteerde
             risicoinventarisatie gemaakt.
-          </span>
+            </p>
         </div>
         <div className='intro-option--links'>
           <a
@@ -49,6 +55,15 @@ const IntroOption = () => {
           <a className='introOption' onClick={() => hangleClick('95a8fed2-f08a-5be3-bdaa-ba2ecf7f8708')}>
             Olie & Gas
           </a>
+        </div>
+        <div className="icons-work-project-page">
+          <img src={Svg1} alt=""/>
+          <img src={Svg2} alt=""/>
+          <img src={Svg3} alt=""/>
+          <img src={Svg4} alt=""/>
+          <img src={Svg5} alt=""/>
+          <img src={Svg6} alt=""/>
+        
         </div>
       </div>
     </section>

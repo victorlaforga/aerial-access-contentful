@@ -5,6 +5,7 @@ const Banner = () => {
     <section className='banner'>
       <div className='container'>
         <span>Industrial Rope Access</span>
+        
       </div>
     </section>
   );
