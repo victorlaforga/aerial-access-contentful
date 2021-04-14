@@ -42,7 +42,7 @@ const IntroOption = () => {
           </a>
           <a
             className='introOption'
-            onClick={() => hangleClick('0894ff6a-6c07-5a5a-9831-803651b4225f')}
+            onClick={() => hangleClick('95a8fed2-f08a-5be3-bdaa-ba2ecf7f8708')}
           >
             Wind
           </a>
@@ -52,7 +52,7 @@ const IntroOption = () => {
           >
             Maritiem
           </a>
-          <a className='introOption' onClick={() => hangleClick('95a8fed2-f08a-5be3-bdaa-ba2ecf7f8708')}>
+          <a className='introOption' onClick={() => hangleClick('0894ff6a-6c07-5a5a-9831-803651b4225f')}>
             Olie & Gas
           </a>
         </div>

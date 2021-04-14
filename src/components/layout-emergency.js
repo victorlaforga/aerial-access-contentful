@@ -22,8 +22,8 @@ const LayoutEmergency = () => {
   return (
     <div style={StyledLayout}>
       <Navigation />
-      <Banner />
       <NavMobile />
+      <Banner />
       <EmergencyBanner />
       <EmergencyMain />
       <FooterEmergency />

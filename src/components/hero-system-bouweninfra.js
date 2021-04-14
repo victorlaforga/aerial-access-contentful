@@ -34,7 +34,7 @@ class HeroMainSystemsBouwEnInfra extends Component {
             </div>
           </article>
           <div className='hero-element-image systems'>
-            <a href='/systems/' className='hero-element-image__link'>
+            <a href='/systems/bouw-infra/' className='hero-element-image__link'>
             bekijk hier
             </a>
           </div>
