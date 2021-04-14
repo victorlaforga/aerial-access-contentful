@@ -50,15 +50,16 @@ const IntroOptionTrainingen = () => {
           >
             Rope Rescue Medic + ITLS
           </a>
-          <a className='introOption'>Advanced Confined Space Rescue</a>
+          <a onClick={() => hangleClick('trainingBlock_5')} className='introOption'>Advanced Confined Space Rescue</a>
           <br />
-          <h2>Technical Rope Rescue trainingen</h2>
-          <a className='introOption'>Scenario training reddingsteams</a>
-          <a className='introOption'>Rope Rescue Medic trainingsdag</a>
-          <a className='introOption'>AHD en Highline workshop België</a>
+          <h2>Specials RISQ</h2>
+          <a onClick={() => hangleClick('trainingBlock_6')} className='introOption'>Scenario training reddingsteams</a>
+          <a onClick={() => hangleClick('trainingBlock_7')} className='introOption'>Rope Rescue Medic trainingsdag</a>
+          <a onClick={() => hangleClick('trainingBlock_8')} className='introOption'>AHD en Highline workshop België</a>
         </div>
       </div>
     </section>
+    
   );
 };
 

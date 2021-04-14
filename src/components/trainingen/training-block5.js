@@ -1,46 +1,38 @@
 import React from 'react';
 
-const TrainingBlock = (props) => {
+const TrainingBlock5 = (props) => {
   const { id } = props;
 
   return (
     <section className='training-block' id={id}>
       <div className='container'>
         <div className='training-content'>
-          <h1>itra direct entry level 3</h1>
+          <h1>Advanced Confined Space Rescue</h1>
           <h2>DOEL</h2>
           <p>
-            Deelnemers op dit niveau kunnen, als onderdeel van een team en onder
-            leiding van een teamleader, reageren op een incident waar technische
-            hoogte redding is genoodzaakt. Deelnemers beheersen de basis
-            manoeuvres met een stretcher op hoogte en basis rope access
-            technieken voor bereikbaarheid en behandeling van een patiënt.
+          Deelnemers op dit niveau kunnen, als onderdeel van een team en onder leiding van een team leader, reageren op complexe incidenten in besloten ruimten waar men te maken kan krijgen met een slechte atmosfeer. Deelnemers zijn in staat onafhankelijke adembescherming te gebruiken, mechanische ventilatie dan wel afzuiging aan te leggen en technische touwsystemen op te bouwen om een patiënt te kunnen bevrijden en behandelen. Een grote verscheidenheid aan gas en meetapparatuur zal aan bod komen evenals het opstellen van risicoanalyses, risicomanagement en het opstellen van een reddingsplan.
           </p>
           <br />
           <h2>Voor</h2>
           <p>
-            Reddingsteams die reageren op onbekende en complexe incidenten op
-            hoogte en uit diepte.
+          Reddingsteams die moeten kunnen reageren op onbekende en risicovolle besloten ruimte reddingen.
           </p>
           <br />
           <h2>Noodzakelijke voorkennis</h2>
           <p>
-            ITRA rope level 1 & 2 of aantoonbare kennis van hoogte redding en/of
-            rope access (minimaal level 2).
+          ITRA rope level 3 of vergelijkbaar en een geldig certificaat gebruik onafhankelijke adembescherming.
           </p>
         </div>
         <div className='training-details'>
           <h2>Details</h2>
           <div className='works'>
             <span>
-              <span class='arrow-horizontal'>{'>>'}</span>6 dagen, inclusief
-              examen
+              <span class='arrow-horizontal'>{'>>'}</span>5 dagen
             </span>
           </div>
           <div className='works'>
             <span>
-              <span class='arrow-horizontal'>{'>>'}</span>Inclusief:
-              student-lidmaatschap ITRA, materiaal en lunch
+              <span class='arrow-horizontal'>{'>>'}</span>Inclusief materiaal, lunch en bewijs van deelname
             </span>
           </div>
           <div className='works'>
@@ -57,7 +49,7 @@ const TrainingBlock = (props) => {
           </div>
           <div className='works'>
             <span>
-              <span class='arrow-horizontal'>{'>>'}</span>€ 1250, – excl. BTW.
+              <span class='arrow-horizontal'>{'>>'}</span>€ 1400, – excl. BTW.
             </span>
           </div>
           <a href='/contact/' className='sign-up-training'>
@@ -68,4 +60,4 @@ const TrainingBlock = (props) => {
     </section>
   );
 };
-export default TrainingBlock;
+export default TrainingBlock5;

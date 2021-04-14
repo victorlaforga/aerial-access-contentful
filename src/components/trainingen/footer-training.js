@@ -1,14 +1,13 @@
 import React from 'react';
-import RiskLogo from '../../images/risk-safety.png';
-import VCAImg from '../../images/vca.png';
+import ReskLogo from '../../images/resq-logo.png'
 
-const FooterEmergency = () => {
+
+const FooterTraining = () => {
 return (
-<section className='footer-project emergency'>
+<section className='footer-project emergency projects'>
     <div className="container">
         <div className="imagesLogo">
-       <img src={RiskLogo} alt=""/> 
-       <img src={VCAImg} alt=""/>
+       <img src={ReskLogo} alt=""/> 
        </div>
         <div className="footer-emergency-content">
             <h2>
@@ -32,4 +31,4 @@ info@risksafety.nl <br />
 );
 };
 
-export default FooterEmergency;
+export default FooterTraining;
