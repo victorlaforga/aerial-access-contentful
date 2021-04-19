@@ -8,7 +8,7 @@ return (
     <div className="container">
         <div className="content-block-systems">
             <p className="light">Door het monteren van de Aerial Access Rail System wordt er een veiligere en
-                efficiënte toepassing gecreëerd voor inspectie en onderhoud van de
+                efficiënte toepassing gecreëerd voor inspectie en onderhoud van de
                 constructie middels rope access-technieken. Hierbij is er een aanzienlijke tijdsbesparing op de
                 voorbereidingen en onderhoudswerkzaamheden. </p>
             <div className="industrie-block">

@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className='hero'>
       <div className='container'>
-        <h1 className='h1'>
+        <h1 className='h1 home'>
           Naar welke dienst binnen
           <br /> aerial access bent u opzoek?
         </h1>
