@@ -10,7 +10,7 @@ const Hero = () => {
       <div className='container'>
         <h1 className='h1 home'>
           Naar welke dienst binnen
-          <br /> aerial access bent u opzoek?
+          <br className="mobile-hide" /> aerial access bent u opzoek?
         </h1>
 
         <div className='hero--main'>

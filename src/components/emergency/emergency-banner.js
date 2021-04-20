@@ -7,8 +7,8 @@ const EmergencyBanner = () => {
       <div className='banner-page--container container banner-emergency'>
         <img className='banner-page--img emergency' src={SVGWhiteEmergency} alt='' />
         <h1>
-          Het Emergency Response Team van Aerial Access staat <br />
-voor het leveren van professionele rope rescuespecialisten <br />aan bedrijven en voor hun mensen. 
+          Het Emergency Response Team van Aerial Access staat <br className="mobile-hide" />
+voor het leveren van professionele rope rescuespecialisten <br className="mobile-hide" />aan bedrijven en voor hun mensen. 
         </h1>
       </div>
     </section>

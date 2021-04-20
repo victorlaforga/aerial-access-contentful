@@ -11,8 +11,8 @@ const TrainingenBanner = () => {
           alt=''
         />
         <h1>
-          De opleidingen die wij verzorgen zijn op maat en voor <br />
-          alle hulpdiensten, industriële bedrijven en een ieder <br />
+          De opleidingen die wij verzorgen zijn op maat en voor <br className="mobile-hide" />
+          alle hulpdiensten, industriële bedrijven en een ieder <br className="mobile-hide" />
           die veilig wil werken op hoogte.
         </h1>
       </div>

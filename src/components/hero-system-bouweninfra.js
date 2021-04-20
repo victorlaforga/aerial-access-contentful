@@ -33,7 +33,7 @@ class HeroMainSystemsBouwEnInfra extends Component {
               </p>
             </div>
           </article>
-          <div className='hero-element-image systems'>
+          <div className='hero-element-image systems bouwEnInfra'>
             <a href='/systems/bouw-infra/' className='hero-element-image__link'>
             bekijk hier
             </a>
@@ -44,7 +44,7 @@ class HeroMainSystemsBouwEnInfra extends Component {
         ) : (
           <article className="extraInfoMobile mobile">
               <div className="systemContainerMobileInfo"> <p>Het gebruik van rope access is efficiënt en effectief. Door het gebruik van gespecialiseerde  rope access technieken zijn wij in staat op moeilijke toegankelijke locaties werkzaamheden uit te voeren. </p> </div>
-            <div className={`mobile container-info-mobile system`}>
+            <div className={`mobile container-info-mobile system bouwEnInfra`}>
       
               <a href='/systems/bouw-infra/'>bekijk hier</a>
    

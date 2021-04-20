@@ -28,7 +28,7 @@ return (
                 </p>
             </div>
         </article>
-        <div className='hero-element-image systems'>
+        <div className='hero-element-image systems producten'>
             <a href='/systems/producten/' className='hero-element-image__link'>
             bekijk hier
             </a>
@@ -41,7 +41,7 @@ return (
         <div className="systemContainerMobileInfo">
             <p>De opleidingen die wij verzorgen zijn op maat en voor alle hulpdiensten, industriële bedrijven en een ieder die veilig wil werken op hoogte. De trainingen zijn realistisch en van hoge kwaliteit. Ze zijn voorzien van oplossingen die getest zijn in het veld! </p>
         </div>
-        <div className={`mobile container-info-mobile system`}>
+        <div className={`mobile container-info-mobile system producten`}>
 
             <a href='/systems/producten/'>bekijk hier</a>
 

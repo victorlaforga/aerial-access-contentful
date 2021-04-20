@@ -282,10 +282,8 @@ body {
   }
 
   .hero-element-image {
-    background-image: linear-gradient(0deg,
-        rgba(115, 164, 0, 0.5),
-        rgba(115, 164, 0, 0.5)),
-      url('../images/Homepage\ diensten_280x196px.jpg');
+    background-image: url('../images/Beelden-diensten-homepage.jpg');
+
     position: absolute;
     bottom: 0;
     height: 200px;
@@ -1393,9 +1391,12 @@ nav ul li {
 
 // MOBILE NAV
 .nav-container-mobile {
-  background: #001e50;
+  background: #00003d;
   color: white;
   margin-top: 148px;
+  position: fixed;
+  z-index: 5;
+  width: 100vw;
 }
 
 hr {
@@ -1493,7 +1494,28 @@ a.sign-up-training {
   .mobile {
     display: block !important;
   }
+  .footer-container {
+    background: linear-gradient(to right, rgba(0, 30, 80, 0.94), rgba(0, 30, 80, 0.94))!important;
 
+  }
+  .description-about {
+    .description:nth-of-type(2) {
+      margin-bottom: 50px;
+      
+    }
+  }
+  .intro-option .intro-option--container .intro-option--text p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero.systems {
+    background: linear-gradient(180deg,
+        rgba(0, 30, 80, 0.7) 0%,
+        rgba(0, 30, 80, 0.343) 63.54%,
+        rgba(0, 30, 80, 0.7) 100%) !important;
+
+  }
   img.Logo {
     margin-bottom: 0px;
   }
@@ -1794,6 +1816,8 @@ a.sign-up-training {
     .navigation {
       padding: 0 5px;
       margin-bottom: 15px;
+      margin-left: 0px;
+
 
       nav {
         display: none;
@@ -1829,7 +1853,7 @@ a.sign-up-training {
     div.container {
       span {
         color: #ff7300;
-        text-align: center;
+        text-align: left;
         letter-spacing: 4px;
       }
     }
@@ -1886,7 +1910,8 @@ a.sign-up-training {
       color: white;
       font-size: 60px;
       right: 10px;
-      top: -6px;
+      top: -9px;
+      font-weight: 900;
       position: absolute;
     }
   }
@@ -2033,6 +2058,8 @@ a.sign-up-training {
 
         a {
           margin: 6px 0;
+          width: -webkit-fill-available;
+
         }
       }
     }
@@ -2198,26 +2225,39 @@ div.firstBarDiv {
 .cls-2 {
   fill: #ff7300;
 }
+.hero-element-image.systems.advies,
+.mobile.container-info-mobile.system.advies {
+  background-image: url('../images/Beelden-systeem-diensten-homepage2.jpg');
+}
+.hero-element-image.systems.industrie,
+.mobile.container-info-mobile.system.industrie {
+  background-image: url('../images/Beelden-systeem-diensten-homepage3.jpg');
+}
+.hero-element-image.systems.bouwEnInfra,
+.mobile.container-info-mobile.system.bouwEnInfra {
+  background-image: url('../images/Beelden\ systeem\ diensten\ homepage4.jpg');
+}
+.hero-element-image.systems.producten,
+.mobile.container-info-mobile.system.producten {
+  background-image: url('../images/Beelden-systeem-diensten-homepage.jpg');
+}
+
+
+
 
 .hero-element-image.systems {
-  background-image: linear-gradient(0deg,
-      rgba(255, 115, 0, 0.5),
-      rgba(255, 115, 0, 0.5)),
-    url('../images/Homepage\ diensten_280x196px2.jpg');
+  background-image: 
+    url('../images/Beelden-diensten-homepage2.jpg');
+
 }
 
 .hero-element-image.emergency {
-  background-image: linear-gradient(0deg,
-      rgba(153, 37, 37, 0.5),
-      rgba(153, 37, 37, 0.5)),
-    url('../images/Homepage\ diensten_280x196px3.jpg');
+  background-image: url('../images/Beelden-diensten-homepage3.jpg');
 }
 
 .hero-element-image.training {
-  background-image: linear-gradient(0deg,
-      rgba(0, 126, 194, 0.5),
-      rgba(0, 126, 194, 0.5)),
-    url('../images/Homepage\ diensten_280x196px4.jpg');
+  background-image: 
+    url('../images/Beelden\ diensten\ homepage4.jpg');
 }
 
 .mobile-hero-button.emergency {
@@ -2233,7 +2273,7 @@ div.firstBarDiv {
 }
 
 #system-home-logo {
-  max-width: 355px;
+  max-width: 300px;
 }
 
 .container-info-mobile {
@@ -2265,19 +2305,20 @@ div.firstBarDiv {
 }
 
 .container-info-mobile.project {
-  background-image: url('../images/Homepage\ diensten_280x196px.jpg');
+  background-image: url('../images/Beelden-diensten-homepage.jpg');
 }
 
 .container-info-mobile.training {
-  background-image: url('../images/Homepage\ diensten_280x196px4.jpg');
+  background-image: url('../images/Beelden\ diensten\ homepage4.jpg');
+  ;
 }
 
 .container-info-mobile.emergency {
-  background-image: url('../images/Homepage\ diensten_280x196px3.jpg');
+  background-image: url('../images/Beelden-diensten-homepage3.jpg');
 }
 
 .container-info-mobile.system {
-  background-image: url('../images/Homepage\ diensten_280x196px2.jpg');
+  background-image: url('../images/Beelden-diensten-homepage2.jpg');
 }
 
 .visible {

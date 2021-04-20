@@ -29,7 +29,7 @@ return (
                 </p>
             </div>
         </article>
-        <div className='hero-element-image systems'>
+        <div className='hero-element-image systems industrie'>
             <a href='/systems/industrie/' className='hero-element-image__link'>
             bekijk hier
             </a>
@@ -42,7 +42,7 @@ return (
         <div className="systemContainerMobileInfo">
             <p>AE Systems staat voor het leveren en adviseren van gespecialiseerde permanente Rope Access Systems oplossingen. Bij werkzaamheden op hoogte in de bouw of industrie raden wij een permanente access systeem aan. Hierdoor kun je makkelijk op complexe locaties werken. </p>
         </div>
-        <div className={`mobile container-info-mobile system`}>
+        <div className={`mobile container-info-mobile system industrie`}>
 
             <a href='/systems/industrie/'>bekijk hier</a>
 
