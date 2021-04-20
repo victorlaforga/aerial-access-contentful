@@ -1397,6 +1397,7 @@ nav ul li {
   position: fixed;
   z-index: 5;
   width: 100vw;
+  overflow-y: scroll;
 }
 
 hr {
