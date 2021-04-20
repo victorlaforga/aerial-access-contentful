@@ -58,7 +58,7 @@ class HeroMainEmergency extends Component {
                 staat op moeilijke toegankelijke locaties werkzaamheden uit te
                 voeren.
               </p>
-              <a href='/emergency/'>projecten</a>
+              <a href='/emergency/'>Meer info</a>
             </div>
           </article>
         )}

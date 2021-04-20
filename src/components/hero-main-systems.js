@@ -60,7 +60,7 @@ class HeroMainSystems extends Component {
                 staat op moeilijke toegankelijke locaties werkzaamheden uit te
                 voeren.
               </p>
-              <a href='/systems/'>projecten</a>
+              <a href='/systems/'>systemen</a>
             </div>
           </article>
         )}

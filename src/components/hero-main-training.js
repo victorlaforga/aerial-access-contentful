@@ -59,7 +59,7 @@ class HeroMainTraining extends Component {
                 staat op moeilijke toegankelijke locaties werkzaamheden uit te
                 voeren.
               </p>
-              <a href='/trainingen/'>projecten</a>
+              <a href='/trainingen/'>trainingen</a>
             </div>
           </article>
         )}

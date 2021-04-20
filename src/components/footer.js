@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className='footer --col2'>
           <a href='/systems/'>
-            <h3>AREIAL ACCESS SYSTEMS</h3>
+            <h3>AERIAL ACCESS SYSTEMS</h3>
           </a>
           <a href="/systems/bouw-infra/">Bouw & Infra Structuur</a>
           <a href="/systems/industrie/">Industrie</a>
