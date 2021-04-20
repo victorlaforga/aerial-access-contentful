@@ -37,7 +37,7 @@ class HeroMainEmergency extends Component {
                 Het Emergency Response Team van Aerial Access staat voor het
                 leveren van professionele rope rescue-specialisten aan bedrijven
                 en voor hun mensen. Bij werkzaamheden op hoogte, diepte en/of in
-                besloten ruimtes raden wij een standby reddingsteam aan.{' '}
+                besloten ruimtes radden wij een standby reddingsteam aan.{' '}
               </p>
             </div>
           </article>
