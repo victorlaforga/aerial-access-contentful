@@ -63,8 +63,8 @@ return (
             <img className="mobile-hide" src={imgsystem} alt="" />
             <img className="mobile-hide" src={imgsystem2} alt="" />
             <div className="content-block-systems__buttons">
-                <a href="">advies & services</a>
-                <a href="">producten</a>
+                <a href="/systems/advies-service/">advies & services</a>
+                <a href="/systems/producten/">producten</a>
             </div>
             <img className="mobile" src={imgsystem} alt="" />
             <img className="mobile" src={imgsystem2} alt="" />
