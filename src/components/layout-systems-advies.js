@@ -20,7 +20,7 @@ const StyledLayout = {
 const LayoutSystemsAdvies = ({ projects, children }) => {
   return (
     <div style={StyledLayout}>
-      <Navigation />
+      <Navigation pageActiveMenu='systems' />
       <NavMobile />
       <Banner />
       <AdviesBanner />

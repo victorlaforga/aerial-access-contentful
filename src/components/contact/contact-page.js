@@ -3,7 +3,8 @@ import FacebookLogo from '../../images/facebooklogo.png';
 import InstagramLogo from '../../images/instagramlogo.png';
 import LinkedinLogo from '../../images/linkedinlogo.png';
 // import GoogleApiWrapper from './google-map';
-import BusImg from '../../images/contact_781x371px.jpg'
+import BusImg from '../../images/contact_781x371px.jpg';
+import ContactMap from './contact-map';
 
 const ContactMain = (props) => {
   const [form, setForm] = useState({});
@@ -60,9 +61,16 @@ const ContactMain = (props) => {
             <p>KvK. 000000000000</p>
             <p>BTW Nr. 0000000000</p>
             <div className='social-icons'>
-              <a href="https://www.facebook.com/Aerial-Access-104703344550697/"><img src={FacebookLogo} alt='' /></a>
-              <a href="https://instagram.com/aerial_access_?igshid=1p8xvvrpa0oc5"><img src={InstagramLogo} alt='' /></a>
-              <a href="https://www.linkedin.com/in/raymond-burger-8832a91a7/"> <img src={LinkedinLogo} alt='' /></a>
+              <a href='https://www.facebook.com/Aerial-Access-104703344550697/'>
+                <img src={FacebookLogo} alt='' />
+              </a>
+              <a href='https://instagram.com/aerial_access_?igshid=1p8xvvrpa0oc5'>
+                <img src={InstagramLogo} alt='' />
+              </a>
+              <a href='https://www.linkedin.com/in/raymond-burger-8832a91a7/'>
+                {' '}
+                <img src={LinkedinLogo} alt='' />
+              </a>
             </div>
           </div>
           <div className='contact-form'>
@@ -110,7 +118,9 @@ const ContactMain = (props) => {
                   onChange={handleInputChange}
                 />
               </label>
-              <button className="submit-form-btn" type='submit'>Verstuur</button>
+              <button className='submit-form-btn' type='submit'>
+                Verstuur
+              </button>
             </form>
             {response ? (
               <div
@@ -124,19 +134,16 @@ const ContactMain = (props) => {
               <></>
             )}
           </div>
-          <div>
-      {/* <GoogleApiWrapper /> */}
-      GOOGLE MAPS API 
+          <div className='contacts-map'>
+            {/* <GoogleApiWrapper /> */}
+            <ContactMap />
           </div>
-          
         </div>
-        
 
-    <img className="bus-img" src={BusImg} alt=""/>
+        <img className='bus-img' src={BusImg} alt='' />
       </div>
     </section>
   );
 };
-
 
 export default ContactMain;

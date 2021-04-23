@@ -1,12 +1,8 @@
-import * as React from "react"
-import LayoutSystemsHome from "../components/layout-systems-home";
+import * as React from 'react';
+import LayoutSystemsHome from '../components/layout-systems-home';
 
 const SystemPage = () => {
-  return (
-    <LayoutSystemsHome>
+  return <LayoutSystemsHome />;
+};
 
-    </LayoutSystemsHome>
-  )
-}
-
-export default SystemPage
+export default SystemPage;

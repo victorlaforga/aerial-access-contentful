@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import SubNav from './sub-nav';
-
 import Logo from '../images/logo.png';
 
-const Navigation = () => {
+const Navigation = (props) => {
+  const { pageActiveMenu = '' } = props;
+  const [activeMenu, setActiveMenu] = useState('');
+
+  useEffect(() => {
+    setActiveMenu(pageActiveMenu);
+  });
+
   return (
     <header className='nav-container'>
       <div className='navigation container'>
@@ -16,7 +22,10 @@ const Navigation = () => {
             <li>
               <a href='/projecten/'>Project</a>
             </li>
-            <li>
+            <li
+              className={activeMenu === 'systems' ? 'hover' : ''}
+              onClick={() => setActiveMenu('systems')}
+            >
               <a id='systemnav' className='nav-system' href='/systems/'>
                 system
               </a>
