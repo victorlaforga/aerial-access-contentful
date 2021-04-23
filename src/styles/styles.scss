@@ -1513,13 +1513,9 @@ a.sign-up-training {
     ) !important;
   }
 
-  // div.collection-block {
-  //   div.collection-block-info {
-  //     h2 {
-  //       font-size: 16px !important;
-  //     }
-  //   }
-  // }
+  .contacts-map  {
+    margin-top: 40px;
+  }
 
   .Logo {
     max-height: 50px;
@@ -1608,7 +1604,7 @@ a.sign-up-training {
         margin: 35px auto;
 
         .contact-form {
-          margin: 25px auto;
+          margin: 25px 0;
         }
       }
     }
@@ -2521,4 +2517,9 @@ h1.titelSystemsHero {
 .contacts-map {
   width: 100%;
   height: 400px;
+  margin: 0 10px;
+}
+.contacts-map iframe {
+  height: 100%;
+  width: 100%;
 }

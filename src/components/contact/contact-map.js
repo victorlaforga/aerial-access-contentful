@@ -3,24 +3,18 @@ import GoogleMapReact from 'google-map-react';
 
 const googleMapKey = process.env.GATSBY_GOOGLE_MAP_KEY;
 
-const Marker = ({ text }) => <div>{text}</div>;
+const Marker = ({ text }) => <div className="markerGoogleMaps">{text}</div>;
 
 const ContactMap = (props) => {
   const center = {
-    lat: 59.95,
-    lng: 30.33,
+    lat: 52.458740,
+    lng: 4.590320,
   };
   const zoom = 11;
 
   return (
     <div className='contacts-map'>
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: googleMapKey }}
-        defaultCenter={center}
-        defaultZoom={zoom}
-      >
-        <Marker lat={59.955413} lng={30.337844} text='My Marker' />
-      </GoogleMapReact>
+     <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Trawlerkade%2060&amp;t=m&amp;z=11&amp;output=embed&amp;iwloc=near" aria-label="Trawlerkade 60"></iframe>
     </div>
   );
 };

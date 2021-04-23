@@ -50,8 +50,8 @@ return (
         <div className="content-block-systems-2 mobile-hide">
             <img src={imgsystem} alt="" />
             <div className="content-block-systems__buttons">
-                <a href="">advies & services</a>
-                <a href="">producten</a>
+                <a href="/systems/advies-service/">advies & services</a>
+                <a href="/systems/producten/">producten</a>
             </div>
         </div>
     </div>
