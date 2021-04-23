@@ -14,7 +14,7 @@ const ProductenPage = (props) => {
 
 export const query = graphql`
   query ProductCategoriesQuery {
-    allContentfulProductCategory {
+    allContentfulProductCategory(sort: { order: ASC, fields: order }) {
       edges {
         node {
           id

@@ -4,7 +4,11 @@ const IntroOptionTrainingen = () => {
   const hangleClick = (id) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      const yOffset = -139;
+      const y =
+        element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
 
@@ -50,16 +54,35 @@ const IntroOptionTrainingen = () => {
           >
             Rope Rescue Medic + ITLS
           </a>
-          <a onClick={() => hangleClick('trainingBlock_5')} className='introOption'>Advanced Confined Space Rescue</a>
+          <a
+            onClick={() => hangleClick('trainingBlock_5')}
+            className='introOption'
+          >
+            Advanced Confined Space Rescue
+          </a>
           <br />
           <h2>Specials RISQ</h2>
-          <a onClick={() => hangleClick('trainingBlock_6')} className='introOption'>Scenario training reddingsteams</a>
-          <a onClick={() => hangleClick('trainingBlock_7')} className='introOption'>Rope Rescue Medic trainingsdag</a>
-          <a onClick={() => hangleClick('trainingBlock_8')} className='introOption'>AHD en Highline workshop België</a>
+          <a
+            onClick={() => hangleClick('trainingBlock_6')}
+            className='introOption'
+          >
+            Scenario training reddingsteams
+          </a>
+          <a
+            onClick={() => hangleClick('trainingBlock_7')}
+            className='introOption'
+          >
+            Rope Rescue Medic trainingsdag
+          </a>
+          <a
+            onClick={() => hangleClick('trainingBlock_8')}
+            className='introOption'
+          >
+            AHD en Highline workshop België
+          </a>
         </div>
       </div>
     </section>
-    
   );
 };
 
