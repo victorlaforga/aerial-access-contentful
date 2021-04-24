@@ -10,9 +10,13 @@ const IntroOption = () => {
   const hangleClick = (id) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      const yOffset = -139;
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
+
+ 
 
   return (
     <section className='intro-option projects'>
