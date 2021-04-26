@@ -2523,3 +2523,22 @@ h1.titelSystemsHero {
   height: 100%;
   width: 100%;
 }
+
+// MEDIA QUERIES FOR FOOTER
+
+@media screen and (min-width:388px) and (max-width: 874px) {
+  section.footer-container div.footer-container-blocks div.footer.--col1,
+  section.footer-container div.footer-container-blocks div.footer.--col3{
+    margin: 70px 25px !important;
+
+  }
+  section.footer-container div.footer-container-blocks div.footer.--col2,
+  section.footer-container div.footer-container-blocks div.footer.--col4{
+    margin: -40px 25px !important;
+
+  }
+  div.footer-container-blocks .--col4 {
+    margin-top: -40px !important;
+  }
+}
+
