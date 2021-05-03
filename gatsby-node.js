@@ -13,9 +13,10 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   }
 };
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
+exports.createPages = async ({ graphql, actions }) => {
   const path = require(`path`);
-  const { createPage } = boundActionCreators;
+  const { createPage } = actions;
+
   return new Promise((resolve, reject) => {
     graphql(`
       {
