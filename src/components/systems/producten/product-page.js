@@ -25,7 +25,7 @@ const ProductPage = (props) => {
       <div className='product-page-container container'>
         <div className='product-info'>
           <h1 className='product-info--route'>
-            {'PRODUCTEN >'} <span>{category.name}</span>
+            {'PRODUCTEN >'} <span>{category?.name}</span>
             <span>{' > '}</span>
             <span className='product-info--route-name'>{name}</span>
           </h1>
