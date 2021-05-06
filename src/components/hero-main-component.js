@@ -11,13 +11,15 @@ class HeroMain extends Component {
     });
   };
 
+
+
   render() {
     const { showMenu } = this.state;
     const menuVis = !showMenu ? 'hideDiv' : '';
 
     return (
       <div onClick={this.toggleMenu}>
-        <a href="/projecten/">
+        <a href="/projecten/" className="mobileNot">
         <div className='hero-element'>
           <article>
             <div className='hero-element-titel'>
