@@ -15,6 +15,7 @@ class HeroMainEmergency extends Component {
     const menuVis = !showMenu ? 'hideDiv' : '';
     return (
       <div onClick={this.toggleMenu}>
+        <a href="/emergency/">
         <div className='hero-element'>
           <article>
             <div className='hero-element-titel'>
@@ -62,6 +63,7 @@ class HeroMainEmergency extends Component {
             </div>
           </article>
         )}
+        </a>
       </div>
     );
   }

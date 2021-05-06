@@ -15,6 +15,7 @@ class HeroMainTraining extends Component {
     const menuVis = !showMenu ? 'hideDiv' : '';
     return (
       <div onClick={this.toggleMenu}>
+        <a href="/trainingen/">
         <div className='hero-element'>
           <article>
             <div className='hero-element-titel'>
@@ -63,6 +64,7 @@ class HeroMainTraining extends Component {
             </div>
           </article>
         )}
+        </a>
       </div>
     );
   }

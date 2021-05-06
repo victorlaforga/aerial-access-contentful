@@ -10,8 +10,8 @@ const CopyrightFooter = () => {
             CONCEPT & DESIGN BY STUDIO MARINADE.NL
           </a>{' '}
           |{' '}
-          <a target='_blank' href='https://laforga-design.com/'>
-            BUILD BY LAFORGA-DESIGN.NL
+          <a target='_blank' href='https://www.laforga.nl/'>
+            BUILD BY LAFORGA.NL
           </a>
         </p>
       </div>

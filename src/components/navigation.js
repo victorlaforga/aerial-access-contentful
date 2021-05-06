@@ -8,8 +8,11 @@ const Navigation = (props) => {
   const [activeMenu, setActiveMenu] = useState('');
 
   useEffect(() => {
-    setActiveMenu(pageActiveMenu);
+      window.__navigatingToLink = false;
+      setActiveMenu(pageActiveMenu);
+      window.scrollTo(0,0);
   });
+ 
 
   return (
     <header className='nav-container'>

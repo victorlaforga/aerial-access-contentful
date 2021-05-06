@@ -89,7 +89,10 @@ body {
   max-height: 66.6px;
   margin-bottom: -5px;
 }
-
+.nav-system {
+  padding-bottom: 18px;
+    margin: 0px 0px -7px 0px;
+}
 .nav-container {
   height: 109px;
   background: #ffffff;
@@ -378,6 +381,8 @@ body {
     ),
     url('../images/beeld\ foooter.svg') !important;
   background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: 105%;
 
   .footer-container-blocks {
     display: flex;
@@ -585,6 +590,9 @@ body {
       display: flex;
       flex-direction: column;
       margin-left: 30px;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      max-width: 700px;
 
       h2 {
         text-transform: uppercase;
@@ -610,13 +618,12 @@ body {
 }
 
 .hero.systems {
-  background-image: linear-gradient(
+  background: linear-gradient(
       180deg,
       rgba(0, 30, 80, 0.7) 0%,
       rgba(0, 30, 80, 0.343) 63.54%,
       rgba(0, 30, 80, 0.7) 100%
-    ),
-    url('../images/systems-banner.svg') !important;
+    ) !important;
 
   .container-systems {
     img {
@@ -878,7 +885,7 @@ span.load-current-bar--thirdTitle {
     text-transform: uppercase;
     font-family: 'Din-Bold';
     margin: 10px 0px;
-    width: 45%;
+    width: 40%;
   }
 }
 
@@ -1185,6 +1192,7 @@ span.load-current-bar--thirdTitle {
 
     .training-content {
       max-width: 710px;
+      width: 100%;
 
       h1 {
         font-family: 'Din-Bold';

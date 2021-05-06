@@ -61,7 +61,7 @@ const IntroOptionTrainingen = () => {
             Advanced Confined Space Rescue
           </a>
           <br />
-          <h2>Specials RISQ</h2>
+          <h2>Specials RESQ</h2>
           <a
             onClick={() => hangleClick('trainingBlock_6')}
             className='introOption'

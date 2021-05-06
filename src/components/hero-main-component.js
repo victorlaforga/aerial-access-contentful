@@ -17,6 +17,7 @@ class HeroMain extends Component {
 
     return (
       <div onClick={this.toggleMenu}>
+        <a href="/projecten/">
         <div className='hero-element'>
           <article>
             <div className='hero-element-titel'>
@@ -63,6 +64,7 @@ class HeroMain extends Component {
             </div>
           </article>
         )}
+        </a>
       </div>
     );
   }

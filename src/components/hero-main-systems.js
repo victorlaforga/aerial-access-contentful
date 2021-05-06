@@ -16,6 +16,7 @@ class HeroMainSystems extends Component {
     const menuVis = !showMenu ? 'hideDiv' : '';
     return (
       <div onClick={this.toggleMenu}>
+        <a href="/systems/">
         <div className='hero-element'>
           <article>
             <div className='hero-element-titel'>
@@ -64,6 +65,7 @@ class HeroMainSystems extends Component {
             </div>
           </article>
         )}
+        </a>
       </div>
     );
   }
