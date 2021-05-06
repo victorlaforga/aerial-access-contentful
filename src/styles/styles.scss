@@ -89,10 +89,12 @@ body {
   max-height: 66.6px;
   margin-bottom: -5px;
 }
+
 .nav-system {
   padding-bottom: 18px;
-    margin: 0px 0px -7px 0px;
+  margin: 0px 0px -7px 0px;
 }
+
 .nav-container {
   height: 109px;
   background: #ffffff;
@@ -219,13 +221,11 @@ body {
 
 .hero {
   height: auto;
-  background: linear-gradient(
-    177.72deg,
-    #001e50 -85.11%,
-    rgba(0, 30, 80, 0.44) -85.09%,
-    #001e50 100.99%,
-    rgba(0, 30, 80, 0.58) 101.01%
-  );
+  background: linear-gradient(177.72deg,
+      #001e50 -85.11%,
+      rgba(0, 30, 80, 0.44) -85.09%,
+      #001e50 100.99%,
+      rgba(0, 30, 80, 0.58) 101.01%);
 
   .container {
     margin-bottom: 25px;
@@ -374,11 +374,9 @@ body {
 //  FOOTER
 .footer-container {
   width: 100%;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(0, 30, 80, 0.94),
-      rgba(0, 30, 80, 0.94)
-    ),
+      rgba(0, 30, 80, 0.94)),
     url('../images/beeld\ foooter.svg') !important;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -618,12 +616,10 @@ body {
 }
 
 .hero.systems {
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(0, 30, 80, 0.7) 0%,
       rgba(0, 30, 80, 0.343) 63.54%,
-      rgba(0, 30, 80, 0.7) 100%
-    ) !important;
+      rgba(0, 30, 80, 0.7) 100%) !important;
 
   .container-systems {
     img {
@@ -644,7 +640,7 @@ body {
       padding-right: 45px;
 
       .intro-bouwinfra {
-        font-family: 'Din-Light';
+        font-family: 'Din';
       }
 
       p {
@@ -885,7 +881,7 @@ span.load-current-bar--thirdTitle {
     text-transform: uppercase;
     font-family: 'Din-Bold';
     margin: 10px 0px;
-    width: 40%;
+    max-width: 146px;
   }
 }
 
@@ -1076,11 +1072,9 @@ span.load-current-bar--thirdTitle {
 
 // BANNER EMERGENCY
 .banner-page.emergency {
-  background-image: linear-gradient(
-      90deg,
+  background-image: linear-gradient(90deg,
       rgba(190, 0, 0, 1) 27.2%,
-      rgba(221, 170, 170, 0.486) 80%
-    ),
+      rgba(221, 170, 170, 0.486) 80%),
     url('../images/Headers_1140x390px6.jpg');
   mix-blend-mode: multiply;
   margin-top: 138px;
@@ -1492,6 +1486,7 @@ a.sign-up-training {
 
   .container {
     .footer-emergency-content {
+
       h2,
       p {
         color: #001e50 !important;
@@ -1507,40 +1502,42 @@ a.sign-up-training {
     }
   }
 }
+
 @media only screen and (min-width: 876px) {
   .hero--main div {
     margin: 0 auto;
   }
+
   div.hero--main div:nth-of-type(4) {
     margin-right: 0;
   }
+
   div.hero--main div:nth-of-type(1) {
     margin-left: 0;
-  
-  
-  
   }
+
   h1.titel-contact {
     text-transform: uppercase;
     font-size: 42px;
   }
 }
+
 @media only screen and (max-width: 875px) {
   .mobile {
     display: block !important;
   }
-div.contacts-map {
-  margin: inherit;
-}
-  .footer-container {
-    background: linear-gradient(
-      to right,
-      rgba(0, 30, 80, 0.94),
-      rgba(0, 30, 80, 0.94)
-    ) !important;
+
+  div.contacts-map {
+    margin: inherit;
   }
 
-  .contacts-map  {
+  .footer-container {
+    background: linear-gradient(to right,
+        rgba(0, 30, 80, 0.94),
+        rgba(0, 30, 80, 0.94)) !important;
+  }
+
+  .contacts-map {
     margin-top: 40px;
   }
 
@@ -1560,12 +1557,10 @@ div.contacts-map {
   }
 
   .hero.systems {
-    background: linear-gradient(
-      180deg,
-      rgba(0, 30, 80, 0.7) 0%,
-      rgba(0, 30, 80, 0.343) 63.54%,
-      rgba(0, 30, 80, 0.7) 100%
-    ) !important;
+    background: linear-gradient(180deg,
+        rgba(0, 30, 80, 0.7) 0%,
+        rgba(0, 30, 80, 0.343) 63.54%,
+        rgba(0, 30, 80, 0.7) 100%) !important;
   }
 
   img.Logo {
@@ -1602,7 +1597,7 @@ div.contacts-map {
     justify-content: flex-start;
   }
 
-  .banner + section {
+  .banner+section {
     margin-top: 149px;
   }
 
@@ -1795,11 +1790,9 @@ div.contacts-map {
 
   .mobile-image-home {
     height: 265px;
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(255, 115, 0, 0.5),
-        rgba(255, 115, 0, 0.5)
-      ),
+        rgba(255, 115, 0, 0.5)),
       url('../images/mobile-home-img.jpg') !important;
     background-position-x: 80%;
     background-size: cover;
@@ -2414,7 +2407,7 @@ div.mobile-menu {
   }
 }
 
-.banner + section {
+.banner+section {
   margin-top: 139px;
 }
 
@@ -2482,15 +2475,7 @@ h1.titelSystemsHero {
   margin-top: -10px;
 }
 
-#gatsby-focus-wrapper
-  > div
-  > section.hero.systems
-  > div
-  > div
-  > div
-  > div
-  > article
-  > div.hero-element-titel {
+#gatsby-focus-wrapper>div>section.hero.systems>div>div>div>div>article>div.hero-element-titel {
   justify-content: start;
 
   h1 {
@@ -2548,6 +2533,7 @@ h1.titelSystemsHero {
   height: 400px;
   margin: 0 10px;
 }
+
 .contacts-map iframe {
   height: 100%;
   width: 100%;
@@ -2556,16 +2542,19 @@ h1.titelSystemsHero {
 // MEDIA QUERIES FOR FOOTER
 
 @media screen and (min-width:388px) and (max-width: 874px) {
+
   section.footer-container div.footer-container-blocks div.footer.--col1,
-  section.footer-container div.footer-container-blocks div.footer.--col3{
+  section.footer-container div.footer-container-blocks div.footer.--col3 {
     margin: 70px 25px !important;
 
   }
+
   section.footer-container div.footer-container-blocks div.footer.--col2,
-  section.footer-container div.footer-container-blocks div.footer.--col4{
+  section.footer-container div.footer-container-blocks div.footer.--col4 {
     margin: -40px 25px !important;
 
   }
+
   div.footer-container-blocks .--col4 {
     margin-top: -40px !important;
   }
