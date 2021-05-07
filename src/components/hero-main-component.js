@@ -2,24 +2,32 @@ import React, { Component } from 'react';
 
 import LogoMobileHero from '../assets/logo-diensen_project.svg';
 
-class HeroMain extends Component {
+class App extends Component {
   state = { showMenu: false };
 
   toggleMenu = () => {
     this.setState({
       showMenu: !this.state.showMenu,
+      matches: window.matchMedia("(min-width: 875px)").matches
     });
   };
 
-
+componentDidMount() {
+const handler = e => this.setState({matches: e.matches});
+window.matchMedia("(max-width: 875px)").addListener(handler);
+}
 
   render() {
     const { showMenu } = this.state;
     const menuVis = !showMenu ? 'hideDiv' : '';
+  
 
     return (
       <div onClick={this.toggleMenu}>
-        <a href="/projecten/" className="mobileNot">
+        {/* This line beneath should remove */}
+        {/* {this.state.matches && ()} */}
+
+      <a href={this.state.matches ? '/projecten/':null} className="mobileNot">
         <div className='hero-element'>
           <article>
             <div className='hero-element-titel'>
@@ -66,10 +74,11 @@ class HeroMain extends Component {
             </div>
           </article>
         )}
+        {/* This line beneath should remove */}
         </a>
       </div>
     );
   }
 }
 
-export default HeroMain;
+export default App;
