@@ -9,13 +9,16 @@ class HeroMainEmergency extends Component {
       showMenu: !this.state.showMenu,
     });
   };
-
+  componentDidMount() {
+    const handler = e => this.setState({matches: e.matches});
+    window.matchMedia("(max-width: 875px)").addListener(handler);
+    }
   render() {
     const { showMenu } = this.state;
     const menuVis = !showMenu ? 'hideDiv' : '';
     return (
       <div onClick={this.toggleMenu}>
-        <a href="/emergency/">
+        <a href={this.state.matches ? '/emergency/':null}>
         <div className='hero-element'>
           <article>
             <div className='hero-element-titel'>
