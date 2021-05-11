@@ -32,7 +32,7 @@ h4 {
   color: #001e50;
   margin-block-start: auto;
   margin-block-end: auto;
-  text-rendering:optimizeLegibility;
+  text-rendering: optimizeLegibility;
 }
 
 li,
@@ -1413,9 +1413,9 @@ nav ul li {
   width: 100vw;
   overflow-y: scroll;
   -webkit-transition: opacity 1s ease-in;
-    -moz-transition: opacity 1s ease-in;
-    -o-transition: opacity 1s ease-in;
-    transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
 }
 
 hr {
@@ -2568,4 +2568,51 @@ h1.titelSystemsHero {
 
 div.home-info--images img:nth-of-type(1) {
   margin-left: 0 !important;
+}
+
+.fixed-mobile-contact.mobile {
+  width: 150px;
+  height: 70px;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+left: 50%;
+transform: translate(-50%, 0%);
+  position: fixed;
+  background: #001E50;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  margin: 0 auto;
+
+  hr.line {
+    transform: rotate(90deg);
+    width: 44px;
+    position: absolute;
+    left: 48px;
+    top: 16px;
+  }
+}
+
+.phone img,
+.email img {
+  width: 35px;
+}
+
+.email {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.phone {
+  // border-right: 1px solid orange;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.container-fixed-contact {
+  width: 100%;
 }
