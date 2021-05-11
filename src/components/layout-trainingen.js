@@ -16,6 +16,8 @@ import TrainingBlock5 from './trainingen/training-block5';
 import TrainingBlock6 from './trainingen/training-block6';
 import TrainingBlock7 from './trainingen/training-block7';
 import TrainingBlock8 from './trainingen/training-block8';
+import Phone from '../images/phone.png';
+import Email from '../images/email.png';
 
 const StyledLayout = {
   width: '100%',
@@ -45,6 +47,13 @@ const LayoutTrainingen = () => {
       <FooterTraining />
       <Footer />
       <CopyrightFooter />
+      <div className="container-fixed-contact">
+      <div className="fixed-mobile-contact mobile">
+<a className="phone" href="tel:+31255500392"><img src={Phone} alt="aerial access contact telefoon bellen"/></a>
+<hr className="line"/>
+<a className="email" href="mailto:info@aerial-access.com"><img src={Email} alt="aerial access contact email"/> </a>
+    </div>
+    </div>
     </div>
   );
 };

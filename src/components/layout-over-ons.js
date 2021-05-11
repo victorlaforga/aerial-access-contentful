@@ -8,6 +8,9 @@ import OverOnsBanner from '../components/over-ons/over-ons-banner';
 import OverOnsIntro from '../components/over-ons/over-ons-intro';
 import OverOnsMain from '../components/over-ons/over-ons-main';
 import NavMobile from './nav-mobile';
+import Phone from '../images/phone.png';
+import Email from '../images/email.png';
+
 
 const StyledLayout = {
   width: '100%',
@@ -29,6 +32,13 @@ const OverOns = ({}) => {
       <OverOnsMain />
       <Footer />
       <CopyrightFooter />
+      <div className="container-fixed-contact">
+      <div className="fixed-mobile-contact mobile">
+<a className="phone" href="tel:+31255500392"><img src={Phone} alt="aerial access contact telefoon bellen"/></a>
+<hr className="line"/>
+<a className="email" href="mailto:info@aerial-access.com"><img src={Email} alt="aerial access contact email"/> </a>
+    </div>
+    </div>
     </div>
   );
 };

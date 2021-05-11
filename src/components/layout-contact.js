@@ -7,6 +7,8 @@ import CopyrightFooter from './copyright-footer';
 import ContactBanner from './contact/contact-banner';
 import ContactMain from './contact/contact-page';
 import NavMobile from './nav-mobile';
+import Phone from '../images/phone.png';
+import Email from '../images/email.png';
 
 const StyledLayout = {
   width: '100%',
@@ -27,6 +29,13 @@ const ContactLayout = () => {
       <ContactMain />
       <Footer />
       <CopyrightFooter />
+      <div className="container-fixed-contact">
+      <div className="fixed-mobile-contact mobile">
+<a className="phone" href="tel:+31255500392"><img src={Phone} alt="aerial access contact telefoon bellen"/></a>
+<hr className="line"/>
+<a className="email" href="mailto:info@aerial-access.com"><img src={Email} alt="aerial access contact email"/> </a>
+    </div>
+    </div>
     </div>
   );
 };
