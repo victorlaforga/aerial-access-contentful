@@ -12,21 +12,18 @@ class App extends Component {
     });
   };
 
+
 componentDidMount() {
 const handler = e => this.setState({matches: e.matches});
 window.matchMedia("(max-width: 875px)").addListener(handler);
 }
-
   render() {
     const { showMenu } = this.state;
     const menuVis = !showMenu ? 'hideDiv' : '';
   
 
     return (
-      <div onClick={this.toggleMenu}>
-        {/* This line beneath should remove */}
-        {/* {this.state.matches && ()} */}
-
+      <div  onClick={this.toggleMenu}>
       <a href={this.state.matches ? '/projecten/':null} className="mobileNot">
         <div className='hero-element'>
           <article>
@@ -74,7 +71,7 @@ window.matchMedia("(max-width: 875px)").addListener(handler);
             </div>
           </article>
         )}
-        {/* This line beneath should remove */}
+      
         </a>
       </div>
     );
