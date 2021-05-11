@@ -1513,6 +1513,10 @@ a.sign-up-training {
     margin: 0 auto;
   }
 
+  div.container-fixed-contact {
+    display: none;
+  }
+
   div.hero--main div:nth-of-type(4) {
     margin-right: 0;
   }
@@ -2576,8 +2580,8 @@ div.home-info--images img:nth-of-type(1) {
   bottom: 0;
   display: flex;
   flex-direction: row;
-left: 50%;
-transform: translate(-50%, 0%);
+  left: 50%;
+  transform: translate(-50%, 0%);
   position: fixed;
   background: #001E50;
   border: 2px solid #FFFFFF;
