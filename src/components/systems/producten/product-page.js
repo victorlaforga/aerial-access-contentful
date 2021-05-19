@@ -53,7 +53,7 @@ const ProductPage = (props) => {
           </div>
           <div className='product-info-details2'>
             <h2 className='product-info-title'>{description2title}</h2>
-            {description2?.internal?.content}
+            <p>{description2?.internal?.content}</p>
           </div>
         </div>
         <div className='product-media'>
