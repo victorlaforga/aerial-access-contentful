@@ -16,7 +16,7 @@ const ProductPage = (props) => {
     description1,
     description2,
     pdf,
-    pdf2,
+    pdf2
   } = props;
 
   const [mainImageSrc, setImage] = useState(image?.file?.url || '');
