@@ -65,6 +65,11 @@ exports.createPages = async ({ graphql, actions }) => {
                   url
                 }
               }
+              pdf2 {
+                file {
+                  url
+                }
+              }
             }
           }
         }
