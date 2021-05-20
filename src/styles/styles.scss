@@ -938,18 +938,20 @@ span.load-current-bar--thirdTitle {
 
       .single-product {
         max-width: 200px;
-        min-width: 145px;
+        // min-width: 145px;
         // max-height: 140px;
         min-height: 100px;
         margin: 10px;
 
         img {
           max-width: 100%;
-          max-height: 100%;
+          max-height: 125px;
+          height: -webkit-fill-available;
         }
 
         span {
           text-transform: uppercase;
+          display: block;
         }
       }
     }
@@ -1021,8 +1023,12 @@ span.load-current-bar--thirdTitle {
         padding: 25px;
 
         .main-image {
-          width: -webkit-fill-available;
+          width: auto;
           max-width: 100%;
+          max-height: 400px;
+          display: block;
+          margin: 0 auto;
+
         }
 
         div.preview-images {
