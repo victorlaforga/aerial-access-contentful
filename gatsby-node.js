@@ -34,8 +34,8 @@ exports.createPages = async ({ graphql, actions }) => {
                 slug
               }
               introDescription {
-                internal {
-                  content
+                childMarkdownRemark {
+                  html
                 }
               }
               image {
@@ -50,13 +50,13 @@ exports.createPages = async ({ graphql, actions }) => {
                 }
               }
               description1 {
-                internal {
-                  content
+                childMarkdownRemark {
+                  html
                 }
               }
               description2 {
-                internal {
-                  content
+                childMarkdownRemark {
+                  html
                 }
               }
               specs

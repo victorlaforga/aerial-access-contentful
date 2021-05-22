@@ -17,8 +17,9 @@ const ProductPage = (props) => {
     description2,
     pdf,
     pdf2,
-    pdf3
+    pdf3,
   } = props;
+  console.log({ props });
 
   const [mainImageSrc, setImage] = useState(image?.file?.url || '');
 
@@ -34,11 +35,19 @@ const ProductPage = (props) => {
           <p className='product-info--intro'>
             <span className='product-info--oneliner'>{introTitle}</span>
             <br /> <br /> <br />
-            {introDescription?.internal?.content}
+            <span
+              dangerouslySetInnerHTML={{
+                __html: introDescription.childMarkdownRemark.html,
+              }}
+            />
           </p>
           <div className='product-info-details'>
             <h2 className='product-info-title'>{description1title}</h2>
-            <p>{description1?.internal?.content}</p>
+            <span
+              dangerouslySetInnerHTML={{
+                __html: description1.childMarkdownRemark.html,
+              }}
+            />
             <br />
             {specs && specs.length ? (
               <ul>
@@ -55,7 +64,11 @@ const ProductPage = (props) => {
           </div>
           <div className='product-info-details2'>
             <h2 className='product-info-title'>{description2title}</h2>
-            <p>{description2?.internal?.content}</p>
+            <span
+              dangerouslySetInnerHTML={{
+                __html: description2.childMarkdownRemark.html,
+              }}
+            />
           </div>
         </div>
         <div className='product-media'>
