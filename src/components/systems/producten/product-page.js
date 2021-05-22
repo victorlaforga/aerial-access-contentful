@@ -48,7 +48,7 @@ const ProductPage = (props) => {
             <h2 className='product-info-title'>{description1title}</h2>
             <span
               dangerouslySetInnerHTML={{
-                __html: description1.childMarkdownRemark.html,
+                __html: description1?.childMarkdownRemark.html,
               }}
             />
             <br />
