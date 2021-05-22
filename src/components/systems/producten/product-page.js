@@ -17,7 +17,7 @@ const ProductPage = (props) => {
     description2,
     pdf,
     pdf2,
-    pdf3
+    pdfFactsheet
   } = props;
 
   const [mainImageSrc, setImage] = useState(image?.file?.url || '');
@@ -104,9 +104,9 @@ const ProductPage = (props) => {
             ) : (
               <></>
             )}
-            {pdf3 ? (
-              <a target='_blank' href={pdf3?.file?.url}>
-                PDF FACTSHEET 3
+            {pdfFactsheet ? (
+              <a target='_blank' href={pdfFactsheet?.file?.url}>
+                PDF FACTSHEET ALL
               </a>
             ) : (
               <></>
