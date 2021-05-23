@@ -17,13 +17,10 @@ description1,
 description2,
 pdf,
 pdf2,
-
-
-pdfFactsheet
+pdf3
 
 } = props;
 console.log({ props });
-
 const [mainImageSrc, setImage] = useState(image?.file?.url || '');
 
 return (
@@ -101,16 +98,14 @@ return (
         ) : (
         <></>
         )}
-        {pdfFactsheet[0] ? (
-        <a target="blank" href={pdfFactsheet[0].file?.url}>PDF FACTSHEET 1</a>
+         {pdf3 ? (
+        <a target='_blank' href={pdf3?.file?.url}>
+          PDF FACTSHEET 3
+        </a>
         ) : (
         <></>
         )}
-        {pdfFactsheet[1] ? (
-        <a target="blank" href={pdfFactsheet[1].file?.url}>PDF FACTSHEET 2</a>
-        ) : (
-        <></>
-        )}
+      
       </div>
     </div>
   </div>
