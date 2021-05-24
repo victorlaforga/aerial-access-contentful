@@ -15,8 +15,6 @@ description1title,
 description2title,
 description1,
 description2,
-pdf,
-pdf2,
 pdfAll
 
 } = props;
@@ -84,21 +82,7 @@ return (
       <div className='content-block-systems__buttons'>
         <a href='/systems/advies-service/'>ADVIES & SERVICES</a>
 
-        {pdf ? (
-        <a target='_blank' href={pdf?.file?.url}>
-          PDF FACTSHEET
-        </a>
-        ) : (
-        <></>
-        )}
-        {pdf2 ? (
-        <a target='_blank' href={pdf2?.file?.url}>
-          PDF FACTSHEET 2
-        </a>
-        ) : (
-        <></>
-        )}
-       {pdfAll && pdfAll.length ? pdfAll.map(({id, file}) => (<a key={id} target='blank' href={file?.url}>PDF FACTSHEET ALL</a>)) : <></>}
+       {pdfAll && pdfAll.length ? pdfAll.map(({id, file}) => (<a key={id} target='blank' href={file?.url}>PDF FACTSHEET</a>)) : <></>}
       
       </div>
     </div>
