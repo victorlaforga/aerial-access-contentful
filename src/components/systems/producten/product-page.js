@@ -17,7 +17,7 @@ description1,
 description2,
 pdf,
 pdf2,
-pdf3
+pdfAll
 
 } = props;
 console.log({ props });
@@ -98,13 +98,7 @@ return (
         ) : (
         <></>
         )}
-         {pdf3 ? (
-        <a target='_blank' href={pdf3?.file?.url}>
-          PDF FACTSHEET 3
-        </a>
-        ) : (
-        <></>
-        )}
+       {pdfAll && pdfAll.length ? pdfAll.map(({id, file}) => (<a key={id} target='blank' href={file?.url}>PDF FACTSHEET ALL</a>)) : <></>}
       
       </div>
     </div>

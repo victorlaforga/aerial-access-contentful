@@ -70,7 +70,7 @@ exports.createPages = async ({ graphql, actions }) => {
                   url
                 }
               }
-              pdf3 {
+              pdfAll {
                 file {
                   url
                 }
