@@ -42,10 +42,8 @@ window.matchMedia("(max-width: 875px)").addListener(handler);
             </div>
             <div className='hero-element-text'>
               <p>
-                Het gebruik van rope access is efficiënt en effectief. Door het
-                gebruik van gespecialiseerde rope access technieken zijn wij in
-                staat op moeilijke toegankelijke locaties werkzaamheden uit te
-                voeren.
+              Werkzaam in (nieuw-)bouw en infra, windenergie, maritiem, olie en gas. 
+
               </p>
             </div>
           </article>

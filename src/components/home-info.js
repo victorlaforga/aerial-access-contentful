@@ -27,16 +27,10 @@ const HomeInfo = () => {
           </h2>
           
           <p>
-            Het doel bij het gebruik van rope access is om het werk efficiënt en
-            effectief uit te voeren. Om te zorgen dat er altijd een veilig
-            werksysteem wordt gehandhaafd, terwijl schade aan eigendommen of
-            schade aan het milieu wordt voorkomen, worden voor elke operatie
-            zorgvuldige planning en gedocumenteerde risicobeoordelingen
-            uitgevoerd. Het veilig uitvoeren van onze rope access werkzaamheden
-            wordt gegarandeerd door het gebruik van uitsluitend gecertificeerde
-            en gekwalificeerde werknemers en materialen. Daarnaast werken wij
-            volgens de internationale richtlijnen van IRATA en de Europese- en
-            nationale regelgeving.
+          Rope access klimtechnieken biedt een veilige, effectieve en efficiënte manier om een werkplek te bereiken. Zo zijn inspecties, onderhoud, schoonmaak- of installatiewerkzaamheden door ons
+uitvoerbaar. Wij voeren de werkzaamheden zelfstandig uit of in samenwerking met gespecialiseerde partners.  
+ <br /><br />
+Bij alle werkzaamheden zorgen wij voor een risicobeoordeling en een zorgvuldige planning. Wij werken volgens internationale richtlijnen van IRATA. 
           </p>
           <div className='home-info--images'>
             <img src={Logo1} alt='' />

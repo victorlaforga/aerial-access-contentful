@@ -22,6 +22,8 @@ const Project = (props) => {
         <div className='project-block--textImage project-element'>
           <h2>{title}</h2>
           <p>{shortDescriptionContent}</p>
+          <br />
+          <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
           {imageSrc ? <img src={imageSrc} /> : <></>}
         </div>
         <div className='project-block--text project-element'>

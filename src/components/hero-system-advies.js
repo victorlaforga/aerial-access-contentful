@@ -27,7 +27,7 @@ class HeroMainSystemsAdviesEnService extends Component {
 
             <div className='hero-element-text'>
               <p>
-              Het Emergency Response Team van Aerial Access staat voor het leveren van professionele rope rescue-specialisten aan bedrijven en voor hun mensen. Bij werkzaamheden op hoogte, diepte en/of in besloten ruimtes raden wij een standby reddingsteam aan. 
+              Toepassingen van rope access rail systemen bij nieuwbouw en bestaande objecten, verkoop, montage, service en onderhoud. 
               </p>
             </div>
           </article>

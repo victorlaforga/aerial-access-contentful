@@ -24,7 +24,7 @@ return (
             </div>
             <div className='hero-element-text'>
                 <p>
-                De opleidingen die wij verzorgen zijn op maat en voor alle hulpdiensten, industriële bedrijven en een ieder die veilig wil werken op hoogte. De trainingen zijn realistisch en van hoge kwaliteit. Ze zijn voorzien van oplossingen die getest zijn in het veld!
+                Unieke range permanente rope access rail systemen, davidsarmen en ankerpunten.
                 </p>
             </div>
         </article>

@@ -26,29 +26,35 @@ const tabs = [
     ),
     content: () => (
       <div className='advies-service-main'>
+         <p className='light'>
+         Aerial Access heeft een uniek assortiment van permanente toegangsmogelijkheden. 
+
+          </p>
         {/* The h1 is temporarly, when clicking the svg(desktop)/a(mobile) the corresponding text/block should appear */}
         {/* show this block as default, and it is replaced when clicked on a different svg/link */}
         <h1>ADVIES EN VERKOOP</h1>
         <p className='advies-service-content'>
-          Of het een nieuwbouw project is of een offshore installatie we zullen
-          op basis van een aantal factoren een gedegen en onderbouwd advies
-          geven welke Rope Access rail systemen of ankerpunten het beste van
-          toepassing zijn.
+Wij vertegenwoordigen verschillende merken uit binnen- en buitenland. Aerial Access staat neutraal in de markt en wij zullen u onafhankelijk adviseren. Wij bieden deze innovatieve producten aan en geven een gedegen en onderbouwd advies over de toepassing van de juiste systemen en ankerpunten. Op basis van een haalbaarheidsonderzoek en een RI&E (Risico Inventarisatie & Evaluatie) bieden wij u graag een offerte aan voor uw (nieuw-)bouw en on- en offshore installaties. 
+<br /><br />
+De railsystemen zijn ontworpen om zowel horizontaal als verticaal te kunnen bewegen met touwtechnieken. De rails zijn gemaakt van hoge kwaliteit aluminium. De trolley zijn gemaakt van sterk massief aluminium en vangen de hoge belastingen op en verminderen de wrijving. 
+<br /><br />
+De gebruikte materialen zijn bestand tegen bijzonder agressieve omstandigheden zoals zeewater, chloor atmosferen of in omgevingen met extreme chemische verontreinigingen. 
+De rails zijn te monteren aan alle type structuren zoals bijvoorbeeld staal, beton, metselwerk en systeemsteunen. 
+<br /><br />
+Naast advies en verkoop bieden wij de montage van de railsystemen, service en onderhoud en training en gebruiksinstructie.  
+<br /><br />
+<a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
         </p>
         <ul className='advies-service-content list'>
           <li>{'> '}Deskundig</li>
-          <li>{'> '}Risk Assesment</li>
-          <li>{'> '}Kosten besparend</li>
-          <li>{'> '}Volledig gecertificeerd</li>
+          <li>{'> '}Diverse systeem mogelijkheden</li>
+          <li>{'> '}RI&E</li>
+          <li>{'> '}Binnen de architectuur</li>
+          <li>{'> '}Op nieuw- en bestaande bouw</li>
+          <li>{'> '}Op on- en offshore installaties</li>
+          <li>{'> '}In de industrie</li>
         </ul>
-        <p className='advies-service-content'>
-          Aerial Access heeft een uniek assortiment van permanente access
-          mogelijkheden. We vertegenwoordigen meerdere merken uit binnen en
-          buitenland. Aerial Access staat dus neutraal in de markt en zullen dus
-          merk onafhankelijk adviseren. Als er een eisen pakket is opgemaakt
-          gaan we de verschillende opties voor jullie intekenen en een prijs
-          berekening geven.
-        </p>
+      
       </div>
     ),
   },
@@ -66,29 +72,26 @@ const tabs = [
     ),
     content: () => (
       <div className='advies-service-main'>
+         <p className='light'>
+         Een correcte installatie van ankerpunten en rope access systemen vereist technische kennis en ervaring
+          </p>
         {/* The h1 is temporarly, when clicking the svg(desktop)/a(mobile) the corresponding text/block should appear */}
         <h1>MONTAGE</h1>
         <p className='advies-service-content'>
-          Of het een nieuwbouw project is of een offshore installatie we zullen
-          op basis van een aantal factoren een gedegen en onderbouwd advies
-          geven welke Rope Access rail systemen of ankerpunten het beste van
-          toepassing zijn.
+   
+Naar aanleiding van de begroting, een ontwerptekening en de risicobeoordeling voeren wij de met u overeengekomen werkzaamheden uit. Wij monteren de systemen volgens de gestelde normen, voeren de eindcontrole uit en ronden de certificering af.
+        
         </p>
+        <br/>
+        <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
+
         <ul className='advies-service-content list'>
-          <li>{'> '}Deskundig</li>
-          <li>{'> '}Risk Assesment</li>
-          <li>{'> '}Kosten besparend</li>
-          <li>{'> '}Volledig gecertificeerd</li>
+        <p className="ons">Wij garanderen:</p>
+          <li>{'> '}Technische kennis</li>
+          <li>{'> '}Volledig gecertificeerde systemen</li>
+          <li>{'> '}Montage specialisten</li>
         </ul>
-        <p className='advies-service-content'>
-          {' '}
-          Aerial Access heeft een uniek assortiment van permanente access
-          mogelijkheden. We vertegenwoordigen meerdere merken uit binnen en
-          buitenland. Aerial Access staat dus neutraal in de markt en zullen dus
-          merk onafhankelijk adviseren. Als er een eisen pakket is opgemaakt
-          gaan we de verschillende opties voor jullie intekenen en een prijs
-          berekening geven.
-        </p>
+        
       </div>
     ),
   },
@@ -107,28 +110,25 @@ const tabs = [
     ),
     content: () => (
       <div className='advies-service-main'>
+         <p className='light'>
+         Veiligheid door gebruik van Aerial Access Systems wordt gegarandeerd door onze jaarlijkse keuring.
+          </p>
         {/* The h1 is temporarly, when clicking the svg(desktop)/a(mobile) the corresponding text/block should appear */}
         <h1>SERVICE EN ONDERHOUD</h1>
         <p className='advies-service-content'>
-          Of het een nieuwbouw project is of een offshore installatie we zullen
-          op basis van een aantal factoren een gedegen en onderbouwd advies
-          geven welke Rope Access rail systemen of ankerpunten het beste van
-          toepassing zijn.
+       
+Wetgeving schrijft jaarlijkse keuring en onderhoud van rope access systemen en persoonlijke beschermingsmiddelen voor. Service en onderhoud van de permanente Aerial Access Systems kunnen wij combineren met inspectie en reiniging, onderhoud en reparaties aan uw pand of installatie. 
         </p>
+        <br/>
+        <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
+
         <ul className='advies-service-content list'>
-          <li>{'> '}Deskundig</li>
-          <li>{'> '}Risk Assesment</li>
-          <li>{'> '}Kosten besparend</li>
-          <li>{'> '}Volledig gecertificeerd</li>
+        <p className="ons">Wij leveren</p>
+          <li>{'> '}Jaarlijkse keuringen volgens de gestelde richtlijnen</li>
+          <li>{'> '}Onderhoud aan de systemen</li>
+          <li>{'> '}Certificering  en inspectierapport</li>
         </ul>
-        <p className='advies-service-content'>
-          Aerial Access heeft een uniek assortiment van permanente access
-          mogelijkheden. We vertegenwoordigen meerdere merken uit binnen en
-          buitenland. Aerial Access staat dus neutraal in de markt en zullen dus
-          merk onafhankelijk adviseren. Als er een eisen pakket is opgemaakt
-          gaan we de verschillende opties voor jullie intekenen en een prijs
-          berekening geven.
-        </p>
+       
       </div>
     ),
   },
@@ -144,28 +144,23 @@ const tabs = [
     ),
     content: () => (
       <div className='advies-service-main'>
+         <p className='light'>
+         Aerial Access biedt trainingen en gebruiksinstructies voor veilig werken met de Aerial Access Systems. Trainingen zijn gericht op gebruik, monteren, repareren of inspecteren van onze systemen.
+          </p>
         {/* The h1 is temporarly, when clicking the svg(desktop)/a(mobile) the corresponding text/block should appear */}
         <h1>TRAINING</h1>
         <p className='advies-service-content'>
-          Of het een nieuwbouw project is of een offshore installatie we zullen
-          op basis van een aantal factoren een gedegen en onderbouwd advies
-          geven welke Rope Access rail systemen of ankerpunten het beste van
-          toepassing zijn.
+        <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
+
         </p>
+        
         <ul className='advies-service-content list'>
-          <li>{'> '}Deskundig</li>
-          <li>{'> '}Risk Assesment</li>
+        <p className="ons">Onze trainingen:</p>
+          <li>{'> '}Locatie- en systeem gericht;</li>
+          <li>{'> '}Aantoonbaar competent.</li>
           <li>{'> '}Kosten besparend</li>
           <li>{'> '}Volledig gecertificeerd</li>
         </ul>
-        <p className='advies-service-content'>
-          Aerial Access heeft een uniek assortiment van permanente access
-          mogelijkheden. We vertegenwoordigen meerdere merken uit binnen en
-          buitenland. Aerial Access staat dus neutraal in de markt en zullen dus
-          merk onafhankelijk adviseren. Als er een eisen pakket is opgemaakt
-          gaan we de verschillende opties voor jullie intekenen en een prijs
-          berekening geven.
-        </p>
       </div>
     ),
   },
@@ -180,29 +175,31 @@ const tabs = [
       </div>
     ),
     content: () => (
+      
       <div className='advies-service-main'>
+          <p className='light'>
+            Omdat het een innovatief product is waarbij veel winst is te halen
+            is op verschillende vlakken starten we meestal met een haalbaarheid
+            onderzoek en een RI&E Risico Inventarisatie & Evaluatie.
+          </p>
         {/* The h1 is temporarly, when clicking the svg(desktop)/a(mobile) the corresponding text/block should appear */}
         <h1>PROJECTS</h1>
         <p className='advies-service-content'>
-          Of het een nieuwbouw project is of een offshore installatie we zullen
-          op basis van een aantal factoren een gedegen en onderbouwd advies
-          geven welke Rope Access rail systemen of ankerpunten het beste van
-          toepassing zijn.
+        Ons ervaren en deskundig rope access team kan uw werkzaamheden uitvoeren. Wij zijn getraind en ervaren in het werken met ons Aerial Access Systems. Wij zijn in staat om met meerdere personen tegelijk effectief en efficiënt inspectie, montage of reparatie uit te voeren. Wij hebben ook ervaring bij gevelreiniging en glasbewassing. Ons team verkort doorlooptijden en de omgeving wordt minimaal belast. 
         </p>
+        <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
+
         <ul className='advies-service-content list'>
-          <li>{'> '}Deskundig</li>
-          <li>{'> '}Risk Assesment</li>
-          <li>{'> '}Kosten besparend</li>
-          <li>{'> '}Volledig gecertificeerd</li>
+
+          <li>{'> '}Inspectie</li>
+          <li>{'> '}Montage & reparaties</li>
+          <li>{'> '}Gevelreiniging en glasbewassing</li>
+          <li>{'> '}Onderhoud en montage</li>
+          <li>{'> '}Schilderen</li>
+          <li>{'> '}Renovatie van monumentale panden</li>
+          <li>{'> '}Ondersteuning van de bouw</li>
         </ul>
-        <p className='advies-service-content'>
-          Aerial Access heeft een uniek assortiment van permanente access
-          mogelijkheden. We vertegenwoordigen meerdere merken uit binnen en
-          buitenland. Aerial Access staat dus neutraal in de markt en zullen dus
-          merk onafhankelijk adviseren. Als er een eisen pakket is opgemaakt
-          gaan we de verschillende opties voor jullie intekenen en een prijs
-          berekening geven.
-        </p>
+       
       </div>
     ),
   },
@@ -243,11 +240,7 @@ const MainPageAdvies = () => {
             ))}
           </div>
 
-          <p className='light'>
-            Omdat het een innovatief product is waarbij veel winst is te halen
-            is op verschillende vlakken starten we meestal met een haalbaarheid
-            onderzoek en een RI&E Risico Inventarisatie & Evaluatie.
-          </p>
+          
 
           {tabs.map(
             ({ content: Content }, index) =>

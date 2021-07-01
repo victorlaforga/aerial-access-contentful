@@ -7,30 +7,15 @@ return (
 <section className='emergency-main-page'>
     <div className="container">
         <div className="emergency-content">
-            <h2>Bij werkzaamheden op hoogte, diepte en/of besloten ruimtes raden  wij een Emergency Response Team
-                (stand-by reddingteam) aan. </h2>
+            <h2>Ons reddingsteam bestaat uit goed opgeleide en gecertificeerde technici die slachtoffers op moeilijk toegankelijke plaatsen kunnen bereiken, stabiliseren en naar een veilige locatie brengen.  </h2>
             <p>
-                Ons reddingsteam bestaat uit goed opgeleide en gecertificeerde technici die slachtoffers op moeilijk
-                toegankelijke plaatsen kunnen bereiken, stabiliseren en naar een veilige locatie brengen. Daar dragen
-                wij de verdere zorg over aan de hulpdiensten. Onderhoud van installaties is noodzakelijk voor het behoud
-                en duurzaamheid ervan. Iedere dag dat een installatie uit bedrijf is, betekent geen productie.
-                Daarom wilt u natuurlijk dat uw stop zo snel en efficiënt mogelijk wordt voltooid.
-                Tijdens zo’n proces zijn er veel (externe) mensen bij betrokken en onder grote tijdsdruk moeten er veel
-                werkzaamheden worden verricht. Een pittige opgave!</p>
+            Als aanvulling op de bestaande BHV teams van het bedrijf kunnen wij reddingen uitvoeren op hoogte, diepte en in besloten ruimten. Ons team bestaat uit specialisten die beschikken over touw- en toegangsmiddelen en uitgebreide eerste hulp materiaal zoals brancards, stabiliseer- en evacuatie middelen.</p>
             <p>
-                Wij kunnen stand-by staan tijdens een shut-down of turn-around van bij bepaalde kritische en complexe
-                activiteit voor de totale bedrijfsvoering, waarbij u een reddingsteam stand-by wil hebben. Daarnaast
-                kunnen
-                wij voor aanvang van werkzaamheden adviseren waar knelpunten zitten m.b.t. mogelijke (val-)gevaren en de
-                consequenties voor een eventuele redding. Wordt er op grote hoogte gewerkt of gebruik gemaakt van
-                valbeveiliging op moeilijk bereikbare plaatsen dan kan het Emergency Response Team van Aerial Access
-                ondersteunen en toezicht houden. Onze specialisten kunnen direct optreden wanneer de melding van een
-                incident bij het team binnenkomt. Het redden uit besloten ruimtes zoals opslagtanks en silo’s, is één
-                van de meest risicovolle reddingen. Er kan een gevaarlijke atmosfeer aanwezig zijn, de kleine ingangen
-                bemoeilijken
-                het vluchten en maken het lastig een slachtoffer te bevrijden.</p>
-                <p>Het team is inzetbaar op plaatsen waar hulpdiensten niet kunnen komen, met name waar het gaat om situaties op
-            hoogte en in diepte.</p>
+            Wij kunnen stand-by staan tijdens een stop of turn-around om te adviseren, toezicht te houden en onmiddellijk in te grijpen bij incidenten. Ons Aerial Acces Emergency Response Team is oproepbaar bij incidenten op locaties die alleen toegankelijk zijn middels touwtechnieken.</p>
+            
+            
+        <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
+
         <p>Ons Emergency Response Team beschikt over de volgende kwalificaties: <br/>
             <span className="bold">IRATA*</span> en/of <span className="bold">ITRA**</span> (level I t/m III); <br/>
            <span className="bold">ITLS***</span> of in het bezit van een International First Aid-certificaat. <br/>

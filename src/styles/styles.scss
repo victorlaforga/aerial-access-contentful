@@ -2627,3 +2627,34 @@ div.home-info--images img:nth-of-type(1) {
 .container-fixed-contact {
   width: 100%;
 }
+
+.link_contact {
+  text-decoration: underline;
+  font-weight: 100;
+  font-family: "Din";
+}
+
+.btn-link {
+  text-decoration: none;
+    color: white;
+    background-color: #ff7300;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Din-Bold";
+    margin: 10px 0px;
+    max-width: 146px;
+    display: block;
+}
+
+.content-block-systems .light {
+  margin-bottom: 45px;
+}
+.ons {
+  font-size: 18px !important;
+}
+
+.list.over-ons {
+  color: #001e50;
+}
