@@ -14,16 +14,19 @@ return (
                 Partner
             </h2>
             <p>
-            Onze samenwerkingspartner Risk Safety heeft 24 uur per dag en zeven dagen per week
-veiligheidspersoneel voor diverse werkzaamheden voor u beschikbaar.
-Risk Safety adviseert u over brandveiligheid & beveiliging.
+            Wil je een van deze trainingen volgen of wil je meer informatie over een cursus?
+Neem dan contact op met onze partner in opleidingen.
 <br />
-U kunt bij hun terecht voor complexe brandveiligheid- en beveiligingsvraagstukken en voor
-de best mogelijke veiligheid, verhuurt Risk Safety specifieke veiligheidsmiddelen.
-Risk Safety Holland B.V. is uw partner in veiligheid.
+
+ITRA Founding sponsor
+<br/><br/>
+RESQ industry & outdoor behoord tot een van de eerste trainingsbedrijven in Europa met een gecertificeerde ITRA instructeur en examinator. Wij verzorgen verscheidende ITRA programma’s.
+<br/><br/>
+De International Technical Rescue Association is een wereldwijde non profit organisatie die voorziet in wereldwijde erkenning voor reddingswerkers en instructeurs in een groot aantal verschillende technische reddingsdisciplines. (www.itra.international)
 <br /> <br /> 
-info@risksafety.nl <br /> 
-06-24470147</p>
++31 6 817 183 10; <br/>
+info@rope-rescue.nl; <br/>
+Bezoekadres: Geyssendorfferweg 47 3088 GJ Rotterdam (alleen op afspraak).</p>
         </div>
         <div></div>
     </div>

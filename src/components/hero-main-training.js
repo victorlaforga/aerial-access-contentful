@@ -39,11 +39,8 @@ class HeroMainTraining extends Component {
 
             <div className='hero-element-text'>
               <p>
-                De opleidingen die wij verzorgen zijn op maat en voor alle
-                hulpdiensten, industriële bedrijven en een ieder die veilig wil
-                werken op hoogte. De trainingen zijn realistisch en van hoge
-                kwaliteit. Ze zijn voorzien van oplossingen die getest zijn in
-                het veld!
+              Realistische trainingen voor veilig werken en redden op hoogte, diepte en in besloten ruimte. 
+
               </p>
             </div>
           </article>

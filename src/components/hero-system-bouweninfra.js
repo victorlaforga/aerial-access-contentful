@@ -25,11 +25,8 @@ class HeroMainSystemsBouwEnInfra extends Component {
 
             <div className='hero-element-text'>
               <p>
-                AE Systems staat voor het leveren en adviseren van
-                gespecialiseerde permanente Rope Access Systems oplossingen. Bij
-                werkzaamheden op hoogte in de bouw of industrie raden wij een
-                permanente access systeem aan. Hierdoor kun je makkelijk op
-                complexe locaties werken.
+              Voordelen van een permanent rope access rail systeem in de bouw en infra. 
+
               </p>
             </div>
           </article>

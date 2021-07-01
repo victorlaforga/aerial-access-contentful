@@ -7,17 +7,11 @@ return (
 <section className='main-page-systems industrie'>
     <div className="container">
         <div className="content-block-systems">
-            <p className="light">Door het monteren van de Aerial Access Rail System wordt er een veiligere en
-                efficiënte toepassing gecreëerd voor inspectie en onderhoud van de
-                constructie middels rope access-technieken. Hierbij is er een aanzienlijke tijdsbesparing op de
-                voorbereidingen en onderhoudswerkzaamheden. </p>
+            <p className="light">Voor inspectie, onderhoud en constructie biedt het permanente Aerial Access rail systeem een tijdbesparende, veilige en efficiënte toegang tot de werkplek. De touwtechnieken zijn vaak de enige oplossing en voorkomen tijdrovende voorbereidingen. Door dit railsysteem zijn plaatsen te allen tijde bereikbaar. Met deze permanente oplossing zijn de werkzaamheden veiliger, efficiënter en goedkoper.  </p>
             <div className="industrie-block">
                 <div className="industrie-block__left">
-                    <p className="bold">Onze ervaring is dat de rope access werkzaamheden in de industrie tijdrovend en
-                        op sommige locaties bijna onmogelijk. Rope access is vaak de enige mogelijkheid om de
-                        werkzaamheden uit te voeren. Middels een
-                        permanente oplossing zullen de werkzaamheden veiliger, efficiënter en goedkoper worden
-                        uitgevoerd.</p>
+                    <p className="bold">De railsystemen zijn ontworpen om zowel horizontaal als verticaal op hoogte of diepte te kunnen bewegen met touwtechnieken. De rails zijn gemaakt van hoge kwaliteit aluminium. De trolley zijn gemaakt van sterk massief aluminium en vangen de hoge belastingen op en verminderen de wrijving. 
+De gebruikte materialen zijn bestand tegen bijzonder agressieve omstandigheden zoals zeewater, chloor atmosferen of in omgevingen met extreme chemische verontreinigingen. De rails zijn te monteren aan alle type structuren zoals bijvoorbeeld staal, beton, metselwerk door middel van systeemsteunen.</p>
                     <h2>Efficiëntie en effectiviteit </h2>
                     <p>
                         Een rope access rail van Aerial Access kan bij het ontwerp meegenomen worden. Bij de
@@ -36,25 +30,28 @@ return (
                         <h2>Voordelen</h2>
                         <p><span>></span> Verhoging van de veiligheid</p>
                         <p><span>></span> Tijdsbesparing door effectiviteit</p>
-                        <p><span>></span> Geld bespaard</p>
+                        <p><span>></span> Kosten besparend door efficiëntie</p>
+                        <p><span>></span> Ten allen tijde te bereiken</p>
+                        <p><span>></span> Betere calculatie van werkuren</p>
+                        <p><span>></span> Adequatere redding mogelijkheden</p>
+
                        
                     </div>
                     <div>
                         <h2 className="industrieInfo">Locaties</h2>
                         <p><span>></span> Silo's</p>
-                        <p><span>></span> Tranistion piece</p>
+                        <p><span>></span> Transition pieces</p>
                         <p><span>></span> Heli deck</p>
                         <p><span>></span> Scheepvaart</p>
+                        <p><span>></span> Productie platform</p>
                     </div>
                     <div>
                         <h2 className="industrieInfo">industrie en offshore</h2>
-                        <p><span>></span> Weinig onderhoud</p>
+                        <p><span>></span> Onderhoudsarm</p>
                         <p><span>></span> Makkelijk te installeren</p>
                         <p><span>></span> Hogere veiligheid</p>
                         <p><span>></span> Efficiënter werken</p>
                         <p><span>></span> Offshore bestendig</p>
-                        <p><span>></span> Adequatere reddings mogelijkheden</p>
-                        <p><span>></span> Werkuren beter te calculeren</p>
                     </div>
                 </div>
             </div>

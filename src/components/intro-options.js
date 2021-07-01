@@ -23,19 +23,9 @@ const IntroOption = () => {
       <div className='intro-option--container container'>
         <div className='intro-option--text'>
           <p>
-            Door het gebruik van gespecialiseerde rope access technieken zijn
-            wij in staat op moeilijke toegankelijke locaties werkzaamheden uit
-            te voeren. Het voordeel van het gebruik van rope acces is de
-            veiligheid en snelheid waarmee we van of naar moeilijke locaties
-            kunnen komen om werk uit te voeren, vaak met minimale impact op
-            andere werkzaamheden en/of omgeving.
+          Aerial Access kan op moeilijk toegankelijke locaties en op hoogte werkzaamheden uitvoeren. Door het gebruik van touwtechnieken worden tijd en kosten bespaard. Rope access wordt ingezet als gangbare middelen niet toereikend zijn. Het biedt veiligheid, snelheid en heeft een minimale impact op andere werkzaamheden en omgeving. 
           </p>
-          <br />
-          <br />
-          <p>
-            Voor elk project wordt een zorgvuldige planning en gedocumenteerde
-            risicoinventarisatie gemaakt.
-            </p>
+         
         </div>
         <div className='intro-option--links'>
           <a

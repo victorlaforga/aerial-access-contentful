@@ -17,16 +17,14 @@ const IntroOptionTrainingen = () => {
       <div className='intro-option--container container'>
         <div className='intro-option--text'>
           <p>
-            Elk vakgebied heeft zijn specifieke taken en werkzaamheden, waar
-            onze trainingen op aan zullen sluiten. Onze instructeurs zijn
-            operationeel ervaren en gekwalificeerd volgens internationaal
-            erkende organisaties. De trainingen en materialen voldoen aan de
-            hoogste en meest “up-to-date” standaard, richtlijnen en wetgeving.
+          Elk vakgebied heeft zijn specifieke taken en werkzaamheden, waar onze trainingen op aan zullen sluiten. Onze instructeurs zijn operationeel ervaren en gekwalificeerd volgens internationaal erkende organisaties. De trainingen en materialen voldoen aan de hoogste en meest “up-to-date” standaard, richtlijnen en wetgeving.
             <br />
             <br />
             De trainingen zijn realistisch en van hoge kwaliteit. <br />
             Ze zijn voorzien van oplossingen die getest zijn in het veld!
           </p>
+          <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
+
         </div>
         <div className='intro-option--links emergency'>
           <h2>Technical Rope Rescue trainingen</h2>
