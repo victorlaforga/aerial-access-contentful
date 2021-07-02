@@ -3,61 +3,44 @@ import React from 'react';
 const CollectionNew = (props) => {
   const { categories } = props;
 
-  return categories && categories.length ? (
-    <section className='product-collection'>
-      {categories.map(
-        ({
-          node: {
-            id,
-            name,
-            slug: categorySlug,
-            description,
-            image: categoryImage,
-            product: products,
-          },
-        }) => (
-          <div key={id} className='product-collection-container'>
-            <div className='collection-block container'>
-              <div className='collection-block-info'>
-                <h2>{name}</h2>
-                {description ? <p>{description?.internal?.content}</p> : <></>}
-                {categoryImage ? (
-                  <img className='uitleg-img' src={categoryImage?.file?.url} />
-                ) : (
-                  <></>
-                )}
-                {/* TODO: Should we do single category page? */}
-                <div className='content-block-systems__buttons'>
-                  <a href="/systems/advies-service/">advies & service</a>
-                </div>
-              </div>
-              {products && products.length ? (
-                <div className='collection-block-products'>
-                  {products.map(
-                    ({ id, name, slug: productSlug, image: productImage }) => (
-                      <div key={id} className='single-product'>
-                        <a href={`/systems/producten/${productSlug}`}>
-                          {productImage ? (
-                            <img src={productImage?.file?.url} />
-                          ) : (
-                            <></>
-                          )}
-                        </a>
-                        <span>{name}</span>
-                      </div>
-                    )
-                  )}
-                </div>
-              ) : (
-                <></>
-              )}
-            </div>
-          </div>
-        )
-      )}
+  return  (
+    <section className='product-collections'>
+      <a className="categorie_container" href="/">
+      <div>
+      <h1>Rail systeem</h1>
+      <p>Rope Access-rails van Aerial-Access maken het mogelijk dat meerdere rope access medewerkers snel en efficiënt kunnen traverseren zonder de noodzaak van rigging en de-rigging. (abseil rail)</p>
+      <a href="">ontdek rail systeem</a>
+      <img src="//images.ctfassets.net/8cxl6mpst1xl/3cWv9g6BM83G49kqegbDn8/760704ef3f14c2b93b4be055ef8481cf/railsystem.png" alt=""/>
+      </div>
+      </a>
+      <a className="categorie_container" href="/">
+      <div>
+      <h1>Anker point
+</h1>
+      <p>Abseil ankers voor rope access Abseil ankers zijn een veelzijdige oplossing om rope access mogelijk te maken. Het systeem is zo ontworpen dat het aan verschillende oppervlaktestructuren en materialen kan worden bevestigd, om een veilige toegang tot zowel interne als externe ruimten te creëren.</p>
+      <a href="">ontdek rail systeem</a>
+      <img src="//images.ctfassets.net/8cxl6mpst1xl/3cWv9g6BM83G49kqegbDn8/760704ef3f14c2b93b4be055ef8481cf/railsystem.png" alt=""/>
+      </div>
+      </a>
+      <a className="categorie_container" href="/">
+      <div>
+      <h1>Rail systeem</h1>
+      <p>Rope Access-rails van Aerial-Access maken het mogelijk dat meerdere rope access medewerkers snel en efficiënt kunnen traverseren zonder de noodzaak van rigging en de-rigging. (abseil rail)</p>
+      <a href="">ontdek rail systeem</a>
+      <img src="//images.ctfassets.net/8cxl6mpst1xl/3cWv9g6BM83G49kqegbDn8/760704ef3f14c2b93b4be055ef8481cf/railsystem.png" alt=""/>
+      </div>
+      </a>
+      <a className="categorie_container" href="/">
+      <div>
+      <h1>Rail systeem</h1>
+      <p>Rope Access-rails van Aerial-Access maken het mogelijk dat meerdere rope access medewerkers snel en efficiënt kunnen traverseren zonder de noodzaak van rigging en de-rigging. (abseil rail)</p>
+      <a href="">ontdek rail systeem</a>
+      <img src="//images.ctfassets.net/8cxl6mpst1xl/3cWv9g6BM83G49kqegbDn8/760704ef3f14c2b93b4be055ef8481cf/railsystem.png" alt=""/>
+      </div>
+      </a>
     </section>
-  ) : (
-    <></>
+  
+   
   );
 };
 
