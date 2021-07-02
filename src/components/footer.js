@@ -55,6 +55,9 @@ const Footer = () => {
            <a href="https://instagram.com/aerial_access_?igshid=1p8xvvrpa0oc5"> <img src={InstaLogo} alt='' /></a>
            <a href="https://www.linkedin.com/in/raymond-burger-8832a91a7/"> <img src={LinkedLogo} alt='' /></a>
           </div>
+          <a href="/algemene-voorwaarden/">Algemende voorwaarden</a>
+          <a href="/disclaimer/">Disclaimer</a>
+          
         </div>
       </div>
     </section>
