@@ -10,7 +10,7 @@ return (
             <p className="intro-bouwinfra">Aerial Access biedt verschillende systemen aan waarbij rails worden gemonteerd om moeilijk bereikbare locaties permanent toegankelijk te maken voor touwtechnieken.  
 Deze systemen besparen op onderhoud- en installatiekosten. Zij verhogen de veiligheid en zijn permanent te installeren zonder verstoring van het aanzicht van het gebouw. Ook toepasbaar voor bestaande gebouwen en infra locaties. In de ontwerpfase kunnen wij mee denken over de toepassing van Aerial Access Systems.</p>
 <br />
-<a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. <br />  Neem daarom geheel vrijblijvend contact met ons op. </a>
+
                 <div className="content-block-systems-2 mobile">
                     
                 <div className="content-block-systems__buttons">
@@ -42,7 +42,9 @@ Deze systemen besparen op onderhoud- en installatiekosten. Zij verhogen de veili
                     <p><span>></span> Moeilijk bereikbare locaties gemakkelijk te bereiken</p>
                     <p><span>></span> Permanent of herplatsbaar</p>
                 </div>
+                
             </div>
+            <a className="link_contact bouw-infra" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
         </div>
         <div className="content-block-systems-2 mobile-hide">
             <img src={imgsystem} alt="" />

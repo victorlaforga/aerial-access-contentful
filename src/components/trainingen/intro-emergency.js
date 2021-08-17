@@ -23,7 +23,7 @@ const IntroOptionTrainingen = () => {
             De trainingen zijn realistisch en van hoge kwaliteit. <br />
             Ze zijn voorzien van oplossingen die getest zijn in het veld!
           </p>
-          <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
+         
 
         </div>
         <div className='intro-option--links emergency'>
