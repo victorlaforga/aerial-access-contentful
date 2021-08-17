@@ -23,11 +23,14 @@ const Project = (props) => {
           <h2>{title}</h2>
           <p>{shortDescriptionContent}</p>
           <br />
+          <p className="thin">{longDescriptionContent}</p>
+          <br />
           <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
-          {imageSrc ? <img src={imageSrc} /> : <></>}
+          
         </div>
         <div className='project-block--text project-element'>
-          <p>{longDescriptionContent}</p>
+          {/* <p>{longDescriptionContent}</p> */}
+          {imageSrc ? <img src={imageSrc} /> : <></>}
         </div>
         <div className='project-block--work project-element'>
           {activities && activities.length ? (

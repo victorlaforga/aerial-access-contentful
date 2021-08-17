@@ -651,7 +651,7 @@ body {
 
       .content-block-systems-points {
         display: flex;
-        margin: 100px auto;
+        margin: 50px auto;
 
         div {
           h2 {
@@ -2754,4 +2754,25 @@ max-width: 540px;
 }
 .categorie_container p {
   margin: 10px auto;
+}
+.BrainhubCarouselItem img {
+  max-width: 325px;
+  height: auto;
+}
+.BrainhubCarousel__container {
+  margin-bottom: 25px;
+}
+
+
+.project-block--text.project-element img {
+  max-width: 100%;
+  margin-top: 30px;
+}
+.thin {
+  font-family: "Din" ;
+}
+
+.link_contact.bouw-infra {
+  margin-bottom: 25px;
+  display: block;
 }
