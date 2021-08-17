@@ -16,7 +16,9 @@ return (
             <p>
             Wil je een van deze trainingen volgen of wil je meer informatie over een cursus?
 Neem dan contact op met onze partner in opleidingen.
+<br />
 
+ITRA Founding sponsor
 <br/><br/>
 RESQ industry & outdoor behoord tot een van de eerste trainingsbedrijven in Europa met een gecertificeerde ITRA instructeur en examinator. Wij verzorgen verscheidende ITRA programma’s.
 <br/><br/>
