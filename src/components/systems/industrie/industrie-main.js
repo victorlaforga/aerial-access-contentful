@@ -12,7 +12,7 @@ return (
                 <div className="industrie-block__left">
                     <p className="bold">De railsystemen zijn ontworpen om zowel horizontaal als verticaal op hoogte of diepte te kunnen bewegen met touwtechnieken. De rails zijn gemaakt van hoge kwaliteit aluminium. De trolley zijn gemaakt van sterk massief aluminium en vangen de hoge belastingen op en verminderen de wrijving. 
 De gebruikte materialen zijn bestand tegen bijzonder agressieve omstandigheden zoals zeewater, chloor atmosferen of in omgevingen met extreme chemische verontreinigingen. De rails zijn te monteren aan alle type structuren zoals bijvoorbeeld staal, beton, metselwerk door middel van systeemsteunen.</p>
-                    {/* <h2>Efficiëntie en effectiviteit </h2>
+                    <h2>Efficiëntie en effectiviteit </h2>
                     <p>
                         Een rope access rail van Aerial Access kan bij het ontwerp meegenomen worden. Bij de
                         ontwikkeling van de bouw van een object wordt de rail gemonteerd en als de geplaatst is, kan er
@@ -23,7 +23,7 @@ De gebruikte materialen zijn bestand tegen bijzonder agressieve omstandigheden z
                         overspanning, waardoor er een significante tijdsbesparing is .
                         Zwaar gereedschap en materiaal kun je bevestigen aan een separate runner waardoor dit niet
                         fysiek aan de klimmer bevestigd hoeft te worden.
-                    </p> */}
+                    </p>
                 </div>
                 <div className="industrie-block__right mobile-hide">
                 <div>

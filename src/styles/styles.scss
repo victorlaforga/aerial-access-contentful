@@ -1,24 +1,24 @@
 @font-face {
-  src: url('../fonts/DINPro.otf');
-  font-family: 'Din';
+  src: url("../fonts/DINPro.otf");
+  font-family: "Din";
   font-style: normal;
 }
 
 @font-face {
-  src: url('../fonts/DINPro-Bold.otf');
-  font-family: 'Din-Bold';
+  src: url("../fonts/DINPro-Bold.otf");
+  font-family: "Din-Bold";
   font-style: normal;
 }
 
 @font-face {
-  src: url('../fonts/DINPro-Black.otf');
-  font-family: 'Din-Black';
+  src: url("../fonts/DINPro-Black.otf");
+  font-family: "Din-Black";
   font-style: normal;
 }
 
 @font-face {
-  src: url('../fonts/DINPro-Light.otf');
-  font-family: 'Din-Light';
+  src: url("../fonts/DINPro-Light.otf");
+  font-family: "Din-Light";
   font-style: normal;
 }
 
@@ -46,20 +46,20 @@ a {
 }
 
 .light {
-  font-family: 'Din-Light';
+  font-family: "Din-Light";
 }
 
 span {
   color: #001e50;
-  font-family: 'Din-Light';
+  font-family: "Din-Light";
 }
 
 .black {
-  font-family: 'Din-Black';
+  font-family: "Din-Black";
 }
 
 .bold {
-  font-family: 'Din-Bold';
+  font-family: "Din-Bold";
 }
 
 body {
@@ -67,7 +67,7 @@ body {
   margin: 0 auto;
   // max-width: 1440px;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'Din';
+  font-family: "Din";
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -102,7 +102,7 @@ body {
   display: flex;
 
   .navigation {
-    font-family: 'Din';
+    font-family: "Din";
     font-style: normal;
     font-weight: 700;
     display: flex;
@@ -171,7 +171,7 @@ body {
     display: table;
 
     span {
-      font-family: 'Din';
+      font-family: "Din";
       letter-spacing: 7.4px;
       text-transform: uppercase;
       color: #001e50;
@@ -204,11 +204,11 @@ body {
   }
 
   .sub-nav--link:hover {
-    font-family: 'Din-Bold' !important;
+    font-family: "Din-Bold" !important;
   }
 
   .__active {
-    font-family: 'Din-Bold' !important;
+    font-family: "Din-Bold" !important;
   }
 }
 
@@ -222,17 +222,19 @@ body {
 
 .hero {
   height: auto;
-  background: linear-gradient(177.72deg,
-      #001e50 -85.11%,
-      rgba(0, 30, 80, 0.44) -85.09%,
-      #001e50 100.99%,
-      rgba(0, 30, 80, 0.58) 101.01%);
+  background: linear-gradient(
+    177.72deg,
+    #001e50 -85.11%,
+    rgba(0, 30, 80, 0.44) -85.09%,
+    #001e50 100.99%,
+    rgba(0, 30, 80, 0.58) 101.01%
+  );
 
   .container {
     margin-bottom: 25px;
 
     h1 {
-      font-family: 'Din-Bold';
+      font-family: "Din-Bold";
       margin-bottom: 29px;
       font-style: normal;
       font-weight: bold;
@@ -279,7 +281,7 @@ body {
     }
 
     .hero-element-text {
-      font-family: 'Din-Bold';
+      font-family: "Din-Bold";
       font-style: normal;
       margin-top: 25px;
       font-size: 14px;
@@ -288,7 +290,7 @@ body {
   }
 
   .hero-element-image {
-    background-image: url('../images/Beelden-diensten-homepage.jpg');
+    background-image: url("../images/Beelden-diensten-homepage.jpg");
 
     position: absolute;
     bottom: 0;
@@ -304,7 +306,7 @@ body {
       border: 2px solid #fff;
       border-radius: 31px;
       color: #ffffff;
-      font-family: 'Din';
+      font-family: "Din";
       text-transform: uppercase;
       text-decoration: none;
       margin: auto;
@@ -313,11 +315,11 @@ body {
 }
 
 .h2 {
-  font-family: 'Din-Light';
+  font-family: "Din-Light";
 }
 
 .hero-element-titel__h2 {
-  font-family: 'Din-Light';
+  font-family: "Din-Light";
   text-transform: uppercase;
   margin-left: 10px;
 }
@@ -375,10 +377,12 @@ body {
 //  FOOTER
 .footer-container {
   width: 100%;
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+      to right,
       rgba(0, 30, 80, 0.94),
-      rgba(0, 30, 80, 0.94)),
-    url('../images/beeld\ foooter.svg') !important;
+      rgba(0, 30, 80, 0.94)
+    ),
+    url("../images/beeld\ foooter.svg") !important;
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: 105%;
@@ -398,7 +402,7 @@ body {
 
       a {
         h3 {
-          font-family: 'Din-Bold';
+          font-family: "Din-Bold";
           text-transform: uppercase;
           color: white;
           font-size: 12px;
@@ -427,7 +431,7 @@ body {
   height: 390px;
   width: 100%;
   margin-top: -1px;
-  background-image: url('../images/Headers_1140x390px.jpg');
+  background-image: url("../images/Headers_1140x390px.jpg");
   background-size: cover;
 
   .banner-page--container {
@@ -437,7 +441,7 @@ body {
   .container {
     h1 {
       color: white;
-      font-family: 'Din-Light';
+      font-family: "Din-Light";
       font-size: 38px;
       line-height: 48px;
       font-weight: 100;
@@ -459,7 +463,7 @@ body {
       display: block;
 
       p {
-        font-family: 'Din-Light';
+        font-family: "Din-Light";
         font-size: 24px;
       }
     }
@@ -469,7 +473,7 @@ body {
       flex-direction: column;
 
       h2 {
-        font-family: 'Din-Bold';
+        font-family: "Din-Bold";
         font-size: 18px;
         line-height: 18px;
         margin-bottom: 5px;
@@ -501,7 +505,7 @@ body {
 
 .arrow-horizontal {
   color: #73a400;
-  font-family: 'Din-Bold';
+  font-family: "Din-Bold";
   margin-right: 10px;
 }
 
@@ -516,7 +520,7 @@ body {
     }
 
     .project-block--textImage {
-      font-family: 'Din-Bold';
+      font-family: "Din-Bold";
 
       img {
         max-width: 100%;
@@ -536,7 +540,7 @@ body {
       align-items: flex-start;
 
       h3 {
-        font-family: 'Din-Bold';
+        font-family: "Din-Bold";
         font-size: 18px;
       }
 
@@ -596,7 +600,7 @@ body {
       h2 {
         text-transform: uppercase;
         color: white;
-        font-family: 'Din-Bold';
+        font-family: "Din-Bold";
       }
 
       p {
@@ -607,20 +611,22 @@ body {
 }
 
 .banner-page.systems {
-  background-image: url('../images/Headers_1140x390px2.jpg');
+  background-image: url("../images/Headers_1140x390px2.jpg");
 }
 
 .titel-systems {
-  font-family: 'Din-Bold' !important;
+  font-family: "Din-Bold" !important;
   font-size: 59px !important;
   margin-top: 140px !important;
 }
 
 .hero.systems {
-  background: linear-gradient(180deg,
-      rgba(0, 30, 80, 0.7) 0%,
-      rgba(0, 30, 80, 0.343) 63.54%,
-      rgba(0, 30, 80, 0.7) 100%) !important;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 30, 80, 0.7) 0%,
+    rgba(0, 30, 80, 0.343) 63.54%,
+    rgba(0, 30, 80, 0.7) 100%
+  ) !important;
 
   .container-systems {
     img {
@@ -641,7 +647,7 @@ body {
       padding-right: 45px;
 
       .intro-bouwinfra {
-        font-family: 'Din';
+        font-family: "Din";
       }
 
       p {
@@ -651,11 +657,11 @@ body {
 
       .content-block-systems-points {
         display: flex;
-        margin: 50px auto;
+        margin: 100px auto;
 
         div {
           h2 {
-            font-family: 'Din-Bold';
+            font-family: "Din-Bold";
             font-size: 16px;
             text-transform: uppercase;
           }
@@ -683,7 +689,7 @@ body {
 
 // INDUSTRIE PAGE
 .banner-page.industrie {
-  background-image: url('../images/Headers_1140x390px3.jpg');
+  background-image: url("../images/Headers_1140x390px3.jpg");
   background-size: cover;
 }
 
@@ -694,7 +700,7 @@ body {
     h2 {
       text-transform: uppercase;
       color: #ff7300;
-      font-weight: 'DinBold';
+      font-weight: "DinBold";
       font-size: 16px;
     }
 
@@ -814,7 +820,7 @@ body {
         // // right: 33px;
 
         // max-width: 100px;
-        font-family: 'Din-Bold';
+        font-family: "Din-Bold";
         color: white;
       }
     }
@@ -880,7 +886,7 @@ span.load-current-bar--thirdTitle {
     border-radius: 50px;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Din-Bold';
+    font-family: "Din-Bold";
     margin: 10px 0px;
     max-width: 146px;
   }
@@ -889,7 +895,7 @@ span.load-current-bar--thirdTitle {
 // PRODUCTEN COLLECTION PAGE
 
 .banner-page.systems.producten {
-  background-image: url('../images/Headers_1140x390px5.jpg');
+  background-image: url("../images/Headers_1140x390px5.jpg");
 }
 
 .product-collection-container:nth-of-type(even) {
@@ -913,7 +919,7 @@ span.load-current-bar--thirdTitle {
           font-size: 36px;
           line-height: 40px;
           color: #ff7300;
-          font-family: 'Din-bold';
+          font-family: "Din-bold";
           text-transform: uppercase;
         }
 
@@ -961,7 +967,7 @@ span.load-current-bar--thirdTitle {
 // SINGLE PRODUCT PAGE
 .product-info-title {
   font-size: 16px;
-  font-family: 'Din-Bold';
+  font-family: "Din-Bold";
 }
 
 .single-product-container {
@@ -972,7 +978,7 @@ span.load-current-bar--thirdTitle {
     margin: 40px auto;
 
     .product-info {
-      font-family: 'Din-Light';
+      font-family: "Din-Light";
       max-width: 485px;
       min-width: 300px;
       margin-right: 40px;
@@ -990,10 +996,10 @@ span.load-current-bar--thirdTitle {
       .product-info--route {
         text-transform: uppercase;
         font-size: 20px;
-        font-family: 'Din-Bold';
+        font-family: "Din-Bold";
 
         span {
-          font-family: 'Din-Bold';
+          font-family: "Din-Bold";
         }
 
         .product-info--route-name {
@@ -1028,7 +1034,6 @@ span.load-current-bar--thirdTitle {
           max-height: 400px;
           display: block;
           margin: 0 auto;
-
         }
 
         div.preview-images {
@@ -1066,7 +1071,7 @@ span.load-current-bar--thirdTitle {
 
   div {
     p {
-      font-family: 'Din-Light';
+      font-family: "Din-Light";
       color: #001e50;
       width: 100%;
       font-size: 12px;
@@ -1080,10 +1085,12 @@ span.load-current-bar--thirdTitle {
 
 // BANNER EMERGENCY
 .banner-page.emergency {
-  background-image: linear-gradient(90deg,
+  background-image: linear-gradient(
+      90deg,
       rgba(190, 0, 0, 1) 27.2%,
-      rgba(221, 170, 170, 0.486) 80%),
-    url('../images/Headers_1140x390px6.jpg');
+      rgba(221, 170, 170, 0.486) 80%
+    ),
+    url("../images/Headers_1140x390px6.jpg");
   mix-blend-mode: multiply;
   margin-top: 138px;
 }
@@ -1101,18 +1108,18 @@ span.load-current-bar--thirdTitle {
         font-size: 24px;
         line-height: 36px;
         margin-bottom: 30px;
-        font-family: 'Din-Light';
+        font-family: "Din-Light";
       }
 
       p {
         font-size: 16px;
         line-height: 24px;
         margin: 30px auto;
-        font-family: 'Din-Light';
+        font-family: "Din-Light";
       }
 
       .links-emergency {
-        font-family: 'Din-Light';
+        font-family: "Din-Light";
         font-size: 16px;
         color: #001e50;
 
@@ -1163,7 +1170,7 @@ span.load-current-bar--thirdTitle {
 // TRAININGEN
 
 .banner-page.trainingen {
-  background-image: url('../images/Headers_1140x390px7.jpg');
+  background-image: url("../images/Headers_1140x390px7.jpg");
 }
 
 .intro-option--links.emergency {
@@ -1187,7 +1194,7 @@ span.load-current-bar--thirdTitle {
 
     h2 {
       text-transform: uppercase;
-      font-family: 'Din-Bold';
+      font-family: "Din-Bold";
       font-size: 16px;
       line-height: 24px;
     }
@@ -1197,7 +1204,7 @@ span.load-current-bar--thirdTitle {
       width: 100%;
 
       h1 {
-        font-family: 'Din-Bold';
+        font-family: "Din-Bold";
         font-size: 24px;
         line-height: 24px;
         color: #007ec2;
@@ -1223,13 +1230,13 @@ span.load-current-bar--thirdTitle {
 // OVER ONS
 
 .banner-page.over-ons {
-  background-image: url('../images/Headers_1140x390px8.jpg');
+  background-image: url("../images/Headers_1140x390px8.jpg");
 
   .banner-page--container {
     margin-top: 40px;
 
     h1 {
-      font-family: 'Din-Light' !important;
+      font-family: "Din-Light" !important;
       font-weight: 300;
       font-size: 84px;
       line-height: 90px;
@@ -1248,7 +1255,7 @@ section.intro-over-ons {
       h1 {
         font-size: 34px;
         line-height: 46px;
-        font-family: 'Din-Light';
+        font-family: "Din-Light";
         margin-bottom: 55px;
       }
 
@@ -1278,7 +1285,7 @@ section.intro-over-ons {
         h1 {
           text-transform: uppercase;
           color: #ff7300;
-          font-family: 'Din-Light';
+          font-family: "Din-Light";
           font-size: 24px;
           line-height: 24px;
           margin: 15px auto;
@@ -1288,7 +1295,7 @@ section.intro-over-ons {
           font-size: 16px;
           line-height: 24px;
 
-          font-family: 'Din-Bold';
+          font-family: "Din-Bold";
         }
 
         p.description--main {
@@ -1304,10 +1311,10 @@ section.intro-over-ons {
 // CONTACT PAGE
 
 .banner-page.contact {
-  background-image: url('../images/Headers_1140x390px9.jpg');
+  background-image: url("../images/Headers_1140x390px9.jpg");
 }
 
-input[type='textarea'] {
+input[type="textarea"] {
   height: 115px !important;
 }
 
@@ -1336,7 +1343,7 @@ input[type='textarea'] {
 
         h2 {
           font-size: 16px;
-          font-family: 'Din-Bold';
+          font-family: "Din-Bold";
         }
 
         .social-icons {
@@ -1498,7 +1505,6 @@ a.sign-up-training {
 
   .container {
     .footer-emergency-content {
-
       h2,
       p {
         color: #001e50 !important;
@@ -1548,9 +1554,11 @@ a.sign-up-training {
   }
 
   .footer-container {
-    background: linear-gradient(to right,
-        rgba(0, 30, 80, 0.94),
-        rgba(0, 30, 80, 0.94)) !important;
+    background: linear-gradient(
+      to right,
+      rgba(0, 30, 80, 0.94),
+      rgba(0, 30, 80, 0.94)
+    ) !important;
   }
 
   .contacts-map {
@@ -1573,10 +1581,12 @@ a.sign-up-training {
   }
 
   .hero.systems {
-    background: linear-gradient(180deg,
-        rgba(0, 30, 80, 0.7) 0%,
-        rgba(0, 30, 80, 0.343) 63.54%,
-        rgba(0, 30, 80, 0.7) 100%) !important;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 30, 80, 0.7) 0%,
+      rgba(0, 30, 80, 0.343) 63.54%,
+      rgba(0, 30, 80, 0.7) 100%
+    ) !important;
   }
 
   img.Logo {
@@ -1613,14 +1623,14 @@ a.sign-up-training {
     justify-content: flex-start;
   }
 
-  .banner+section {
+  .banner + section {
     margin-top: 149px;
   }
 
   .banner-page .container h1.titelMobileProjects {
     font-size: 25px !important;
     line-height: 34px !important;
-    font-family: 'Din-Light' !important;
+    font-family: "Din-Light" !important;
     margin-top: 30px !important;
   }
 
@@ -1659,7 +1669,7 @@ a.sign-up-training {
     .container {
       h1 {
         font-size: 16px !important;
-        font-family: 'Din-Bold' !important;
+        font-family: "Din-Bold" !important;
         line-height: 24px !important;
         margin-top: 35px !important;
       }
@@ -1712,7 +1722,7 @@ a.sign-up-training {
       h1 {
         font-size: 36px !important;
         line-height: 48px;
-        font-family: 'Din' !important;
+        font-family: "Din" !important;
         font-weight: bold !important;
         letter-spacing: 0px;
       }
@@ -1731,7 +1741,7 @@ a.sign-up-training {
 
       p {
         position: absolute;
-        font-family: 'Din';
+        font-family: "Din";
         color: white;
         font-weight: 700;
         bottom: -120px;
@@ -1806,10 +1816,12 @@ a.sign-up-training {
 
   .mobile-image-home {
     height: 265px;
-    background-image: linear-gradient(0deg,
+    background-image: linear-gradient(
+        0deg,
         rgba(255, 115, 0, 0.5),
-        rgba(255, 115, 0, 0.5)),
-      url('../images/mobile-home-img.jpg') !important;
+        rgba(255, 115, 0, 0.5)
+      ),
+      url("../images/mobile-home-img.jpg") !important;
     background-position-x: 80%;
     background-size: cover;
     background-position-y: 25%;
@@ -1818,7 +1830,7 @@ a.sign-up-training {
       font-size: 18px;
       line-height: 24px;
       color: white;
-      font-family: 'Din-Bold';
+      font-family: "Din-Bold";
       padding-top: 35px;
     }
   }
@@ -1964,7 +1976,7 @@ a.sign-up-training {
       font-size: 60px;
       right: 10px;
       top: -9px;
-      font-family: 'Din';
+      font-family: "Din";
       position: absolute;
     }
   }
@@ -2140,7 +2152,7 @@ a.sign-up-training {
       .content-block-systems {
         p.light {
           font-size: 16px;
-          font-family: 'Din-Bold';
+          font-family: "Din-Bold";
           line-height: 24px;
         }
 
@@ -2149,7 +2161,7 @@ a.sign-up-training {
           margin-top: 25px;
 
           .bold {
-            font-family: 'Din';
+            font-family: "Din";
           }
 
           .industrie-block__left {
@@ -2207,7 +2219,7 @@ div.firstBarDiv {
       h1 {
         font-size: 26px !important;
         line-height: 48px;
-        font-family: 'Din' !important;
+        font-family: "Din" !important;
         font-weight: 700 !important;
       }
     }
@@ -2281,34 +2293,34 @@ div.firstBarDiv {
 
 .hero-element-image.systems.advies,
 .mobile.container-info-mobile.system.advies {
-  background-image: url('../images/Beelden-systeem-diensten-homepage2.jpg');
+  background-image: url("../images/Beelden-systeem-diensten-homepage2.jpg");
 }
 
 .hero-element-image.systems.industrie,
 .mobile.container-info-mobile.system.industrie {
-  background-image: url('../images/Beelden-systeem-diensten-homepage3.jpg');
+  background-image: url("../images/Beelden-systeem-diensten-homepage3.jpg");
 }
 
 .hero-element-image.systems.bouwEnInfra,
 .mobile.container-info-mobile.system.bouwEnInfra {
-  background-image: url('../images/Beelden\ systeem\ diensten\ homepage4.jpg');
+  background-image: url("../images/Beelden\ systeem\ diensten\ homepage4.jpg");
 }
 
 .hero-element-image.systems.producten,
 .mobile.container-info-mobile.system.producten {
-  background-image: url('../images/Beelden-systeem-diensten-homepage.jpg');
+  background-image: url("../images/Beelden-systeem-diensten-homepage.jpg");
 }
 
 .hero-element-image.systems {
-  background-image: url('../images/Beelden-diensten-homepage2.jpg');
+  background-image: url("../images/Beelden-diensten-homepage2.jpg");
 }
 
 .hero-element-image.emergency {
-  background-image: url('../images/Beelden-diensten-homepage3.jpg');
+  background-image: url("../images/Beelden-diensten-homepage3.jpg");
 }
 
 .hero-element-image.training {
-  background-image: url('../images/Beelden\ diensten\ homepage4.jpg');
+  background-image: url("../images/Beelden\ diensten\ homepage4.jpg");
 }
 
 .mobile-hero-button.emergency {
@@ -2335,7 +2347,7 @@ div.firstBarDiv {
 
   p {
     color: white;
-    font-family: 'Din-Bold';
+    font-family: "Din-Bold";
     padding: 20px;
     line-height: 26px;
     font-size: 14px;
@@ -2345,7 +2357,7 @@ div.firstBarDiv {
     width: auto;
     padding: 5px 15px;
     text-transform: uppercase;
-    font-family: 'Din-Bold';
+    font-family: "Din-Bold";
     color: white;
     border: 1.5px solid white;
     border-radius: 31px;
@@ -2356,19 +2368,19 @@ div.firstBarDiv {
 }
 
 .container-info-mobile.project {
-  background-image: url('../images/Beelden-diensten-homepage.jpg');
+  background-image: url("../images/Beelden-diensten-homepage.jpg");
 }
 
 .container-info-mobile.training {
-  background-image: url('../images/Beelden\ diensten\ homepage4.jpg');
+  background-image: url("../images/Beelden\ diensten\ homepage4.jpg");
 }
 
 .container-info-mobile.emergency {
-  background-image: url('../images/Beelden-diensten-homepage3.jpg');
+  background-image: url("../images/Beelden-diensten-homepage3.jpg");
 }
 
 .container-info-mobile.system {
-  background-image: url('../images/Beelden-diensten-homepage2.jpg');
+  background-image: url("../images/Beelden-diensten-homepage2.jpg");
 }
 
 .visible {
@@ -2406,7 +2418,7 @@ div.mobile-menu {
     span {
       color: white;
       text-transform: uppercase;
-      font-family: 'Din-Bold';
+      font-family: "Din-Bold";
       font-size: 20px;
       position: absolute;
       top: 8px;
@@ -2423,7 +2435,7 @@ div.mobile-menu {
   }
 }
 
-.banner+section {
+.banner + section {
   margin-top: 139px;
 }
 
@@ -2449,12 +2461,10 @@ div.mobile-menu {
     }
   }
 }
-@media screen and (max-width: 989px ) {
-
+@media screen and (max-width: 989px) {
   section.product-collections {
     display: flex;
     justify-content: space-between;
-    
   }
 }
 @media screen and (max-width: 481px) {
@@ -2478,7 +2488,7 @@ h1.titelSystemsHero {
   p {
     padding: 25px;
     color: #001e50;
-    font-family: 'Din-Bold';
+    font-family: "Din-Bold";
     line-height: 20px;
   }
 }
@@ -2503,7 +2513,15 @@ h1.titelSystemsHero {
   margin-top: -10px;
 }
 
-#gatsby-focus-wrapper>div>section.hero.systems>div>div>div>div>article>div.hero-element-titel {
+#gatsby-focus-wrapper
+  > div
+  > section.hero.systems
+  > div
+  > div
+  > div
+  > div
+  > article
+  > div.hero-element-titel {
   justify-content: start;
 
   h1 {
@@ -2569,25 +2587,21 @@ h1.titelSystemsHero {
 
 // MEDIA QUERIES FOR FOOTER
 
-@media screen and (min-width:388px) and (max-width: 874px) {
-
+@media screen and (min-width: 388px) and (max-width: 874px) {
   section.footer-container div.footer-container-blocks div.footer.--col1,
   section.footer-container div.footer-container-blocks div.footer.--col3 {
     margin: 70px 25px !important;
-
   }
 
   section.footer-container div.footer-container-blocks div.footer.--col2,
   section.footer-container div.footer-container-blocks div.footer.--col4 {
     margin: -40px 25px !important;
-
   }
 
   div.footer-container-blocks .--col4 {
     margin-top: -40px !important;
   }
 }
-
 
 div.home-info--images img:nth-of-type(1) {
   margin-left: 0 !important;
@@ -2602,8 +2616,8 @@ div.home-info--images img:nth-of-type(1) {
   left: 50%;
   transform: translate(-50%, 0%);
   position: fixed;
-  background: #001E50;
-  border: 2px solid #FFFFFF;
+  background: #001e50;
+  border: 2px solid #ffffff;
   box-sizing: border-box;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 7px;
@@ -2648,16 +2662,16 @@ div.home-info--images img:nth-of-type(1) {
 
 .btn-link {
   text-decoration: none;
-    color: white;
-    background-color: #ff7300;
-    padding: 10px 15px;
-    border-radius: 50px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Din-Bold";
-    margin: 10px 0px;
-    max-width: 146px;
-    display: block;
+  color: white;
+  background-color: #ff7300;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Din-Bold";
+  margin: 10px 0px;
+  max-width: 146px;
+  display: block;
 }
 
 .content-block-systems .light {
@@ -2671,14 +2685,13 @@ div.home-info--images img:nth-of-type(1) {
   color: #001e50;
 }
 
-.disclaimer-container  h3
-{
+.disclaimer-container h3 {
   font-size: 18px;
   color: #001e50;
 }
 
 .disclaimer-container {
- margin: 150px 5% 50px 2.5%;
+  margin: 150px 5% 50px 2.5%;
 }
 .disclaimer-container p {
   margin-bottom: 25px;
@@ -2691,11 +2704,10 @@ div.home-info--images img:nth-of-type(1) {
   color: gray;
 }
 .disclaimer-container ol li {
-  list-style-type:decimal ;
+  list-style-type: decimal;
 }
 .disclaimer-container ul li {
-  list-style-type:disc ;
-  
+  list-style-type: disc;
 }
 .disclaimer-container.av ul {
   padding: 5px 40px;
@@ -2705,36 +2717,33 @@ div.home-info--images img:nth-of-type(1) {
 }
 .categorie_container,
 .categorie_container div {
-max-width: 400px;
-
-
+  max-width: 400px;
 }
 .categorie_container div {
   padding: 10px;
-border: 2px solid #ff7300;
-position: relative;
-height: 100%;
-text-align: center;
-display: block;
-min-height: 500px;
-max-width: 540px;
+  border: 2px solid #ff7300;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  display: block;
+  min-height: 500px;
+  max-width: 540px;
 }
 .categorie_container {
   margin: 25px auto;
 }
 .categorie_container a {
- 
   text-decoration: none;
-    color: white;
-    background-color: #ff7300;
-    padding: 10px 15px;
-    border-radius: 50px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Din-Bold";
-    margin: auto;
-    max-width: 200px;
-    display: block;
+  color: white;
+  background-color: #ff7300;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Din-Bold";
+  margin: auto;
+  max-width: 200px;
+  display: block;
 }
 
 .product-collections {
@@ -2750,29 +2759,25 @@ max-width: 540px;
   left: 0;
   right: 0;
   width: 100%;
-
 }
 .categorie_container p {
   margin: 10px auto;
 }
-.BrainhubCarouselItem img {
-  max-width: 325px;
-  height: auto;
-}
-.BrainhubCarousel__container {
-  margin-bottom: 25px;
-}
 
-
-.project-block--text.project-element img {
-  max-width: 100%;
-  margin-top: 30px;
+.client-slider-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.thin {
-  font-family: "Din" ;
-}
+.client-slider-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 
-.link_contact.bouw-infra {
-  margin-bottom: 25px;
-  display: block;
+  img {
+    object-fit: contain;
+    width: 200px;
+  }
 }
