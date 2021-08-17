@@ -37,6 +37,7 @@
     "react-responsive-carousel": "^3.2.19",
     "react-touch-carousel": "^0.9.4",
     "sass": "^1.32.5",
+    "@loadable/component": "^5.15.0",
     "sendmail": "^1.6.1"
   },
   "devDependencies": {
