@@ -1,14 +1,17 @@
 import React from 'react';
 import '../../../styles/styles.scss';
-import Carousel, { Dots } from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
 import imageOne from "../../../images/slider/abs-logo.png"
 import imageTwo from "../../../images/slider/sep.png"
 import imageThree from "../../../images/slider/xs-logo.png"
 import imageFour from "../../../images/slider/skylotec.png"
 import imageFive from "../../../images/slider/harken-industrial_logo.png";
+import Loadable from "@loadable/component"
 
-const CollectionNew = (props) => {
+// client side only 
+import Carousel, { Dots } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
+
+const LoadableCollectionNew = (props) => {
   const { categories } = props;
 
   return  (
@@ -68,5 +71,7 @@ const CollectionNew = (props) => {
     </section>
   );
 };
+
+const CollectionNew = Loadable(() => LoadableCollectionNew)
 
 export default CollectionNew;
