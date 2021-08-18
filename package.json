@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@brainhubeu/react-carousel": "^2.0.4",
-    "@loadable/component": "^5.15.0",
     "contentful": "^8.3.1",
     "dotenv": "^8.2.0",
     "gatsby": "^3.3.1",

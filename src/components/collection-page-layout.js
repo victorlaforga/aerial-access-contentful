@@ -27,7 +27,7 @@ const LayoutCollectionNew = ({ categories, children }) => {
       <NavMobile />
       <Banner />
     
-     <CollectionNew />
+     {typeof window !== "undefined" && <CollectionNew />}
       <Footer />
       <CopyrightFooter />
       <div className="container-fixed-contact">
