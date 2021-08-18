@@ -27,7 +27,7 @@ const NavMobile = () => {
             <a href='/systems/bouw-infra/'>Bouw & infra structuur</a>
             <a href='/systems/industrie/'>Industrie</a>
             <a href='/systems/advies-service/'>Advies & service</a>
-            <a href='/systems/producten/'>Producten</a>
+            {/* <a href='/systems/producten/'>Producten</a> */}
             <hr />
             <a href='/emergency/' className='orange-nav'>
               Emergency responseteam

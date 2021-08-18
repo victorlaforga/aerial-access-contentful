@@ -149,6 +149,7 @@ Wetgeving schrijft jaarlijkse keuring en onderhoud van rope access systemen en p
           </p>
         {/* The h1 is temporarly, when clicking the svg(desktop)/a(mobile) the corresponding text/block should appear */}
         <h1>TRAINING</h1>
+        <br />
         <p className='advies-service-content'>
         <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
 
@@ -187,6 +188,7 @@ Wetgeving schrijft jaarlijkse keuring en onderhoud van rope access systemen en p
         <p className='advies-service-content'>
         Ons ervaren en deskundig rope access team kan uw werkzaamheden uitvoeren. Wij zijn getraind en ervaren in het werken met ons Aerial Access Systems. Wij zijn in staat om met meerdere personen tegelijk effectief en efficiënt inspectie, montage of reparatie uit te voeren. Wij hebben ook ervaring bij gevelreiniging en glasbewassing. Ons team verkort doorlooptijden en de omgeving wordt minimaal belast. 
         </p>
+        <br />
         <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
 
         <ul className='advies-service-content list'>
@@ -255,7 +257,7 @@ const MainPageAdvies = () => {
           <img src={imgsystem} alt='' />
           <img src={imgsystem2} alt='' />
           <div className='content-block-systems__buttons'>
-            <a href='/systems/producten/'>producten</a>
+            {/* <a href='/systems/producten/'>producten</a> */}
           </div>
         </div>
       </div>

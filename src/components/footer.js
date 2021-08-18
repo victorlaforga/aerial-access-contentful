@@ -23,13 +23,13 @@ const Footer = () => {
           <a href="/systems/bouw-infra/">Bouw & Infra Structuur</a>
           <a href="/systems/industrie/">Industrie</a>
           <a href="/systems/advies-service/">Advies & Service</a>
-          <br />
+          {/* <br />
           <a href='/systems/producten/'>
             <h3>Producten</h3>
           </a>
           <a href="/systems/producten//">Railsysteem</a>
           <a href="/systems/producten/">Davids- & Deviation Arm</a>
-          <a href="/systems/producten/">Ankerpoints</a>
+          <a href="/systems/producten/">Ankerpoints</a> */}
         </div>
         <div className='footer --col3'>
           <a href="/emergency/">

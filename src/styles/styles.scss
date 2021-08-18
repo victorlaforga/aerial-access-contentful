@@ -2778,3 +2778,9 @@ max-width: 540px;
   display: block;
 
 }
+
+// CODE OM ALLES RONDOM PRODUCTEN WEG TE HALEN
+
+.container-systems .hero--main div:nth-of-type(4) {
+  display: none;
+}

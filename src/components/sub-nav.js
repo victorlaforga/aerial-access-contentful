@@ -12,9 +12,9 @@ const SubNav = () => {
       <a href='/systems/advies-service/' className='sub-nav--link light'>
         Advies & service
       </a>
-      <a href='/systems/producten/' className='sub-nav--link light'>
+      {/* <a href='/systems/producten/' className='sub-nav--link light'>
         Producten
-      </a>
+      </a> */}
     </div>
   );
 };
