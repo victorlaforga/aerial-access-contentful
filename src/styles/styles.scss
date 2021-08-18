@@ -2451,9 +2451,10 @@ div.mobile-menu {
 }
 @media screen and (max-width: 989px ) {
 
-  section.product-collections {
+  section div.product-collections {
     display: flex;
     justify-content: space-between;
+    grid-template-columns: 1fr;
     
   }
 }
@@ -2744,6 +2745,14 @@ max-width: 540px;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+.client-slider-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
 .categorie_container img {
   position: absolute;
   bottom: 0;
