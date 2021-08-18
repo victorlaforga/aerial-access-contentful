@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../styles/styles.scss';
 import imageOne from "../../../images/slider/abs-logo.png"
 import imageTwo from "../../../images/slider/sep.png"
 import imageThree from "../../../images/slider/xs-logo.png"
@@ -8,7 +7,6 @@ import imageFive from "../../../images/slider/harken-industrial_logo.png";
 
 // client side only 
 import Carousel, { Dots } from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
 
 const CollectionNew = (props) => {
   const { categories } = props;
