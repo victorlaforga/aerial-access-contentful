@@ -153,7 +153,7 @@ Wetgeving schrijft jaarlijkse keuring en onderhoud van rope access systemen en p
     content: () => (
       <div className='advies-service-main'>
          <p className='light'>
-         Bij Aerial Access ontwikkel je jouw vaardigheden. Zodat ji straks met meer
+         Bij Aerial Access ontwikkel je jouw vaardigheden. Zodat jij straks met meer
 kennis, kunde en vertrouwen te werk gaat.  
          
           </p>
