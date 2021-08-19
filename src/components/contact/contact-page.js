@@ -58,8 +58,8 @@ const ContactMain = (props) => {
             <p>1976 CC IJmuiden</p>
             <p>info@aerial-access.com</p>
             <br />
-            <p>KvK. 000000000000</p>
-            <p>BTW Nr. 0000000000</p>
+            <p>KvK. 73983047</p>
+            <p>BTW Nr. NL190842386.B01</p>
             <div className='social-icons'>
               <a href='https://www.facebook.com/Aerial-Access-104703344550697/'>
                 <img src={FacebookLogo} alt='' />

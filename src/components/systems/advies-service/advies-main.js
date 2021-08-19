@@ -47,7 +47,7 @@ Wij vertegenwoordigen verschillende merken uit binnen- en buitenland. Aerial Acc
 De railsystemen zijn ontworpen om zowel horizontaal als verticaal te kunnen bewegen met touwtechnieken. De rails zijn gemaakt van hoge kwaliteit aluminium. De trolley zijn gemaakt van sterk massief aluminium en vangen de hoge belastingen op en verminderen de wrijving. 
 <br /><br />
 De gebruikte materialen zijn bestand tegen bijzonder agressieve omstandigheden zoals zeewater, chloor atmosferen of in omgevingen met extreme chemische verontreinigingen. 
-De rails zijn te monteren aan alle type structuren zoals bijvoorbeeld staal, beton, metselwerk en systeemsteunen. 
+De rails zijn te monteren aan alle type structuren zoals bijvoorbeeld staal, beton, metselwerk door middel van systeemsteunen. 
 <br /><br />
 Naast advies en verkoop bieden wij de montage van de railsystemen, service en onderhoud en training en gebruiksinstructie.  
 <br /><br />
@@ -157,6 +157,10 @@ Wetgeving schrijft jaarlijkse keuring en onderhoud van rope access systemen en p
           </p>
         {/* The h1 is temporarly, when clicking the svg(desktop)/a(mobile) the corresponding text/block should appear */}
         <h1>TRAINING</h1>
+        <p className='advies-service-content'>
+       
+        Bij Aerial Access ontwikkel je jouw vaardigheden. Zodat ji straks met meer
+kennis, kunde en vertrouwen te werk gaat.        </p>
         <br />
         <p className='advies-service-content'>
         <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
@@ -188,8 +192,7 @@ Wetgeving schrijft jaarlijkse keuring en onderhoud van rope access systemen en p
       <div className='advies-service-main'>
           <p className='light'>
             Omdat het een innovatief product is waarbij veel winst is te halen
-            is op verschillende vlakken starten we meestal met een haalbaarheid
-            onderzoek en een RI&E Risico Inventarisatie & Evaluatie.
+            is op verschillende vlakken starten we meestal met een haalbaarheidsonderzoek en een RI&E (Risico Inventarisatie & Evaluatie).
           </p>
         {/* The h1 is temporarly, when clicking the svg(desktop)/a(mobile) the corresponding text/block should appear */}
         <h1>PROJECTS</h1>

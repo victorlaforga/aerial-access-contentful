@@ -14,8 +14,8 @@ Deze systemen besparen op onderhoud- en installatiekosten. Zij verhogen de veili
                 <div className="content-block-systems-2 mobile">
                     
                 <div className="content-block-systems__buttons">
-                <a href="">advies & services</a>
-                <a href="">producten</a>
+                <a href="/systems/advies-service/">advies & services</a>
+                {/* <a href="">producten</a> */}
             </div>
             <img src={imgsystemmobile} alt="" />
             
@@ -50,7 +50,7 @@ Deze systemen besparen op onderhoud- en installatiekosten. Zij verhogen de veili
             <img src={imgsystem} alt="" />
             <div className="content-block-systems__buttons">
                 <a href="/systems/advies-service/">advies & services</a>
-                <a href="/systems/producten/">producten</a>
+                {/* <a href="/systems/producten/">producten</a> */}
             </div>
         </div>
     </div>
