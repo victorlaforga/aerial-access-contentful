@@ -5,8 +5,16 @@ import React, { useState } from 'react';
 import ArrowstartSVG from '../../../assets/stap-1-new-balk_tranparant.svg';
 import ArrowrestSVG from '../../../assets/stap-2-new-balk_tranparant.svg';
 
-import imgsystem from '../../../images/Systems_Industrie_367x440px.jpg';
-import imgsystem2 from '../../../images/Systems_Industrie_367x440px2.jpg';
+import advies1 from '../../../images/advies-verkoop.png';
+import advies2 from '../../../images/advies-verkoop-1.jpeg';
+import montage1 from '../../../images/montage.jpeg';
+import montage2 from '../../../images/montage-1.png';
+import projects1 from '../../../images/projects-1.jpeg';
+import projects2 from '../../../images/projects.png';
+import service1 from '../../../images/service-onderhoud.jpeg';
+import service2 from '../../../images/service-onderhoud-1.png';
+import training1 from '../../../images/Systems_Industrie_367x440px.jpg';
+import training2 from '../../../images/Systems_Industrie_367x440px2.jpg';
 
 const tabs = [
   {
@@ -209,6 +217,22 @@ Wetgeving schrijft jaarlijkse keuring en onderhoud van rope access systemen en p
 
 const MainPageAdvies = () => {
   const [activeTab, setActiveTab] = useState(0);
+  const images = [{
+    image1: advies1,
+    image2: advies2
+  }, {
+    image1: montage1,
+    image2: montage2
+  }, {
+    image1: service1,
+    image2: service2
+  }, {
+    image1: training1,
+    image2: training2
+  }, {
+    image1: projects1,
+    image2: projects2
+  }]
 
   return (
     <section className='main-page-systems industrie'>
@@ -254,8 +278,8 @@ const MainPageAdvies = () => {
           )}
         </div>
         <div className='content-block-systems-2'>
-          <img src={imgsystem} alt='' />
-          <img src={imgsystem2} alt='' />
+          <img width="330" src={images[activeTab].image1} alt='' />
+          <img width="330" src={images[activeTab].image2} alt='' />
           <div className='content-block-systems__buttons'>
             {/* <a href='/systems/producten/'>producten</a> */}
           </div>
