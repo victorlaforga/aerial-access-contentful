@@ -153,14 +153,15 @@ Wetgeving schrijft jaarlijkse keuring en onderhoud van rope access systemen en p
     content: () => (
       <div className='advies-service-main'>
          <p className='light'>
-         Aerial Access biedt trainingen en gebruiksinstructies voor veilig werken met de Aerial Access Systems. Trainingen zijn gericht op gebruik, monteren, repareren of inspecteren van onze systemen.
+         Bij Aerial Access ontwikkel je jouw vaardigheden. Zodat ji straks met meer
+kennis, kunde en vertrouwen te werk gaat.  
+         
           </p>
         {/* The h1 is temporarly, when clicking the svg(desktop)/a(mobile) the corresponding text/block should appear */}
         <h1>TRAINING</h1>
         <p className='advies-service-content'>
-       
-        Bij Aerial Access ontwikkel je jouw vaardigheden. Zodat ji straks met meer
-kennis, kunde en vertrouwen te werk gaat.        </p>
+        Aerial Access biedt trainingen en gebruiksinstructies voor veilig werken met de Aerial Access Systems. Trainingen zijn gericht op gebruik, monteren, repareren of inspecteren van onze systemen.
+              </p>
         <br />
         <p className='advies-service-content'>
         <a className="link_contact" href="/contact/">Wij informeren u graag over de mogelijkheden. Neem daarom geheel vrijblijvend contact met ons op. </a>
