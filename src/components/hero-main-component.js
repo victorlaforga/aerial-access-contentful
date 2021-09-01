@@ -60,10 +60,7 @@ window.matchMedia("(max-width: 875px)").addListener(handler);
           <article className="home-hero-mobile mobile">
             <div className={`mobile container-info-mobile project`}>
               <p>
-                Het gebruik van rope access is efficiënt en effectief. Door het
-                gebruik van gespecialiseerde rope access technieken zijn wij in
-                staat op moeilijke toegankelijke locaties werkzaamheden uit te
-                voeren.
+              Werkzaam in (nieuw-)bouw en infra, windenergie, maritiem, olie en gas.
               </p>
               <a href='/projecten/'>projecten</a>
             </div>

@@ -57,10 +57,7 @@ class HeroMainSystems extends Component {
           <article className="mobile home-hero-mobile">
             <div className={`mobile container-info-mobile system`}>
               <p>
-                Het gebruik van rope access is efficiënt en effectief. Door het
-                gebruik van gespecialiseerde rope access technieken zijn wij in
-                staat op moeilijke toegankelijke locaties werkzaamheden uit te
-                voeren.
+              Adviseert en levert permanente rope access railsystemen.
               </p>
               <a href='/systems/'>systemen</a>
             </div>

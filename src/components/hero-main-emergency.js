@@ -54,10 +54,7 @@ class HeroMainEmergency extends Component {
           <article className="mobile home-hero-mobile">
             <div className={`mobile container-info-mobile emergency`}>
               <p>
-                Het gebruik van rope access is efficiënt en effectief. Door het
-                gebruik van gespecialiseerde rope access technieken zijn wij in
-                staat op moeilijke toegankelijke locaties werkzaamheden uit te
-                voeren.
+              Inzetbaar op plaatsen waar hulpdiensten niet kunnen komen. Met name op hoogte, diepte en in besloten ruimte.
               </p>
               <a href='/emergency/'>Meer info</a>
             </div>

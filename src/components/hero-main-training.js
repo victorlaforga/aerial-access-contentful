@@ -56,10 +56,7 @@ class HeroMainTraining extends Component {
           <article className="mobile home-hero-mobile">
             <div className={`mobile container-info-mobile training`}>
               <p>
-                Het gebruik van rope access is efficiënt en effectief. Door het
-                gebruik van gespecialiseerde rope access technieken zijn wij in
-                staat op moeilijke toegankelijke locaties werkzaamheden uit te
-                voeren.
+              Realistische trainingen voor veilig werken en redden op hoogte, diepte en in besloten ruimte.
               </p>
               <a href='/trainingen/'>trainingen</a>
             </div>
