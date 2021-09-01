@@ -2124,8 +2124,8 @@ a.sign-up-training {
     .container {
       display: flex;
       margin: 25px auto;
-      grid-template-columns: none;
       width: auto;
+      flex-direction: column;
 
       div.footer-project-content {
         margin: 15px auto 15px 15px;
