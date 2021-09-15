@@ -18,7 +18,7 @@ const Navigation = (props) => {
     <header className='nav-container'>
       <div className='navigation container'>
         <a href='/'>
-          <img className='Logo' src={Logo} alt='logo-aerial-access' />
+          <img className='Logo' src={Logo} alt='Aerial Access | Industrial Rope Access' />
         </a>
         <nav>
           <ul>
